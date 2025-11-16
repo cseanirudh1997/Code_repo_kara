@@ -1,0 +1,501 @@
+id,prompt,sql,language,table,complexity
+176,Show Top 10 Highest Orders,SELECT * FROM sales_data ORDER BY total_amount DESC LIMIT 10;,en,sales_data,intermediate
+291,Sabre Staff Ki List Nikalo,SELECT * FROM employee_data;,hinglish,employee_data,basic
+349,Total Staff Count,SELECT COUNT(*) FROM employee_data;,en,employee_data,basic
+394,Display Sales From East Region,SELECT * FROM sales_data WHERE region = 'East';,en,sales_data,intermediate
+479,Display Sales From North Region,SELECT * FROM sales_data WHERE region = 'North';,en,sales_data,intermediate
+338,Sabhi Orders Records Dikhao,SELECT * FROM sales_data;,hinglish,sales_data,basic
+466,Display All Employees,SELECT * FROM employee_data;,en,employee_data,basic
+354,Display All Electronics Sales,SELECT * FROM sales_data WHERE category = 'Electronics';,en,sales_data,intermediate
+67,Sabre employees ki list nikalo,SELECT * FROM employee_data;,hinglish,employee_data,basic
+295,Display Karo Employee Information,SELECT * FROM employee_data;,hinglish,employee_data,basic
+261,Show Complete Accessories Sales,SELECT * FROM sales_data WHERE category = 'Accessories';,en,sales_data,intermediate
+384,Get Orders Department Staff,SELECT * FROM employee_data WHERE department = 'Sales';,en,employee_data,intermediate
+336,Nikalo Sales Department Staff,SELECT * FROM employee_data WHERE department = 'Sales';,hinglish,employee_data,intermediate
+498,Display Sales From East Region,SELECT * FROM sales_data WHERE region = 'East';,en,sales_data,intermediate
+10,Count all orders,SELECT COUNT(*) FROM sales_data;,en,sales_data,basic
+56,Get East region orders,SELECT * FROM sales_data WHERE region = 'East';,en,sales_data,intermediate
+119,Category Wise Total Orders,"SELECT category, COUNT(*) FROM sales_data GROUP BY category;",en,sales_data,advanced
+84,Average age of employees,SELECT AVG(age) FROM employee_data;,en,employee_data,intermediate
+229,Show Complete Accessories Sales,SELECT * FROM sales_data WHERE category = 'Accessories';,en,sales_data,intermediate
+399,Orders Records Ki Sankhya Batao,SELECT COUNT(*) FROM sales_data;,hinglish,sales_data,basic
+580,Staff Hired In 2020,SELECT * FROM employee_data WHERE hire_date LIKE '2020%';,en,employee_data,intermediate
+595,Get Complete Staff Details,SELECT * FROM employee_data;,en,employee_data,basic
+205,Senior Staff By Hire Date,SELECT * FROM employee_data ORDER BY hire_date ASC;,en,employee_data,intermediate
+345,Sabse Zyada Orders Kitni Hai?,SELECT MAX(total_amount) FROM sales_data;,hinglish,sales_data,basic
+45,Show all Accessories sales,SELECT * FROM sales_data WHERE category = 'Accessories';,en,sales_data,intermediate
+81,Department wise kitne log hain?,"SELECT department, COUNT(*) FROM employee_data GROUP BY department;",hinglish,employee_data,advanced
+544,Nikalo North Region Orders,SELECT * FROM sales_data WHERE region = 'North';,hinglish,sales_data,intermediate
+486,Get Orders Department Staff,SELECT * FROM employee_data WHERE department = 'Sales';,en,employee_data,intermediate
+341,Region Wise Orders Count,"SELECT region, COUNT(*) FROM sales_data GROUP BY region;",en,sales_data,advanced
+379,Nikalo East Region Orders,SELECT * FROM sales_data WHERE region = 'East';,hinglish,sales_data,intermediate
+31,Sabse zyada sales wale orders dikhao,SELECT * FROM sales_data ORDER BY total_amount DESC LIMIT 10;,hinglish,sales_data,intermediate
+483,Display All Sales Employees,SELECT * FROM employee_data WHERE department = 'Sales';,en,employee_data,intermediate
+493,Staff Above 30 Years,SELECT * FROM employee_data WHERE age > 30;,en,employee_data,intermediate
+139,Region Wise Orders Count,"SELECT region, COUNT(*) FROM sales_data GROUP BY region;",en,sales_data,advanced
+559,Dikhao All Hr Employees,SELECT * FROM employee_data WHERE department = 'HR';,hinglish,employee_data,intermediate
+42,Get Electronics orders,SELECT * FROM sales_data WHERE category = 'Electronics';,en,sales_data,intermediate
+530,January Ke Orders Dikhao,SELECT * FROM sales_data WHERE sales_date LIKE '2024-01%';,hinglish,sales_data,intermediate
+508,Display Sales From West Region,SELECT * FROM sales_data WHERE region = 'West';,en,sales_data,intermediate
+546,Display Me The Sales Table,SELECT * FROM sales_data;,en,sales_data,basic
+285,Orders From January 2024,SELECT * FROM sales_data WHERE sales_date LIKE '2024-01%';,en,sales_data,intermediate
+83,Young employees under 28,SELECT * FROM employee_data WHERE age < 28;,en,employee_data,intermediate
+279,Show Complete It Employees,SELECT * FROM employee_data WHERE department = 'IT';,en,employee_data,intermediate
+60,West region ke orders dikhao,SELECT * FROM sales_data WHERE region = 'West';,hinglish,sales_data,intermediate
+215,Display All Electronics Sales,SELECT * FROM sales_data WHERE category = 'Electronics';,en,sales_data,intermediate
+135,What Is The Total Orders Amount?,SELECT SUM(total_amount) FROM sales_data;,en,sales_data,intermediate
+257,Staff Above 30 Years,SELECT * FROM employee_data WHERE age > 30;,en,employee_data,intermediate
+152,Display All Hr Employees,SELECT * FROM employee_data WHERE department = 'HR';,en,employee_data,intermediate
+547,Show Me The Orders Table,SELECT * FROM sales_data;,en,sales_data,basic
+207,Get Orders Department Staff,SELECT * FROM employee_data WHERE department = 'Sales';,en,employee_data,intermediate
+437,50000 Se Zyada Salary Wale Staff,SELECT * FROM employee_data WHERE salary > 50000;,hinglish,employee_data,intermediate
+192,Kya Hai The Average Order Value?,SELECT AVG(total_amount) FROM sales_data;,hinglish,sales_data,intermediate
+448,Highest Orders Amount,SELECT MAX(total_amount) FROM sales_data;,en,sales_data,basic
+383,Nikalo Sales Department Staff,SELECT * FROM employee_data WHERE department = 'Sales';,hinglish,employee_data,intermediate
+98,Show all Sales employees,SELECT * FROM employee_data WHERE department = 'Sales';,en,employee_data,intermediate
+529,Show Top 10 Highest Orders,SELECT * FROM sales_data ORDER BY total_amount DESC LIMIT 10;,en,sales_data,intermediate
+494,Nikalo All Staff Details,SELECT * FROM employee_data;,hinglish,employee_data,basic
+219,Orders Records Ki Sankhya Batao,SELECT COUNT(*) FROM sales_data;,hinglish,sales_data,basic
+284,Show Orders From South Region,SELECT * FROM sales_data WHERE region = 'South';,en,sales_data,intermediate
+400,Orders From January 2024,SELECT * FROM sales_data WHERE sales_date LIKE '2024-01%';,en,sales_data,intermediate
+545,Dikhao Me The Sales Table,SELECT * FROM sales_data;,hinglish,sales_data,basic
+132,Display Sales From East Region,SELECT * FROM sales_data WHERE region = 'East';,en,sales_data,intermediate
+480,Show Orders From North Region,SELECT * FROM sales_data WHERE region = 'North';,en,sales_data,intermediate
+48,Accessories category ka data dikhao,SELECT * FROM sales_data WHERE category = 'Accessories';,hinglish,sales_data,intermediate
+140,Senior Staff By Hire Date,SELECT * FROM employee_data ORDER BY hire_date ASC;,en,employee_data,intermediate
+164,Dikhao All Sales Records,SELECT * FROM sales_data;,hinglish,sales_data,basic
+225,Display All Employees,SELECT * FROM employee_data;,en,employee_data,basic
+23,Revenue by region,"SELECT region, SUM(total_amount) FROM sales_data GROUP BY region;",en,sales_data,advanced
+575,Nikalo All Sales Data,SELECT * FROM sales_data;,hinglish,sales_data,basic
+199,Sabse Zyada Orders Kitni Hai?,SELECT MAX(total_amount) FROM sales_data;,hinglish,sales_data,basic
+367,Dikhao Sales From North Region,SELECT * FROM sales_data WHERE region = 'North';,hinglish,sales_data,intermediate
+236,January Ke Orders Dikhao,SELECT * FROM sales_data WHERE sales_date LIKE '2024-01%';,hinglish,sales_data,intermediate
+244,Show Orders From South Region,SELECT * FROM sales_data WHERE region = 'South';,en,sales_data,intermediate
+9,Total number of sales records,SELECT COUNT(*) FROM sales_data;,en,sales_data,basic
+86,Employees hired in 2020,SELECT * FROM employee_data WHERE hire_date LIKE '2020%';,en,employee_data,intermediate
+335,Total Number Of Orders Records,SELECT COUNT(*) FROM sales_data;,en,sales_data,basic
+149,Show Complete Accessories Sales,SELECT * FROM sales_data WHERE category = 'Accessories';,en,sales_data,intermediate
+222,Show Orders From South Region,SELECT * FROM sales_data WHERE region = 'South';,en,sales_data,intermediate
+375,Nikalo North Region Orders,SELECT * FROM sales_data WHERE region = 'North';,hinglish,sales_data,intermediate
+465,Dikhao All Employees,SELECT * FROM employee_data;,hinglish,employee_data,basic
+138,Nikalo West Region Orders,SELECT * FROM sales_data WHERE region = 'West';,hinglish,sales_data,intermediate
+179,Show Orders From Central Region,SELECT * FROM sales_data WHERE region = 'Central';,en,sales_data,intermediate
+239,Nikalo Sales Department Staff,SELECT * FROM employee_data WHERE department = 'Sales';,hinglish,employee_data,intermediate
+417,Get Complete Staff Details,SELECT * FROM employee_data;,en,employee_data,basic
+571,Get All Orders Data,SELECT * FROM sales_data;,en,sales_data,basic
+386,Sabse Zyada Orders Kitni Hai?,SELECT MAX(total_amount) FROM sales_data;,hinglish,sales_data,basic
+36,Electronics with price above 500,SELECT * FROM sales_data WHERE category = 'Electronics' AND price > 500;,en,sales_data,advanced
+453,Nikalo South Region Orders,SELECT * FROM sales_data WHERE region = 'South';,hinglish,sales_data,intermediate
+66,Get all staff details,SELECT * FROM employee_data;,en,employee_data,basic
+496,Sabse Zyada Orders Kitni Hai?,SELECT MAX(total_amount) FROM sales_data;,hinglish,sales_data,basic
+256,Nikalo Hr Department Staff,SELECT * FROM employee_data WHERE department = 'HR';,hinglish,employee_data,intermediate
+107,Dikhao Sales From South Region,SELECT * FROM sales_data WHERE region = 'South';,hinglish,sales_data,intermediate
+50,Get North region orders,SELECT * FROM sales_data WHERE region = 'North';,en,sales_data,intermediate
+370,Average Age Of Staff,SELECT AVG(age) FROM employee_data;,en,employee_data,intermediate
+150,Staff Hired In 2020,SELECT * FROM employee_data WHERE hire_date LIKE '2020%';,en,employee_data,intermediate
+278,Display All It Employees,SELECT * FROM employee_data WHERE department = 'IT';,en,employee_data,intermediate
+2,Display all order information,SELECT * FROM sales_data;,en,sales_data,basic
+357,Dikhao All Employees,SELECT * FROM employee_data;,hinglish,employee_data,basic
+532,Dikhao All It Employees,SELECT * FROM employee_data WHERE department = 'IT';,hinglish,employee_data,intermediate
+588,Nikalo Sales Department Staff,SELECT * FROM employee_data WHERE department = 'Sales';,hinglish,employee_data,intermediate
+103,Marketing department ke log nikalo,SELECT * FROM employee_data WHERE department = 'Marketing';,hinglish,employee_data,intermediate
+8,How many total orders are there?,SELECT COUNT(*) FROM sales_data;,en,sales_data,basic
+74,Sabse kam salary wala kaun hai?,SELECT * FROM employee_data ORDER BY salary ASC LIMIT 1;,hinglish,employee_data,intermediate
+348,30 Saal Se Zyada Age Ke Staff,SELECT * FROM employee_data WHERE age > 30;,hinglish,employee_data,intermediate
+226,Show Complete Employees,SELECT * FROM employee_data;,en,employee_data,basic
+99,Get Sales department staff,SELECT * FROM employee_data WHERE department = 'Sales';,en,employee_data,intermediate
+389,Category Wise Total Orders,"SELECT category, COUNT(*) FROM sales_data GROUP BY category;",en,sales_data,advanced
+117,Orders Records Ki Sankhya Batao,SELECT COUNT(*) FROM sales_data;,hinglish,sales_data,basic
+563,Total Staff Count,SELECT COUNT(*) FROM employee_data;,en,employee_data,basic
+317,Young Staff Under 28,SELECT * FROM employee_data WHERE age < 28;,en,employee_data,intermediate
+410,Dikhao All Hr Employees,SELECT * FROM employee_data WHERE department = 'HR';,hinglish,employee_data,intermediate
+264,Dikhao All Sales Employees,SELECT * FROM employee_data WHERE department = 'Sales';,hinglish,employee_data,intermediate
+438,Sabse Zyada Orders Kitni Hai?,SELECT MAX(total_amount) FROM sales_data;,hinglish,sales_data,basic
+94,HR department ke log nikalo,SELECT * FROM employee_data WHERE department = 'HR';,hinglish,employee_data,intermediate
+435,Nikalo West Region Orders,SELECT * FROM sales_data WHERE region = 'West';,hinglish,sales_data,intermediate
+398,Lowest Paid Staff,SELECT * FROM employee_data ORDER BY salary ASC LIMIT 5;,en,employee_data,intermediate
+21,Sabse zyada sales kitni hai?,SELECT MAX(total_amount) FROM sales_data;,hinglish,sales_data,basic
+68,Staff ka pura data chahiye,SELECT * FROM employee_data;,hinglish,employee_data,basic
+128,Dikhao Sales From North Region,SELECT * FROM sales_data WHERE region = 'North';,hinglish,sales_data,intermediate
+382,Highest Orders Amount,SELECT MAX(total_amount) FROM sales_data;,en,sales_data,basic
+543,Nikalo East Region Orders,SELECT * FROM sales_data WHERE region = 'East';,hinglish,sales_data,intermediate
+75,Average salary in company,SELECT AVG(salary) FROM employee_data;,en,employee_data,intermediate
+321,Nikalo East Region Orders,SELECT * FROM sales_data WHERE region = 'East';,hinglish,sales_data,intermediate
+49,Show sales from North region,SELECT * FROM sales_data WHERE region = 'North';,en,sales_data,intermediate
+372,Display All Employees,SELECT * FROM employee_data;,en,employee_data,basic
+96,Get Finance department staff,SELECT * FROM employee_data WHERE department = 'Finance';,en,employee_data,intermediate
+41,Show all Electronics sales,SELECT * FROM sales_data WHERE category = 'Electronics';,en,sales_data,intermediate
+329,North Region Electronics Orders,SELECT * FROM sales_data WHERE region = 'North' AND category = 'Electronics';,en,sales_data,advanced
+57,East region ke orders dikhao,SELECT * FROM sales_data WHERE region = 'East';,hinglish,sales_data,intermediate
+536,Lowest Paid Staff,SELECT * FROM employee_data ORDER BY salary ASC LIMIT 5;,en,employee_data,intermediate
+136,Average Age Of Staff,SELECT AVG(age) FROM employee_data;,en,employee_data,intermediate
+271,Show Complete Employees,SELECT * FROM employee_data;,en,employee_data,basic
+158,Dikhao Sales From South Region,SELECT * FROM sales_data WHERE region = 'South';,hinglish,sales_data,intermediate
+507,Dikhao Sales From West Region,SELECT * FROM sales_data WHERE region = 'West';,hinglish,sales_data,intermediate
+177,Dikhao Sales From Central Region,SELECT * FROM sales_data WHERE region = 'Central';,hinglish,sales_data,intermediate
+184,Display Sales From Central Region,SELECT * FROM sales_data WHERE region = 'Central';,en,sales_data,intermediate
+501,Dikhao All Sales Employees,SELECT * FROM employee_data WHERE department = 'Sales';,hinglish,employee_data,intermediate
+260,Display All Accessories Sales,SELECT * FROM sales_data WHERE category = 'Accessories';,en,sales_data,intermediate
+209,Senior Staff By Hire Date,SELECT * FROM employee_data ORDER BY hire_date ASC;,en,employee_data,intermediate
+391,Get Orders Department Staff,SELECT * FROM employee_data WHERE department = 'Sales';,en,employee_data,intermediate
+106,Category Wise Total Orders,"SELECT category, COUNT(*) FROM sales_data GROUP BY category;",en,sales_data,advanced
+579,Nikalo Hr Department Staff,SELECT * FROM employee_data WHERE department = 'HR';,hinglish,employee_data,intermediate
+194,Display Me The Sales Table,SELECT * FROM sales_data;,en,sales_data,basic
+289,Display Karo All Order Information,SELECT * FROM sales_data;,hinglish,sales_data,basic
+524,Dikhao Top 10 Highest Sales,SELECT * FROM sales_data ORDER BY total_amount DESC LIMIT 10;,hinglish,sales_data,intermediate
+320,Nikalo North Region Orders,SELECT * FROM sales_data WHERE region = 'North';,hinglish,sales_data,intermediate
+189,Nikalo Finance Department Staff,SELECT * FROM employee_data WHERE department = 'Finance';,hinglish,employee_data,intermediate
+223,Lowest Paid Staff,SELECT * FROM employee_data ORDER BY salary ASC LIMIT 5;,en,employee_data,intermediate
+567,Nikalo Finance Department Staff,SELECT * FROM employee_data WHERE department = 'Finance';,hinglish,employee_data,intermediate
+403,Show Orders From North Region,SELECT * FROM sales_data WHERE region = 'North';,en,sales_data,intermediate
+137,Nikalo Hr Department Staff,SELECT * FROM employee_data WHERE department = 'HR';,hinglish,employee_data,intermediate
+353,Dikhao All Electronics Sales,SELECT * FROM sales_data WHERE category = 'Electronics';,hinglish,sales_data,intermediate
+470,Display Top 10 Highest Sales,SELECT * FROM sales_data ORDER BY total_amount DESC LIMIT 10;,en,sales_data,intermediate
+275,Get Orders Department Staff,SELECT * FROM employee_data WHERE department = 'Sales';,en,employee_data,intermediate
+180,Dikhao All Accessories Sales,SELECT * FROM sales_data WHERE category = 'Accessories';,hinglish,sales_data,intermediate
+431,Nikalo Accessories Orders,SELECT * FROM sales_data WHERE category = 'Accessories';,hinglish,sales_data,intermediate
+148,Display All Accessories Sales,SELECT * FROM sales_data WHERE category = 'Accessories';,en,sales_data,intermediate
+585,Dikhao All Accessories Sales,SELECT * FROM sales_data WHERE category = 'Accessories';,hinglish,sales_data,intermediate
+510,Dikhao All Accessories Sales,SELECT * FROM sales_data WHERE category = 'Accessories';,hinglish,sales_data,intermediate
+247,Dikhao Sales From West Region,SELECT * FROM sales_data WHERE region = 'West';,hinglish,sales_data,intermediate
+459,Nikalo South Region Orders,SELECT * FROM sales_data WHERE region = 'South';,hinglish,sales_data,intermediate
+88,Senior employees by hire date,SELECT * FROM employee_data ORDER BY hire_date ASC;,en,employee_data,intermediate
+318,Nikalo East Region Orders,SELECT * FROM sales_data WHERE region = 'East';,hinglish,sales_data,intermediate
+280,Staff Above 30 Years,SELECT * FROM employee_data WHERE age > 30;,en,employee_data,intermediate
+277,Dikhao All It Employees,SELECT * FROM employee_data WHERE department = 'IT';,hinglish,employee_data,intermediate
+441,Nikalo Finance Department Staff,SELECT * FROM employee_data WHERE department = 'Finance';,hinglish,employee_data,intermediate
+259,Dikhao All Accessories Sales,SELECT * FROM sales_data WHERE category = 'Accessories';,hinglish,sales_data,intermediate
+324,Dikhao All Employees,SELECT * FROM employee_data;,hinglish,employee_data,basic
+564,Dikhao All Finance Employees,SELECT * FROM employee_data WHERE department = 'Finance';,hinglish,employee_data,intermediate
+378,Show Orders From Central Region,SELECT * FROM sales_data WHERE region = 'Central';,en,sales_data,intermediate
+202,Show Top 10 Highest Orders,SELECT * FROM sales_data ORDER BY total_amount DESC LIMIT 10;,en,sales_data,intermediate
+475,Nikalo Electronics Orders,SELECT * FROM sales_data WHERE category = 'Electronics';,hinglish,sales_data,intermediate
+85,30 saal se zyada age ke employees,SELECT * FROM employee_data WHERE age > 30;,hinglish,employee_data,intermediate
+478,Dikhao Sales From North Region,SELECT * FROM sales_data WHERE region = 'North';,hinglish,sales_data,intermediate
+7,Orders ki puri list nikalo,SELECT * FROM sales_data;,hinglish,sales_data,basic
+463,Staff Above 30 Years,SELECT * FROM employee_data WHERE age > 30;,en,employee_data,intermediate
+116,Nikalo West Region Orders,SELECT * FROM sales_data WHERE region = 'West';,hinglish,sales_data,intermediate
+113,Orders From January 2024,SELECT * FROM sales_data WHERE sales_date LIKE '2024-01%';,en,sales_data,intermediate
+111,Display Karo Employee Information,SELECT * FROM employee_data;,hinglish,employee_data,basic
+290,Display Complete Order Information,SELECT * FROM sales_data;,en,sales_data,basic
+457,Display Top 10 Highest Sales,SELECT * FROM sales_data ORDER BY total_amount DESC LIMIT 10;,en,sales_data,intermediate
+186,Dikhao Sales From East Region,SELECT * FROM sales_data WHERE region = 'East';,hinglish,sales_data,intermediate
+126,Kya Hai The Average Order Value?,SELECT AVG(total_amount) FROM sales_data;,hinglish,sales_data,intermediate
+581,Sabse Zyada Orders Wale Orders Dikhao,SELECT * FROM sales_data ORDER BY total_amount DESC LIMIT 10;,hinglish,sales_data,intermediate
+147,Dikhao All Accessories Sales,SELECT * FROM sales_data WHERE category = 'Accessories';,hinglish,sales_data,intermediate
+63,Central region ke orders dikhao,SELECT * FROM sales_data WHERE region = 'Central';,hinglish,sales_data,intermediate
+214,Dikhao All Electronics Sales,SELECT * FROM sales_data WHERE category = 'Electronics';,hinglish,sales_data,intermediate
+170,Count Complete Orders,SELECT COUNT(*) FROM sales_data;,en,sales_data,basic
+558,Orders Department Ke Log Nikalo,SELECT * FROM employee_data WHERE department = 'Sales';,hinglish,employee_data,intermediate
+392,Total Number Of Orders Records,SELECT COUNT(*) FROM sales_data;,en,sales_data,basic
+377,Display Sales From Central Region,SELECT * FROM sales_data WHERE region = 'Central';,en,sales_data,intermediate
+582,Total Number Of Orders Records,SELECT COUNT(*) FROM sales_data;,en,sales_data,basic
+78,Department wise employee count,"SELECT department, COUNT(*) FROM employee_data GROUP BY department;",en,employee_data,advanced
+129,Display Sales From North Region,SELECT * FROM sales_data WHERE region = 'North';,en,sales_data,intermediate
+340,Nikalo East Region Orders,SELECT * FROM sales_data WHERE region = 'East';,hinglish,sales_data,intermediate
+358,Display All Employees,SELECT * FROM employee_data;,en,employee_data,basic
+319,Nikalo Hr Department Staff,SELECT * FROM employee_data WHERE department = 'HR';,hinglish,employee_data,intermediate
+484,Show Complete Sales Employees,SELECT * FROM employee_data WHERE department = 'Sales';,en,employee_data,intermediate
+268,Nikalo South Region Orders,SELECT * FROM sales_data WHERE region = 'South';,hinglish,sales_data,intermediate
+281,Senior Staff By Hire Date,SELECT * FROM employee_data ORDER BY hire_date ASC;,en,employee_data,intermediate
+568,Category Wise Total Orders,"SELECT category, COUNT(*) FROM sales_data GROUP BY category;",en,sales_data,advanced
+523,Category Wise Total Orders,"SELECT category, COUNT(*) FROM sales_data GROUP BY category;",en,sales_data,advanced
+18,Average order amount batao,SELECT AVG(total_amount) FROM sales_data;,hinglish,sales_data,intermediate
+101,Show all Marketing employees,SELECT * FROM employee_data WHERE department = 'Marketing';,en,employee_data,intermediate
+13,What is the total sales amount?,SELECT SUM(total_amount) FROM sales_data;,en,sales_data,intermediate
+402,Display Sales From North Region,SELECT * FROM sales_data WHERE region = 'North';,en,sales_data,intermediate
+474,Count Complete Orders,SELECT COUNT(*) FROM sales_data;,en,sales_data,basic
+87,Recent hires,SELECT * FROM employee_data ORDER BY hire_date DESC;,en,employee_data,intermediate
+355,Show Complete Electronics Sales,SELECT * FROM sales_data WHERE category = 'Electronics';,en,sales_data,intermediate
+366,Nikalo Hr Department Staff,SELECT * FROM employee_data WHERE department = 'HR';,hinglish,employee_data,intermediate
+12,Sales records ki sankhya batao,SELECT COUNT(*) FROM sales_data;,hinglish,sales_data,basic
+411,Display All Hr Employees,SELECT * FROM employee_data WHERE department = 'HR';,en,employee_data,intermediate
+566,Show Complete Finance Employees,SELECT * FROM employee_data WHERE department = 'Finance';,en,employee_data,intermediate
+293,Display All Finance Employees,SELECT * FROM employee_data WHERE department = 'Finance';,en,employee_data,intermediate
+162,Category Ke Hisab Se Orders Nikalo,"SELECT category, SUM(total_amount) FROM sales_data GROUP BY category;",hinglish,sales_data,advanced
+82,Employees above 30 years,SELECT * FROM employee_data WHERE age > 30;,en,employee_data,intermediate
+134,Orders Records Ki Sankhya Batao,SELECT COUNT(*) FROM sales_data;,hinglish,sales_data,basic
+380,North Region Electronics Orders,SELECT * FROM sales_data WHERE region = 'North' AND category = 'Electronics';,en,sales_data,advanced
+15,Kul sales kitni hai?,SELECT SUM(total_amount) FROM sales_data;,hinglish,sales_data,intermediate
+452,Nikalo South Region Orders,SELECT * FROM sales_data WHERE region = 'South';,hinglish,sales_data,intermediate
+53,Get South region orders,SELECT * FROM sales_data WHERE region = 'South';,en,sales_data,intermediate
+409,Show Complete Employees,SELECT * FROM employee_data;,en,employee_data,basic
+216,Show Complete Electronics Sales,SELECT * FROM sales_data WHERE category = 'Electronics';,en,sales_data,intermediate
+59,Get West region orders,SELECT * FROM sales_data WHERE region = 'West';,en,sales_data,intermediate
+153,Show Complete Hr Employees,SELECT * FROM employee_data WHERE department = 'HR';,en,employee_data,intermediate
+599,Dikhao Sales From North Region,SELECT * FROM sales_data WHERE region = 'North';,hinglish,sales_data,intermediate
+145,Display All Sales Employees,SELECT * FROM employee_data WHERE department = 'Sales';,en,employee_data,intermediate
+421,North Region Electronics Orders,SELECT * FROM sales_data WHERE region = 'North' AND category = 'Electronics';,en,sales_data,advanced
+376,Dikhao Sales From Central Region,SELECT * FROM sales_data WHERE region = 'Central';,hinglish,sales_data,intermediate
+233,Dikhao Sales From Central Region,SELECT * FROM sales_data WHERE region = 'Central';,hinglish,sales_data,intermediate
+212,Sabre Staff Ki List Nikalo,SELECT * FROM employee_data;,hinglish,employee_data,basic
+570,Get Complete Sales Data,SELECT * FROM sales_data;,en,sales_data,basic
+313,Show Complete Hr Employees,SELECT * FROM employee_data WHERE department = 'HR';,en,employee_data,intermediate
+430,Nikalo Central Region Orders,SELECT * FROM sales_data WHERE region = 'Central';,hinglish,sales_data,intermediate
+118,Total Staff Count,SELECT COUNT(*) FROM employee_data;,en,employee_data,basic
+297,Display Sales From East Region,SELECT * FROM sales_data WHERE region = 'East';,en,sales_data,intermediate
+296,Dikhao Sales From East Region,SELECT * FROM sales_data WHERE region = 'East';,hinglish,sales_data,intermediate
+80,Company mein average salary kitni hai?,SELECT AVG(salary) FROM employee_data;,hinglish,employee_data,intermediate
+442,Dikhao All Electronics Sales,SELECT * FROM sales_data WHERE category = 'Electronics';,hinglish,sales_data,intermediate
+420,Orders From January 2024,SELECT * FROM sales_data WHERE sales_date LIKE '2024-01%';,en,sales_data,intermediate
+533,Display All It Employees,SELECT * FROM employee_data WHERE department = 'IT';,en,employee_data,intermediate
+232,Get Complete Staff Details,SELECT * FROM employee_data;,en,employee_data,basic
+245,Lowest Paid Staff,SELECT * FROM employee_data ORDER BY salary ASC LIMIT 5;,en,employee_data,intermediate
+165,Display All Sales Records,SELECT * FROM sales_data;,en,sales_data,basic
+405,Average Age Of Staff,SELECT AVG(age) FROM employee_data;,en,employee_data,intermediate
+151,Dikhao All Hr Employees,SELECT * FROM employee_data WHERE department = 'HR';,hinglish,employee_data,intermediate
+121,Nikalo Sales Department Staff,SELECT * FROM employee_data WHERE department = 'Sales';,hinglish,employee_data,intermediate
+269,Dikhao All Employees,SELECT * FROM employee_data;,hinglish,employee_data,basic
+262,Count Saare Orders,SELECT COUNT(*) FROM sales_data;,hinglish,sales_data,basic
+522,Show Orders From West Region,SELECT * FROM sales_data WHERE region = 'West';,en,sales_data,intermediate
+171,North Region Electronics Orders,SELECT * FROM sales_data WHERE region = 'North' AND category = 'Electronics';,en,sales_data,advanced
+208,Sabhi Orders Records Dikhao,SELECT * FROM sales_data;,hinglish,sales_data,basic
+423,Staff Hired In 2020,SELECT * FROM employee_data WHERE hire_date LIKE '2020%';,en,employee_data,intermediate
+429,Total Staff Count,SELECT COUNT(*) FROM employee_data;,en,employee_data,basic
+467,Show Complete Employees,SELECT * FROM employee_data;,en,employee_data,basic
+553,Get Complete Staff Details,SELECT * FROM employee_data;,en,employee_data,basic
+201,Display Top 10 Highest Sales,SELECT * FROM sales_data ORDER BY total_amount DESC LIMIT 10;,en,sales_data,intermediate
+368,Display Sales From North Region,SELECT * FROM sales_data WHERE region = 'North';,en,sales_data,intermediate
+237,Nikalo Electronics Orders,SELECT * FROM sales_data WHERE category = 'Electronics';,hinglish,sales_data,intermediate
+258,Senior Staff By Hire Date,SELECT * FROM employee_data ORDER BY hire_date ASC;,en,employee_data,intermediate
+500,High Salary Staff,SELECT * FROM employee_data WHERE salary > 55000;,en,employee_data,intermediate
+127,Nikalo South Region Orders,SELECT * FROM sales_data WHERE region = 'South';,hinglish,sales_data,intermediate
+562,January Ke Orders Dikhao,SELECT * FROM sales_data WHERE sales_date LIKE '2024-01%';,hinglish,sales_data,intermediate
+185,Show Orders From Central Region,SELECT * FROM sales_data WHERE region = 'Central';,en,sales_data,intermediate
+231,Nikalo All Staff Details,SELECT * FROM employee_data;,hinglish,employee_data,basic
+537,Dikhao All Hr Employees,SELECT * FROM employee_data WHERE department = 'HR';,hinglish,employee_data,intermediate
+511,Display All Accessories Sales,SELECT * FROM sales_data WHERE category = 'Accessories';,en,sales_data,intermediate
+190,Display Karo Employee Information,SELECT * FROM employee_data;,hinglish,employee_data,basic
+433,Display Sales From West Region,SELECT * FROM sales_data WHERE region = 'West';,en,sales_data,intermediate
+413,Orders From January 2024,SELECT * FROM sales_data WHERE sales_date LIKE '2024-01%';,en,sales_data,intermediate
+123,30 Saal Se Zyada Age Ke Staff,SELECT * FROM employee_data WHERE age > 30;,hinglish,employee_data,intermediate
+76,Total employees count,SELECT COUNT(*) FROM employee_data;,en,employee_data,basic
+238,Staff With Salary Above 50000,SELECT * FROM employee_data WHERE salary > 50000;,en,employee_data,intermediate
+471,Show Top 10 Highest Orders,SELECT * FROM sales_data ORDER BY total_amount DESC LIMIT 10;,en,sales_data,intermediate
+461,Get Orders Department Staff,SELECT * FROM employee_data WHERE department = 'Sales';,en,employee_data,intermediate
+396,Display Karo All Order Information,SELECT * FROM sales_data;,hinglish,sales_data,basic
+228,Display All Accessories Sales,SELECT * FROM sales_data WHERE category = 'Accessories';,en,sales_data,intermediate
+584,Sabse Zyada Orders Wale Orders Dikhao,SELECT * FROM sales_data ORDER BY total_amount DESC LIMIT 10;,hinglish,sales_data,intermediate
+160,Show Orders From South Region,SELECT * FROM sales_data WHERE region = 'South';,en,sales_data,intermediate
+528,Display Top 10 Highest Sales,SELECT * FROM sales_data ORDER BY total_amount DESC LIMIT 10;,en,sales_data,intermediate
+14,Total revenue calculation,SELECT SUM(total_amount) FROM sales_data;,en,sales_data,intermediate
+174,Dikhao Top 10 Highest Sales,SELECT * FROM sales_data ORDER BY total_amount DESC LIMIT 10;,hinglish,sales_data,intermediate
+267,Nikalo It Department Staff,SELECT * FROM employee_data WHERE department = 'IT';,hinglish,employee_data,intermediate
+325,Display All Employees,SELECT * FROM employee_data;,en,employee_data,basic
+364,North Region Electronics Orders,SELECT * FROM sales_data WHERE region = 'North' AND category = 'Electronics';,en,sales_data,advanced
+527,Dikhao Top 10 Highest Sales,SELECT * FROM sales_data ORDER BY total_amount DESC LIMIT 10;,hinglish,sales_data,intermediate
+445,Dikhao Sales From Central Region,SELECT * FROM sales_data WHERE region = 'Central';,hinglish,sales_data,intermediate
+578,Nikalo West Region Orders,SELECT * FROM sales_data WHERE region = 'West';,hinglish,sales_data,intermediate
+592,Nikalo West Region Orders,SELECT * FROM sales_data WHERE region = 'West';,hinglish,sales_data,intermediate
+270,Display All Employees,SELECT * FROM employee_data;,en,employee_data,basic
+418,Category Ke Hisab Se Orders Nikalo,"SELECT category, SUM(total_amount) FROM sales_data GROUP BY category;",hinglish,sales_data,advanced
+424,Count Saare Orders,SELECT COUNT(*) FROM sales_data;,hinglish,sales_data,basic
+591,What Is The Total Orders Amount?,SELECT SUM(total_amount) FROM sales_data;,en,sales_data,intermediate
+33,Sales from January 2024,SELECT * FROM sales_data WHERE sales_date LIKE '2024-01%';,en,sales_data,intermediate
+218,Total Number Of Orders Records,SELECT COUNT(*) FROM sales_data;,en,sales_data,basic
+243,Display Sales From South Region,SELECT * FROM sales_data WHERE region = 'South';,en,sales_data,intermediate
+197,Get Orders Department Staff,SELECT * FROM employee_data WHERE department = 'Sales';,en,employee_data,intermediate
+363,Display Complete Order Information,SELECT * FROM sales_data;,en,sales_data,basic
+16,What is the average order value?,SELECT AVG(total_amount) FROM sales_data;,en,sales_data,intermediate
+495,Get Complete Staff Details,SELECT * FROM employee_data;,en,employee_data,basic
+371,Dikhao All Employees,SELECT * FROM employee_data;,hinglish,employee_data,basic
+175,Display Top 10 Highest Sales,SELECT * FROM sales_data ORDER BY total_amount DESC LIMIT 10;,en,sales_data,intermediate
+141,Orders From January 2024,SELECT * FROM sales_data WHERE sales_date LIKE '2024-01%';,en,sales_data,intermediate
+161,Nikalo West Region Orders,SELECT * FROM sales_data WHERE region = 'West';,hinglish,sales_data,intermediate
+156,Staff Above 30 Years,SELECT * FROM employee_data WHERE age > 30;,en,employee_data,intermediate
+346,Orders Department Ke Log Nikalo,SELECT * FROM employee_data WHERE department = 'Sales';,hinglish,employee_data,intermediate
+350,Sabhi Orders Records Dikhao,SELECT * FROM sales_data;,hinglish,sales_data,basic
+27,Region wise revenue batao,"SELECT region, SUM(total_amount) FROM sales_data GROUP BY region;",hinglish,sales_data,advanced
+125,Orders From January 2024,SELECT * FROM sales_data WHERE sales_date LIKE '2024-01%';,en,sales_data,intermediate
+513,Orders Department Ke Log Nikalo,SELECT * FROM employee_data WHERE department = 'Sales';,hinglish,employee_data,intermediate
+110,Sabre Staff Ki List Nikalo,SELECT * FROM employee_data;,hinglish,employee_data,basic
+573,Highest Orders Amount,SELECT MAX(total_amount) FROM sales_data;,en,sales_data,basic
+406,Orders Department Ke Log Nikalo,SELECT * FROM employee_data WHERE department = 'Sales';,hinglish,employee_data,intermediate
+203,Senior Staff By Hire Date,SELECT * FROM employee_data ORDER BY hire_date ASC;,en,employee_data,intermediate
+62,Get Central region orders,SELECT * FROM sales_data WHERE region = 'Central';,en,sales_data,intermediate
+556,30 Saal Se Zyada Age Ke Staff,SELECT * FROM employee_data WHERE age > 30;,hinglish,employee_data,intermediate
+468,High Salary Staff,SELECT * FROM employee_data WHERE salary > 55000;,en,employee_data,intermediate
+183,Dikhao Sales From Central Region,SELECT * FROM sales_data WHERE region = 'Central';,hinglish,sales_data,intermediate
+195,Show Me The Orders Table,SELECT * FROM sales_data;,en,sales_data,basic
+583,Total Staff Count,SELECT COUNT(*) FROM employee_data;,en,employee_data,basic
+102,Get Marketing department staff,SELECT * FROM employee_data WHERE department = 'Marketing';,en,employee_data,intermediate
+24,Category wise total sales,"SELECT category, COUNT(*) FROM sales_data GROUP BY category;",en,sales_data,advanced
+598,Nikalo East Region Orders,SELECT * FROM sales_data WHERE region = 'East';,hinglish,sales_data,intermediate
+38,High value orders above 1000,SELECT * FROM sales_data WHERE total_amount > 1000;,en,sales_data,intermediate
+19,Highest sales amount,SELECT MAX(total_amount) FROM sales_data;,en,sales_data,basic
+597,Sabhi Orders Records Dikhao,SELECT * FROM sales_data;,hinglish,sales_data,basic
+323,Nikalo It Department Staff,SELECT * FROM employee_data WHERE department = 'IT';,hinglish,employee_data,intermediate
+521,Display Sales From West Region,SELECT * FROM sales_data WHERE region = 'West';,en,sales_data,intermediate
+551,Nikalo West Region Orders,SELECT * FROM sales_data WHERE region = 'West';,hinglish,sales_data,intermediate
+455,Young Staff Under 28,SELECT * FROM employee_data WHERE age < 28;,en,employee_data,intermediate
+104,Count Saare Orders,SELECT COUNT(*) FROM sales_data;,hinglish,sales_data,basic
+4,Show me the sales table,SELECT * FROM sales_data;,en,sales_data,basic
+381,Senior Staff By Hire Date,SELECT * FROM employee_data ORDER BY hire_date ASC;,en,employee_data,intermediate
+283,Display Sales From South Region,SELECT * FROM sales_data WHERE region = 'South';,en,sales_data,intermediate
+540,Sabre Staff Ki List Nikalo,SELECT * FROM employee_data;,hinglish,employee_data,basic
+3,Get all sales data,SELECT * FROM sales_data;,en,sales_data,basic
+105,Count Complete Orders,SELECT COUNT(*) FROM sales_data;,en,sales_data,basic
+263,Count Complete Orders,SELECT COUNT(*) FROM sales_data;,en,sales_data,basic
+204,Nikalo Central Region Orders,SELECT * FROM sales_data WHERE region = 'Central';,hinglish,sales_data,intermediate
+52,Show sales from South region,SELECT * FROM sales_data WHERE region = 'South';,en,sales_data,intermediate
+294,Show Complete Finance Employees,SELECT * FROM employee_data WHERE department = 'Finance';,en,employee_data,intermediate
+240,Get Orders Department Staff,SELECT * FROM employee_data WHERE department = 'Sales';,en,employee_data,intermediate
+109,Show Orders From South Region,SELECT * FROM sales_data WHERE region = 'South';,en,sales_data,intermediate
+503,Show Complete Sales Employees,SELECT * FROM employee_data WHERE department = 'Sales';,en,employee_data,intermediate
+482,Dikhao All Sales Employees,SELECT * FROM employee_data WHERE department = 'Sales';,hinglish,employee_data,intermediate
+322,Sabre Staff Ki List Nikalo,SELECT * FROM employee_data;,hinglish,employee_data,basic
+58,Show sales from West region,SELECT * FROM sales_data WHERE region = 'West';,en,sales_data,intermediate
+312,Display All Hr Employees,SELECT * FROM employee_data WHERE department = 'HR';,en,employee_data,intermediate
+485,Nikalo Sales Department Staff,SELECT * FROM employee_data WHERE department = 'Sales';,hinglish,employee_data,intermediate
+561,Show Complete Hr Employees,SELECT * FROM employee_data WHERE department = 'HR';,en,employee_data,intermediate
+428,Average Age Of Staff,SELECT AVG(age) FROM employee_data;,en,employee_data,intermediate
+369,Show Orders From North Region,SELECT * FROM sales_data WHERE region = 'North';,en,sales_data,intermediate
+211,Nikalo Finance Department Staff,SELECT * FROM employee_data WHERE department = 'Finance';,hinglish,employee_data,intermediate
+509,Show Orders From West Region,SELECT * FROM sales_data WHERE region = 'West';,en,sales_data,intermediate
+414,Staff Above 30 Years,SELECT * FROM employee_data WHERE age > 30;,en,employee_data,intermediate
+514,Sabhi Orders Records Dikhao,SELECT * FROM sales_data;,hinglish,sales_data,basic
+287,Orders Records Ki Sankhya Batao,SELECT COUNT(*) FROM sales_data;,hinglish,sales_data,basic
+359,Show Complete Employees,SELECT * FROM employee_data;,en,employee_data,basic
+569,Nikalo All Sales Data,SELECT * FROM sales_data;,hinglish,sales_data,basic
+408,Display All Employees,SELECT * FROM employee_data;,en,employee_data,basic
+548,Region Wise Orders Count,"SELECT region, COUNT(*) FROM sales_data GROUP BY region;",en,sales_data,advanced
+34,Orders from first week,SELECT * FROM sales_data WHERE sales_date BETWEEN '2024-01-01' AND '2024-01-07';,en,sales_data,advanced
+549,Orders Ka Saara Data Chahiye,SELECT * FROM sales_data;,hinglish,sales_data,basic
+516,50000 Se Zyada Salary Wale Staff,SELECT * FROM employee_data WHERE salary > 50000;,hinglish,employee_data,intermediate
+72,Highest paid staff,SELECT * FROM employee_data ORDER BY salary DESC LIMIT 5;,en,employee_data,intermediate
+168,Display Karo Employee Information,SELECT * FROM employee_data;,hinglish,employee_data,basic
+1,Show all sales records,SELECT * FROM sales_data;,en,sales_data,basic
+531,Nikalo Hr Department Staff,SELECT * FROM employee_data WHERE department = 'HR';,hinglish,employee_data,intermediate
+54,South region ke orders dikhao,SELECT * FROM sales_data WHERE region = 'South';,hinglish,sales_data,intermediate
+555,Get Complete Staff Details,SELECT * FROM employee_data;,en,employee_data,basic
+266,Show Complete Sales Employees,SELECT * FROM employee_data WHERE department = 'Sales';,en,employee_data,intermediate
+5,Sabhi sales records dikhao,SELECT * FROM sales_data;,hinglish,sales_data,basic
+361,Count Complete Orders,SELECT COUNT(*) FROM sales_data;,en,sales_data,basic
+200,Dikhao Top 10 Highest Sales,SELECT * FROM sales_data ORDER BY total_amount DESC LIMIT 10;,hinglish,sales_data,intermediate
+130,Show Orders From North Region,SELECT * FROM sales_data WHERE region = 'North';,en,sales_data,intermediate
+298,Show Orders From East Region,SELECT * FROM sales_data WHERE region = 'East';,en,sales_data,intermediate
+343,January Ke Orders Dikhao,SELECT * FROM sales_data WHERE sales_date LIKE '2024-01%';,hinglish,sales_data,intermediate
+32,Price ke hisab se arrange karo,SELECT * FROM sales_data ORDER BY price ASC;,hinglish,sales_data,intermediate
+249,Show Orders From West Region,SELECT * FROM sales_data WHERE region = 'West';,en,sales_data,intermediate
+305,Show Orders From North Region,SELECT * FROM sales_data WHERE region = 'North';,en,sales_data,intermediate
+115,Kul Orders Kitni Hai?,SELECT SUM(total_amount) FROM sales_data;,hinglish,sales_data,intermediate
+272,Nikalo Electronics Orders,SELECT * FROM sales_data WHERE category = 'Electronics';,hinglish,sales_data,intermediate
+352,Orders Department Ke Log Nikalo,SELECT * FROM employee_data WHERE department = 'Sales';,hinglish,employee_data,intermediate
+542,Nikalo West Region Orders,SELECT * FROM sales_data WHERE region = 'West';,hinglish,sales_data,intermediate
+460,Nikalo Sales Department Staff,SELECT * FROM employee_data WHERE department = 'Sales';,hinglish,employee_data,intermediate
+70,High salary employees,SELECT * FROM employee_data WHERE salary > 55000;,en,employee_data,intermediate
+265,Display All Sales Employees,SELECT * FROM employee_data WHERE department = 'Sales';,en,employee_data,intermediate
+334,Show Complete Sales Records,SELECT * FROM sales_data;,en,sales_data,basic
+61,Show sales from Central region,SELECT * FROM sales_data WHERE region = 'Central';,en,sales_data,intermediate
+456,Dikhao Top 10 Highest Sales,SELECT * FROM sales_data ORDER BY total_amount DESC LIMIT 10;,hinglish,sales_data,intermediate
+248,Display Sales From West Region,SELECT * FROM sales_data WHERE region = 'West';,en,sales_data,intermediate
+374,Sabhi Orders Records Dikhao,SELECT * FROM sales_data;,hinglish,sales_data,basic
+425,Count Complete Orders,SELECT COUNT(*) FROM sales_data;,en,sales_data,basic
+590,Nikalo Hr Department Staff,SELECT * FROM employee_data WHERE department = 'HR';,hinglish,employee_data,intermediate
+328,Orders By Category,"SELECT category, SUM(total_amount) FROM sales_data GROUP BY category;",en,sales_data,advanced
+300,Sabhi Orders Records Dikhao,SELECT * FROM sales_data;,hinglish,sales_data,basic
+518,Nikalo It Department Staff,SELECT * FROM employee_data WHERE department = 'IT';,hinglish,employee_data,intermediate
+458,Show Top 10 Highest Orders,SELECT * FROM sales_data ORDER BY total_amount DESC LIMIT 10;,en,sales_data,intermediate
+159,Display Sales From South Region,SELECT * FROM sales_data WHERE region = 'South';,en,sales_data,intermediate
+365,Staff Above 30 Years,SELECT * FROM employee_data WHERE age > 30;,en,employee_data,intermediate
+393,Dikhao Sales From East Region,SELECT * FROM sales_data WHERE region = 'East';,hinglish,sales_data,intermediate
+182,Show Complete Accessories Sales,SELECT * FROM sales_data WHERE category = 'Accessories';,en,sales_data,intermediate
+534,Show Complete It Employees,SELECT * FROM employee_data WHERE department = 'IT';,en,employee_data,intermediate
+64,Show all employees,SELECT * FROM employee_data;,en,employee_data,basic
+308,Dikhao Me The Sales Table,SELECT * FROM sales_data;,hinglish,sales_data,basic
+90,Get IT department staff,SELECT * FROM employee_data WHERE department = 'IT';,en,employee_data,intermediate
+539,Show Complete Hr Employees,SELECT * FROM employee_data WHERE department = 'HR';,en,employee_data,intermediate
+587,Show Complete Accessories Sales,SELECT * FROM sales_data WHERE category = 'Accessories';,en,sales_data,intermediate
+198,Highest Orders Amount,SELECT MAX(total_amount) FROM sales_data;,en,sales_data,basic
+114,Young Staff Under 28,SELECT * FROM employee_data WHERE age < 28;,en,employee_data,intermediate
+234,Display Sales From Central Region,SELECT * FROM sales_data WHERE region = 'Central';,en,sales_data,intermediate
+301,Nikalo All Staff Details,SELECT * FROM employee_data;,hinglish,employee_data,basic
+450,Display All Finance Employees,SELECT * FROM employee_data WHERE department = 'Finance';,en,employee_data,intermediate
+541,Total Staff Count,SELECT COUNT(*) FROM employee_data;,en,employee_data,basic
+91,IT department ke log nikalo,SELECT * FROM employee_data WHERE department = 'IT';,hinglish,employee_data,intermediate
+146,Show Complete Sales Employees,SELECT * FROM employee_data WHERE department = 'Sales';,en,employee_data,intermediate
+303,Dikhao Sales From North Region,SELECT * FROM sales_data WHERE region = 'North';,hinglish,sales_data,intermediate
+416,Nikalo All Staff Details,SELECT * FROM employee_data;,hinglish,employee_data,basic
+439,Category Wise Total Orders,"SELECT category, COUNT(*) FROM sales_data GROUP BY category;",en,sales_data,advanced
+92,Show all HR employees,SELECT * FROM employee_data WHERE department = 'HR';,en,employee_data,intermediate
+25,Region wise sales count,"SELECT region, COUNT(*) FROM sales_data GROUP BY region;",en,sales_data,advanced
+206,Nikalo Sales Department Staff,SELECT * FROM employee_data WHERE department = 'Sales';,hinglish,employee_data,intermediate
+506,Get Orders Department Staff,SELECT * FROM employee_data WHERE department = 'Sales';,en,employee_data,intermediate
+112,30 Saal Se Zyada Age Ke Staff,SELECT * FROM employee_data WHERE age > 30;,hinglish,employee_data,intermediate
+600,Display Sales From North Region,SELECT * FROM sales_data WHERE region = 'North';,en,sales_data,intermediate
+193,Dikhao Me The Sales Table,SELECT * FROM sales_data;,hinglish,sales_data,basic
+440,30 Saal Se Zyada Age Ke Staff,SELECT * FROM employee_data WHERE age > 30;,hinglish,employee_data,intermediate
+337,Get Orders Department Staff,SELECT * FROM employee_data WHERE department = 'Sales';,en,employee_data,intermediate
+327,Orders By Category,"SELECT category, SUM(total_amount) FROM sales_data GROUP BY category;",en,sales_data,advanced
+255,Show Me The Orders Table,SELECT * FROM sales_data;,en,sales_data,basic
+28,Show top 10 highest sales,SELECT * FROM sales_data ORDER BY total_amount DESC LIMIT 10;,en,sales_data,intermediate
+497,Dikhao Sales From East Region,SELECT * FROM sales_data WHERE region = 'East';,hinglish,sales_data,intermediate
+273,Staff Hired In 2020,SELECT * FROM employee_data WHERE hire_date LIKE '2020%';,en,employee_data,intermediate
+213,Average Age Of Staff,SELECT AVG(age) FROM employee_data;,en,employee_data,intermediate
+505,Nikalo Sales Department Staff,SELECT * FROM employee_data WHERE department = 'Sales';,hinglish,employee_data,intermediate
+242,Dikhao Sales From South Region,SELECT * FROM sales_data WHERE region = 'South';,hinglish,sales_data,intermediate
+572,Sabse Zyada Orders Kitni Hai?,SELECT MAX(total_amount) FROM sales_data;,hinglish,sales_data,basic
+40,North region ke expensive products,SELECT * FROM sales_data WHERE region = 'North' AND price > 500;,hinglish,sales_data,advanced
+504,Nikalo Hr Department Staff,SELECT * FROM employee_data WHERE department = 'HR';,hinglish,employee_data,intermediate
+100,Sales department ke log nikalo,SELECT * FROM employee_data WHERE department = 'Sales';,hinglish,employee_data,intermediate
+434,Show Orders From West Region,SELECT * FROM sales_data WHERE region = 'West';,en,sales_data,intermediate
+489,Show Complete Accessories Sales,SELECT * FROM sales_data WHERE category = 'Accessories';,en,sales_data,intermediate
+311,Dikhao All Hr Employees,SELECT * FROM employee_data WHERE department = 'HR';,hinglish,employee_data,intermediate
+220,Dikhao Sales From South Region,SELECT * FROM sales_data WHERE region = 'South';,hinglish,sales_data,intermediate
+594,Nikalo All Staff Details,SELECT * FROM employee_data;,hinglish,employee_data,basic
+552,Nikalo All Staff Details,SELECT * FROM employee_data;,hinglish,employee_data,basic
+224,Dikhao All Employees,SELECT * FROM employee_data;,hinglish,employee_data,basic
+462,Kya Hai The Average Order Value?,SELECT AVG(total_amount) FROM sales_data;,hinglish,sales_data,intermediate
+404,High Salary Staff,SELECT * FROM employee_data WHERE salary > 55000;,en,employee_data,intermediate
+550,Orders Records Ki Sankhya Batao,SELECT COUNT(*) FROM sales_data;,hinglish,sales_data,basic
+342,North Region Electronics Orders,SELECT * FROM sales_data WHERE region = 'North' AND category = 'Electronics';,en,sales_data,advanced
+77,Highest salary amount,SELECT MAX(salary) FROM employee_data;,en,employee_data,basic
+492,Young Staff Under 28,SELECT * FROM employee_data WHERE age < 28;,en,employee_data,intermediate
+332,Dikhao All Sales Records,SELECT * FROM sales_data;,hinglish,sales_data,basic
+142,Count Saare Orders,SELECT COUNT(*) FROM sales_data;,hinglish,sales_data,basic
+252,Orders Department Ke Log Nikalo,SELECT * FROM employee_data WHERE department = 'Sales';,hinglish,employee_data,intermediate
+385,Highest Orders Amount,SELECT MAX(total_amount) FROM sales_data;,en,sales_data,basic
+401,Dikhao Sales From North Region,SELECT * FROM sales_data WHERE region = 'North';,hinglish,sales_data,intermediate
+422,Nikalo North Region Orders,SELECT * FROM sales_data WHERE region = 'North';,hinglish,sales_data,intermediate
+188,Show Orders From East Region,SELECT * FROM sales_data WHERE region = 'East';,en,sales_data,intermediate
+390,Nikalo Sales Department Staff,SELECT * FROM employee_data WHERE department = 'Sales';,hinglish,employee_data,intermediate
+432,Dikhao Sales From West Region,SELECT * FROM sales_data WHERE region = 'West';,hinglish,sales_data,intermediate
+11,Kitne total orders hain?,SELECT COUNT(*) FROM sales_data;,hinglish,sales_data,basic
+227,Dikhao All Accessories Sales,SELECT * FROM sales_data WHERE category = 'Accessories';,hinglish,sales_data,intermediate
+407,Dikhao All Employees,SELECT * FROM employee_data;,hinglish,employee_data,basic
+525,Display Top 10 Highest Sales,SELECT * FROM sales_data ORDER BY total_amount DESC LIMIT 10;,en,sales_data,intermediate
+155,Sabse Zyada Orders Wale Orders Dikhao,SELECT * FROM sales_data ORDER BY total_amount DESC LIMIT 10;,hinglish,sales_data,intermediate
+274,Nikalo Sales Department Staff,SELECT * FROM employee_data WHERE department = 'Sales';,hinglish,employee_data,intermediate
+454,Staff Hired In 2020,SELECT * FROM employee_data WHERE hire_date LIKE '2020%';,en,employee_data,intermediate
+97,Finance department ke log nikalo,SELECT * FROM employee_data WHERE department = 'Finance';,hinglish,employee_data,intermediate
+253,Dikhao Me The Sales Table,SELECT * FROM sales_data;,hinglish,sales_data,basic
+55,Show sales from East region,SELECT * FROM sales_data WHERE region = 'East';,en,sales_data,intermediate
+122,Get Orders Department Staff,SELECT * FROM employee_data WHERE department = 'Sales';,en,employee_data,intermediate
+488,Display All Accessories Sales,SELECT * FROM sales_data WHERE category = 'Accessories';,en,sales_data,intermediate
+302,Get Complete Staff Details,SELECT * FROM employee_data;,en,employee_data,basic
+65,Display employee information,SELECT * FROM employee_data;,en,employee_data,basic
+586,Display All Accessories Sales,SELECT * FROM sales_data WHERE category = 'Accessories';,en,sales_data,intermediate
+512,Show Complete Accessories Sales,SELECT * FROM sales_data WHERE category = 'Accessories';,en,sales_data,intermediate
+196,Nikalo Sales Department Staff,SELECT * FROM employee_data WHERE department = 'Sales';,hinglish,employee_data,intermediate
+178,Display Sales From Central Region,SELECT * FROM sales_data WHERE region = 'Central';,en,sales_data,intermediate
+412,Show Complete Hr Employees,SELECT * FROM employee_data WHERE department = 'HR';,en,employee_data,intermediate
+304,Display Sales From North Region,SELECT * FROM sales_data WHERE region = 'North';,en,sales_data,intermediate
+451,Show Complete Finance Employees,SELECT * FROM employee_data WHERE department = 'Finance';,en,employee_data,intermediate
+490,Kya Hai The Average Order Value?,SELECT AVG(total_amount) FROM sales_data;,hinglish,sales_data,intermediate
+163,Young Staff Under 28,SELECT * FROM employee_data WHERE age < 28;,en,employee_data,intermediate
+517,Kya Hai The Average Order Value?,SELECT AVG(total_amount) FROM sales_data;,hinglish,sales_data,intermediate
+565,Display All Finance Employees,SELECT * FROM employee_data WHERE department = 'Finance';,en,employee_data,intermediate
+108,Display Sales From South Region,SELECT * FROM sales_data WHERE region = 'South';,en,sales_data,intermediate
+473,Count Saare Orders,SELECT COUNT(*) FROM sales_data;,hinglish,sales_data,basic
+310,Show Me The Orders Table,SELECT * FROM sales_data;,en,sales_data,basic
+43,Electronics ke saare orders nikalo,SELECT * FROM sales_data WHERE category = 'Electronics';,hinglish,sales_data,intermediate
+443,Display All Electronics Sales,SELECT * FROM sales_data WHERE category = 'Electronics';,en,sales_data,intermediate
+491,What Is The Total Orders Amount?,SELECT SUM(total_amount) FROM sales_data;,en,sales_data,intermediate
+520,Dikhao Sales From West Region,SELECT * FROM sales_data WHERE region = 'West';,hinglish,sales_data,intermediate
+17,Average price per order,SELECT AVG(price) FROM sales_data;,en,sales_data,intermediate
+241,Staff Above 30 Years,SELECT * FROM employee_data WHERE age > 30;,en,employee_data,intermediate
+191,Category Wise Total Orders,"SELECT category, COUNT(*) FROM sales_data GROUP BY category;",en,sales_data,advanced
+167,Staff Hired In 2020,SELECT * FROM employee_data WHERE hire_date LIKE '2020%';,en,employee_data,intermediate
+339,Nikalo East Region Orders,SELECT * FROM sales_data WHERE region = 'East';,hinglish,sales_data,intermediate
+477,Orders Records Ki Sankhya Batao,SELECT COUNT(*) FROM sales_data;,hinglish,sales_data,basic
+210,January Ke Orders Dikhao,SELECT * FROM sales_data WHERE sales_date LIKE '2024-01%';,hinglish,sales_data,intermediate

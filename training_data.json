@@ -1,0 +1,4002 @@
+[
+  {
+    "id": 176,
+    "prompt": "Show Top 10 Highest Orders",
+    "sql": "SELECT * FROM sales_data ORDER BY total_amount DESC LIMIT 10;",
+    "language": "en",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 291,
+    "prompt": "Sabre Staff Ki List Nikalo",
+    "sql": "SELECT * FROM employee_data;",
+    "language": "hinglish",
+    "table": "employee_data",
+    "complexity": "basic"
+  },
+  {
+    "id": 349,
+    "prompt": "Total Staff Count",
+    "sql": "SELECT COUNT(*) FROM employee_data;",
+    "language": "en",
+    "table": "employee_data",
+    "complexity": "basic"
+  },
+  {
+    "id": 394,
+    "prompt": "Display Sales From East Region",
+    "sql": "SELECT * FROM sales_data WHERE region = 'East';",
+    "language": "en",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 479,
+    "prompt": "Display Sales From North Region",
+    "sql": "SELECT * FROM sales_data WHERE region = 'North';",
+    "language": "en",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 338,
+    "prompt": "Sabhi Orders Records Dikhao",
+    "sql": "SELECT * FROM sales_data;",
+    "language": "hinglish",
+    "table": "sales_data",
+    "complexity": "basic"
+  },
+  {
+    "id": 466,
+    "prompt": "Display All Employees",
+    "sql": "SELECT * FROM employee_data;",
+    "language": "en",
+    "table": "employee_data",
+    "complexity": "basic"
+  },
+  {
+    "id": 354,
+    "prompt": "Display All Electronics Sales",
+    "sql": "SELECT * FROM sales_data WHERE category = 'Electronics';",
+    "language": "en",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 67,
+    "prompt": "Sabre employees ki list nikalo",
+    "sql": "SELECT * FROM employee_data;",
+    "language": "hinglish",
+    "table": "employee_data",
+    "complexity": "basic"
+  },
+  {
+    "id": 295,
+    "prompt": "Display Karo Employee Information",
+    "sql": "SELECT * FROM employee_data;",
+    "language": "hinglish",
+    "table": "employee_data",
+    "complexity": "basic"
+  },
+  {
+    "id": 261,
+    "prompt": "Show Complete Accessories Sales",
+    "sql": "SELECT * FROM sales_data WHERE category = 'Accessories';",
+    "language": "en",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 384,
+    "prompt": "Get Orders Department Staff",
+    "sql": "SELECT * FROM employee_data WHERE department = 'Sales';",
+    "language": "en",
+    "table": "employee_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 336,
+    "prompt": "Nikalo Sales Department Staff",
+    "sql": "SELECT * FROM employee_data WHERE department = 'Sales';",
+    "language": "hinglish",
+    "table": "employee_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 498,
+    "prompt": "Display Sales From East Region",
+    "sql": "SELECT * FROM sales_data WHERE region = 'East';",
+    "language": "en",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 10,
+    "prompt": "Count all orders",
+    "sql": "SELECT COUNT(*) FROM sales_data;",
+    "language": "en",
+    "table": "sales_data",
+    "complexity": "basic"
+  },
+  {
+    "id": 56,
+    "prompt": "Get East region orders",
+    "sql": "SELECT * FROM sales_data WHERE region = 'East';",
+    "language": "en",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 119,
+    "prompt": "Category Wise Total Orders",
+    "sql": "SELECT category, COUNT(*) FROM sales_data GROUP BY category;",
+    "language": "en",
+    "table": "sales_data",
+    "complexity": "advanced"
+  },
+  {
+    "id": 84,
+    "prompt": "Average age of employees",
+    "sql": "SELECT AVG(age) FROM employee_data;",
+    "language": "en",
+    "table": "employee_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 229,
+    "prompt": "Show Complete Accessories Sales",
+    "sql": "SELECT * FROM sales_data WHERE category = 'Accessories';",
+    "language": "en",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 399,
+    "prompt": "Orders Records Ki Sankhya Batao",
+    "sql": "SELECT COUNT(*) FROM sales_data;",
+    "language": "hinglish",
+    "table": "sales_data",
+    "complexity": "basic"
+  },
+  {
+    "id": 580,
+    "prompt": "Staff Hired In 2020",
+    "sql": "SELECT * FROM employee_data WHERE hire_date LIKE '2020%';",
+    "language": "en",
+    "table": "employee_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 595,
+    "prompt": "Get Complete Staff Details",
+    "sql": "SELECT * FROM employee_data;",
+    "language": "en",
+    "table": "employee_data",
+    "complexity": "basic"
+  },
+  {
+    "id": 205,
+    "prompt": "Senior Staff By Hire Date",
+    "sql": "SELECT * FROM employee_data ORDER BY hire_date ASC;",
+    "language": "en",
+    "table": "employee_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 345,
+    "prompt": "Sabse Zyada Orders Kitni Hai?",
+    "sql": "SELECT MAX(total_amount) FROM sales_data;",
+    "language": "hinglish",
+    "table": "sales_data",
+    "complexity": "basic"
+  },
+  {
+    "id": 45,
+    "prompt": "Show all Accessories sales",
+    "sql": "SELECT * FROM sales_data WHERE category = 'Accessories';",
+    "language": "en",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 81,
+    "prompt": "Department wise kitne log hain?",
+    "sql": "SELECT department, COUNT(*) FROM employee_data GROUP BY department;",
+    "language": "hinglish",
+    "table": "employee_data",
+    "complexity": "advanced"
+  },
+  {
+    "id": 544,
+    "prompt": "Nikalo North Region Orders",
+    "sql": "SELECT * FROM sales_data WHERE region = 'North';",
+    "language": "hinglish",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 486,
+    "prompt": "Get Orders Department Staff",
+    "sql": "SELECT * FROM employee_data WHERE department = 'Sales';",
+    "language": "en",
+    "table": "employee_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 341,
+    "prompt": "Region Wise Orders Count",
+    "sql": "SELECT region, COUNT(*) FROM sales_data GROUP BY region;",
+    "language": "en",
+    "table": "sales_data",
+    "complexity": "advanced"
+  },
+  {
+    "id": 379,
+    "prompt": "Nikalo East Region Orders",
+    "sql": "SELECT * FROM sales_data WHERE region = 'East';",
+    "language": "hinglish",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 31,
+    "prompt": "Sabse zyada sales wale orders dikhao",
+    "sql": "SELECT * FROM sales_data ORDER BY total_amount DESC LIMIT 10;",
+    "language": "hinglish",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 483,
+    "prompt": "Display All Sales Employees",
+    "sql": "SELECT * FROM employee_data WHERE department = 'Sales';",
+    "language": "en",
+    "table": "employee_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 493,
+    "prompt": "Staff Above 30 Years",
+    "sql": "SELECT * FROM employee_data WHERE age > 30;",
+    "language": "en",
+    "table": "employee_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 139,
+    "prompt": "Region Wise Orders Count",
+    "sql": "SELECT region, COUNT(*) FROM sales_data GROUP BY region;",
+    "language": "en",
+    "table": "sales_data",
+    "complexity": "advanced"
+  },
+  {
+    "id": 559,
+    "prompt": "Dikhao All Hr Employees",
+    "sql": "SELECT * FROM employee_data WHERE department = 'HR';",
+    "language": "hinglish",
+    "table": "employee_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 42,
+    "prompt": "Get Electronics orders",
+    "sql": "SELECT * FROM sales_data WHERE category = 'Electronics';",
+    "language": "en",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 530,
+    "prompt": "January Ke Orders Dikhao",
+    "sql": "SELECT * FROM sales_data WHERE sales_date LIKE '2024-01%';",
+    "language": "hinglish",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 508,
+    "prompt": "Display Sales From West Region",
+    "sql": "SELECT * FROM sales_data WHERE region = 'West';",
+    "language": "en",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 546,
+    "prompt": "Display Me The Sales Table",
+    "sql": "SELECT * FROM sales_data;",
+    "language": "en",
+    "table": "sales_data",
+    "complexity": "basic"
+  },
+  {
+    "id": 285,
+    "prompt": "Orders From January 2024",
+    "sql": "SELECT * FROM sales_data WHERE sales_date LIKE '2024-01%';",
+    "language": "en",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 83,
+    "prompt": "Young employees under 28",
+    "sql": "SELECT * FROM employee_data WHERE age < 28;",
+    "language": "en",
+    "table": "employee_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 279,
+    "prompt": "Show Complete It Employees",
+    "sql": "SELECT * FROM employee_data WHERE department = 'IT';",
+    "language": "en",
+    "table": "employee_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 60,
+    "prompt": "West region ke orders dikhao",
+    "sql": "SELECT * FROM sales_data WHERE region = 'West';",
+    "language": "hinglish",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 215,
+    "prompt": "Display All Electronics Sales",
+    "sql": "SELECT * FROM sales_data WHERE category = 'Electronics';",
+    "language": "en",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 135,
+    "prompt": "What Is The Total Orders Amount?",
+    "sql": "SELECT SUM(total_amount) FROM sales_data;",
+    "language": "en",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 257,
+    "prompt": "Staff Above 30 Years",
+    "sql": "SELECT * FROM employee_data WHERE age > 30;",
+    "language": "en",
+    "table": "employee_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 152,
+    "prompt": "Display All Hr Employees",
+    "sql": "SELECT * FROM employee_data WHERE department = 'HR';",
+    "language": "en",
+    "table": "employee_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 547,
+    "prompt": "Show Me The Orders Table",
+    "sql": "SELECT * FROM sales_data;",
+    "language": "en",
+    "table": "sales_data",
+    "complexity": "basic"
+  },
+  {
+    "id": 207,
+    "prompt": "Get Orders Department Staff",
+    "sql": "SELECT * FROM employee_data WHERE department = 'Sales';",
+    "language": "en",
+    "table": "employee_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 437,
+    "prompt": "50000 Se Zyada Salary Wale Staff",
+    "sql": "SELECT * FROM employee_data WHERE salary > 50000;",
+    "language": "hinglish",
+    "table": "employee_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 192,
+    "prompt": "Kya Hai The Average Order Value?",
+    "sql": "SELECT AVG(total_amount) FROM sales_data;",
+    "language": "hinglish",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 448,
+    "prompt": "Highest Orders Amount",
+    "sql": "SELECT MAX(total_amount) FROM sales_data;",
+    "language": "en",
+    "table": "sales_data",
+    "complexity": "basic"
+  },
+  {
+    "id": 383,
+    "prompt": "Nikalo Sales Department Staff",
+    "sql": "SELECT * FROM employee_data WHERE department = 'Sales';",
+    "language": "hinglish",
+    "table": "employee_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 98,
+    "prompt": "Show all Sales employees",
+    "sql": "SELECT * FROM employee_data WHERE department = 'Sales';",
+    "language": "en",
+    "table": "employee_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 529,
+    "prompt": "Show Top 10 Highest Orders",
+    "sql": "SELECT * FROM sales_data ORDER BY total_amount DESC LIMIT 10;",
+    "language": "en",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 494,
+    "prompt": "Nikalo All Staff Details",
+    "sql": "SELECT * FROM employee_data;",
+    "language": "hinglish",
+    "table": "employee_data",
+    "complexity": "basic"
+  },
+  {
+    "id": 219,
+    "prompt": "Orders Records Ki Sankhya Batao",
+    "sql": "SELECT COUNT(*) FROM sales_data;",
+    "language": "hinglish",
+    "table": "sales_data",
+    "complexity": "basic"
+  },
+  {
+    "id": 284,
+    "prompt": "Show Orders From South Region",
+    "sql": "SELECT * FROM sales_data WHERE region = 'South';",
+    "language": "en",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 400,
+    "prompt": "Orders From January 2024",
+    "sql": "SELECT * FROM sales_data WHERE sales_date LIKE '2024-01%';",
+    "language": "en",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 545,
+    "prompt": "Dikhao Me The Sales Table",
+    "sql": "SELECT * FROM sales_data;",
+    "language": "hinglish",
+    "table": "sales_data",
+    "complexity": "basic"
+  },
+  {
+    "id": 132,
+    "prompt": "Display Sales From East Region",
+    "sql": "SELECT * FROM sales_data WHERE region = 'East';",
+    "language": "en",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 480,
+    "prompt": "Show Orders From North Region",
+    "sql": "SELECT * FROM sales_data WHERE region = 'North';",
+    "language": "en",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 48,
+    "prompt": "Accessories category ka data dikhao",
+    "sql": "SELECT * FROM sales_data WHERE category = 'Accessories';",
+    "language": "hinglish",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 140,
+    "prompt": "Senior Staff By Hire Date",
+    "sql": "SELECT * FROM employee_data ORDER BY hire_date ASC;",
+    "language": "en",
+    "table": "employee_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 164,
+    "prompt": "Dikhao All Sales Records",
+    "sql": "SELECT * FROM sales_data;",
+    "language": "hinglish",
+    "table": "sales_data",
+    "complexity": "basic"
+  },
+  {
+    "id": 225,
+    "prompt": "Display All Employees",
+    "sql": "SELECT * FROM employee_data;",
+    "language": "en",
+    "table": "employee_data",
+    "complexity": "basic"
+  },
+  {
+    "id": 23,
+    "prompt": "Revenue by region",
+    "sql": "SELECT region, SUM(total_amount) FROM sales_data GROUP BY region;",
+    "language": "en",
+    "table": "sales_data",
+    "complexity": "advanced"
+  },
+  {
+    "id": 575,
+    "prompt": "Nikalo All Sales Data",
+    "sql": "SELECT * FROM sales_data;",
+    "language": "hinglish",
+    "table": "sales_data",
+    "complexity": "basic"
+  },
+  {
+    "id": 199,
+    "prompt": "Sabse Zyada Orders Kitni Hai?",
+    "sql": "SELECT MAX(total_amount) FROM sales_data;",
+    "language": "hinglish",
+    "table": "sales_data",
+    "complexity": "basic"
+  },
+  {
+    "id": 367,
+    "prompt": "Dikhao Sales From North Region",
+    "sql": "SELECT * FROM sales_data WHERE region = 'North';",
+    "language": "hinglish",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 236,
+    "prompt": "January Ke Orders Dikhao",
+    "sql": "SELECT * FROM sales_data WHERE sales_date LIKE '2024-01%';",
+    "language": "hinglish",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 244,
+    "prompt": "Show Orders From South Region",
+    "sql": "SELECT * FROM sales_data WHERE region = 'South';",
+    "language": "en",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 9,
+    "prompt": "Total number of sales records",
+    "sql": "SELECT COUNT(*) FROM sales_data;",
+    "language": "en",
+    "table": "sales_data",
+    "complexity": "basic"
+  },
+  {
+    "id": 86,
+    "prompt": "Employees hired in 2020",
+    "sql": "SELECT * FROM employee_data WHERE hire_date LIKE '2020%';",
+    "language": "en",
+    "table": "employee_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 335,
+    "prompt": "Total Number Of Orders Records",
+    "sql": "SELECT COUNT(*) FROM sales_data;",
+    "language": "en",
+    "table": "sales_data",
+    "complexity": "basic"
+  },
+  {
+    "id": 149,
+    "prompt": "Show Complete Accessories Sales",
+    "sql": "SELECT * FROM sales_data WHERE category = 'Accessories';",
+    "language": "en",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 222,
+    "prompt": "Show Orders From South Region",
+    "sql": "SELECT * FROM sales_data WHERE region = 'South';",
+    "language": "en",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 375,
+    "prompt": "Nikalo North Region Orders",
+    "sql": "SELECT * FROM sales_data WHERE region = 'North';",
+    "language": "hinglish",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 465,
+    "prompt": "Dikhao All Employees",
+    "sql": "SELECT * FROM employee_data;",
+    "language": "hinglish",
+    "table": "employee_data",
+    "complexity": "basic"
+  },
+  {
+    "id": 138,
+    "prompt": "Nikalo West Region Orders",
+    "sql": "SELECT * FROM sales_data WHERE region = 'West';",
+    "language": "hinglish",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 179,
+    "prompt": "Show Orders From Central Region",
+    "sql": "SELECT * FROM sales_data WHERE region = 'Central';",
+    "language": "en",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 239,
+    "prompt": "Nikalo Sales Department Staff",
+    "sql": "SELECT * FROM employee_data WHERE department = 'Sales';",
+    "language": "hinglish",
+    "table": "employee_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 417,
+    "prompt": "Get Complete Staff Details",
+    "sql": "SELECT * FROM employee_data;",
+    "language": "en",
+    "table": "employee_data",
+    "complexity": "basic"
+  },
+  {
+    "id": 571,
+    "prompt": "Get All Orders Data",
+    "sql": "SELECT * FROM sales_data;",
+    "language": "en",
+    "table": "sales_data",
+    "complexity": "basic"
+  },
+  {
+    "id": 386,
+    "prompt": "Sabse Zyada Orders Kitni Hai?",
+    "sql": "SELECT MAX(total_amount) FROM sales_data;",
+    "language": "hinglish",
+    "table": "sales_data",
+    "complexity": "basic"
+  },
+  {
+    "id": 36,
+    "prompt": "Electronics with price above 500",
+    "sql": "SELECT * FROM sales_data WHERE category = 'Electronics' AND price > 500;",
+    "language": "en",
+    "table": "sales_data",
+    "complexity": "advanced"
+  },
+  {
+    "id": 453,
+    "prompt": "Nikalo South Region Orders",
+    "sql": "SELECT * FROM sales_data WHERE region = 'South';",
+    "language": "hinglish",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 66,
+    "prompt": "Get all staff details",
+    "sql": "SELECT * FROM employee_data;",
+    "language": "en",
+    "table": "employee_data",
+    "complexity": "basic"
+  },
+  {
+    "id": 496,
+    "prompt": "Sabse Zyada Orders Kitni Hai?",
+    "sql": "SELECT MAX(total_amount) FROM sales_data;",
+    "language": "hinglish",
+    "table": "sales_data",
+    "complexity": "basic"
+  },
+  {
+    "id": 256,
+    "prompt": "Nikalo Hr Department Staff",
+    "sql": "SELECT * FROM employee_data WHERE department = 'HR';",
+    "language": "hinglish",
+    "table": "employee_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 107,
+    "prompt": "Dikhao Sales From South Region",
+    "sql": "SELECT * FROM sales_data WHERE region = 'South';",
+    "language": "hinglish",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 50,
+    "prompt": "Get North region orders",
+    "sql": "SELECT * FROM sales_data WHERE region = 'North';",
+    "language": "en",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 370,
+    "prompt": "Average Age Of Staff",
+    "sql": "SELECT AVG(age) FROM employee_data;",
+    "language": "en",
+    "table": "employee_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 150,
+    "prompt": "Staff Hired In 2020",
+    "sql": "SELECT * FROM employee_data WHERE hire_date LIKE '2020%';",
+    "language": "en",
+    "table": "employee_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 278,
+    "prompt": "Display All It Employees",
+    "sql": "SELECT * FROM employee_data WHERE department = 'IT';",
+    "language": "en",
+    "table": "employee_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 2,
+    "prompt": "Display all order information",
+    "sql": "SELECT * FROM sales_data;",
+    "language": "en",
+    "table": "sales_data",
+    "complexity": "basic"
+  },
+  {
+    "id": 357,
+    "prompt": "Dikhao All Employees",
+    "sql": "SELECT * FROM employee_data;",
+    "language": "hinglish",
+    "table": "employee_data",
+    "complexity": "basic"
+  },
+  {
+    "id": 532,
+    "prompt": "Dikhao All It Employees",
+    "sql": "SELECT * FROM employee_data WHERE department = 'IT';",
+    "language": "hinglish",
+    "table": "employee_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 588,
+    "prompt": "Nikalo Sales Department Staff",
+    "sql": "SELECT * FROM employee_data WHERE department = 'Sales';",
+    "language": "hinglish",
+    "table": "employee_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 103,
+    "prompt": "Marketing department ke log nikalo",
+    "sql": "SELECT * FROM employee_data WHERE department = 'Marketing';",
+    "language": "hinglish",
+    "table": "employee_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 8,
+    "prompt": "How many total orders are there?",
+    "sql": "SELECT COUNT(*) FROM sales_data;",
+    "language": "en",
+    "table": "sales_data",
+    "complexity": "basic"
+  },
+  {
+    "id": 74,
+    "prompt": "Sabse kam salary wala kaun hai?",
+    "sql": "SELECT * FROM employee_data ORDER BY salary ASC LIMIT 1;",
+    "language": "hinglish",
+    "table": "employee_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 348,
+    "prompt": "30 Saal Se Zyada Age Ke Staff",
+    "sql": "SELECT * FROM employee_data WHERE age > 30;",
+    "language": "hinglish",
+    "table": "employee_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 226,
+    "prompt": "Show Complete Employees",
+    "sql": "SELECT * FROM employee_data;",
+    "language": "en",
+    "table": "employee_data",
+    "complexity": "basic"
+  },
+  {
+    "id": 99,
+    "prompt": "Get Sales department staff",
+    "sql": "SELECT * FROM employee_data WHERE department = 'Sales';",
+    "language": "en",
+    "table": "employee_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 389,
+    "prompt": "Category Wise Total Orders",
+    "sql": "SELECT category, COUNT(*) FROM sales_data GROUP BY category;",
+    "language": "en",
+    "table": "sales_data",
+    "complexity": "advanced"
+  },
+  {
+    "id": 117,
+    "prompt": "Orders Records Ki Sankhya Batao",
+    "sql": "SELECT COUNT(*) FROM sales_data;",
+    "language": "hinglish",
+    "table": "sales_data",
+    "complexity": "basic"
+  },
+  {
+    "id": 563,
+    "prompt": "Total Staff Count",
+    "sql": "SELECT COUNT(*) FROM employee_data;",
+    "language": "en",
+    "table": "employee_data",
+    "complexity": "basic"
+  },
+  {
+    "id": 317,
+    "prompt": "Young Staff Under 28",
+    "sql": "SELECT * FROM employee_data WHERE age < 28;",
+    "language": "en",
+    "table": "employee_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 410,
+    "prompt": "Dikhao All Hr Employees",
+    "sql": "SELECT * FROM employee_data WHERE department = 'HR';",
+    "language": "hinglish",
+    "table": "employee_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 264,
+    "prompt": "Dikhao All Sales Employees",
+    "sql": "SELECT * FROM employee_data WHERE department = 'Sales';",
+    "language": "hinglish",
+    "table": "employee_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 438,
+    "prompt": "Sabse Zyada Orders Kitni Hai?",
+    "sql": "SELECT MAX(total_amount) FROM sales_data;",
+    "language": "hinglish",
+    "table": "sales_data",
+    "complexity": "basic"
+  },
+  {
+    "id": 94,
+    "prompt": "HR department ke log nikalo",
+    "sql": "SELECT * FROM employee_data WHERE department = 'HR';",
+    "language": "hinglish",
+    "table": "employee_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 435,
+    "prompt": "Nikalo West Region Orders",
+    "sql": "SELECT * FROM sales_data WHERE region = 'West';",
+    "language": "hinglish",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 398,
+    "prompt": "Lowest Paid Staff",
+    "sql": "SELECT * FROM employee_data ORDER BY salary ASC LIMIT 5;",
+    "language": "en",
+    "table": "employee_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 21,
+    "prompt": "Sabse zyada sales kitni hai?",
+    "sql": "SELECT MAX(total_amount) FROM sales_data;",
+    "language": "hinglish",
+    "table": "sales_data",
+    "complexity": "basic"
+  },
+  {
+    "id": 68,
+    "prompt": "Staff ka pura data chahiye",
+    "sql": "SELECT * FROM employee_data;",
+    "language": "hinglish",
+    "table": "employee_data",
+    "complexity": "basic"
+  },
+  {
+    "id": 128,
+    "prompt": "Dikhao Sales From North Region",
+    "sql": "SELECT * FROM sales_data WHERE region = 'North';",
+    "language": "hinglish",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 382,
+    "prompt": "Highest Orders Amount",
+    "sql": "SELECT MAX(total_amount) FROM sales_data;",
+    "language": "en",
+    "table": "sales_data",
+    "complexity": "basic"
+  },
+  {
+    "id": 543,
+    "prompt": "Nikalo East Region Orders",
+    "sql": "SELECT * FROM sales_data WHERE region = 'East';",
+    "language": "hinglish",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 75,
+    "prompt": "Average salary in company",
+    "sql": "SELECT AVG(salary) FROM employee_data;",
+    "language": "en",
+    "table": "employee_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 321,
+    "prompt": "Nikalo East Region Orders",
+    "sql": "SELECT * FROM sales_data WHERE region = 'East';",
+    "language": "hinglish",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 49,
+    "prompt": "Show sales from North region",
+    "sql": "SELECT * FROM sales_data WHERE region = 'North';",
+    "language": "en",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 372,
+    "prompt": "Display All Employees",
+    "sql": "SELECT * FROM employee_data;",
+    "language": "en",
+    "table": "employee_data",
+    "complexity": "basic"
+  },
+  {
+    "id": 96,
+    "prompt": "Get Finance department staff",
+    "sql": "SELECT * FROM employee_data WHERE department = 'Finance';",
+    "language": "en",
+    "table": "employee_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 41,
+    "prompt": "Show all Electronics sales",
+    "sql": "SELECT * FROM sales_data WHERE category = 'Electronics';",
+    "language": "en",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 329,
+    "prompt": "North Region Electronics Orders",
+    "sql": "SELECT * FROM sales_data WHERE region = 'North' AND category = 'Electronics';",
+    "language": "en",
+    "table": "sales_data",
+    "complexity": "advanced"
+  },
+  {
+    "id": 57,
+    "prompt": "East region ke orders dikhao",
+    "sql": "SELECT * FROM sales_data WHERE region = 'East';",
+    "language": "hinglish",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 536,
+    "prompt": "Lowest Paid Staff",
+    "sql": "SELECT * FROM employee_data ORDER BY salary ASC LIMIT 5;",
+    "language": "en",
+    "table": "employee_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 136,
+    "prompt": "Average Age Of Staff",
+    "sql": "SELECT AVG(age) FROM employee_data;",
+    "language": "en",
+    "table": "employee_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 271,
+    "prompt": "Show Complete Employees",
+    "sql": "SELECT * FROM employee_data;",
+    "language": "en",
+    "table": "employee_data",
+    "complexity": "basic"
+  },
+  {
+    "id": 158,
+    "prompt": "Dikhao Sales From South Region",
+    "sql": "SELECT * FROM sales_data WHERE region = 'South';",
+    "language": "hinglish",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 507,
+    "prompt": "Dikhao Sales From West Region",
+    "sql": "SELECT * FROM sales_data WHERE region = 'West';",
+    "language": "hinglish",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 177,
+    "prompt": "Dikhao Sales From Central Region",
+    "sql": "SELECT * FROM sales_data WHERE region = 'Central';",
+    "language": "hinglish",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 184,
+    "prompt": "Display Sales From Central Region",
+    "sql": "SELECT * FROM sales_data WHERE region = 'Central';",
+    "language": "en",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 501,
+    "prompt": "Dikhao All Sales Employees",
+    "sql": "SELECT * FROM employee_data WHERE department = 'Sales';",
+    "language": "hinglish",
+    "table": "employee_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 260,
+    "prompt": "Display All Accessories Sales",
+    "sql": "SELECT * FROM sales_data WHERE category = 'Accessories';",
+    "language": "en",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 209,
+    "prompt": "Senior Staff By Hire Date",
+    "sql": "SELECT * FROM employee_data ORDER BY hire_date ASC;",
+    "language": "en",
+    "table": "employee_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 391,
+    "prompt": "Get Orders Department Staff",
+    "sql": "SELECT * FROM employee_data WHERE department = 'Sales';",
+    "language": "en",
+    "table": "employee_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 106,
+    "prompt": "Category Wise Total Orders",
+    "sql": "SELECT category, COUNT(*) FROM sales_data GROUP BY category;",
+    "language": "en",
+    "table": "sales_data",
+    "complexity": "advanced"
+  },
+  {
+    "id": 579,
+    "prompt": "Nikalo Hr Department Staff",
+    "sql": "SELECT * FROM employee_data WHERE department = 'HR';",
+    "language": "hinglish",
+    "table": "employee_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 194,
+    "prompt": "Display Me The Sales Table",
+    "sql": "SELECT * FROM sales_data;",
+    "language": "en",
+    "table": "sales_data",
+    "complexity": "basic"
+  },
+  {
+    "id": 289,
+    "prompt": "Display Karo All Order Information",
+    "sql": "SELECT * FROM sales_data;",
+    "language": "hinglish",
+    "table": "sales_data",
+    "complexity": "basic"
+  },
+  {
+    "id": 524,
+    "prompt": "Dikhao Top 10 Highest Sales",
+    "sql": "SELECT * FROM sales_data ORDER BY total_amount DESC LIMIT 10;",
+    "language": "hinglish",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 320,
+    "prompt": "Nikalo North Region Orders",
+    "sql": "SELECT * FROM sales_data WHERE region = 'North';",
+    "language": "hinglish",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 189,
+    "prompt": "Nikalo Finance Department Staff",
+    "sql": "SELECT * FROM employee_data WHERE department = 'Finance';",
+    "language": "hinglish",
+    "table": "employee_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 223,
+    "prompt": "Lowest Paid Staff",
+    "sql": "SELECT * FROM employee_data ORDER BY salary ASC LIMIT 5;",
+    "language": "en",
+    "table": "employee_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 567,
+    "prompt": "Nikalo Finance Department Staff",
+    "sql": "SELECT * FROM employee_data WHERE department = 'Finance';",
+    "language": "hinglish",
+    "table": "employee_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 403,
+    "prompt": "Show Orders From North Region",
+    "sql": "SELECT * FROM sales_data WHERE region = 'North';",
+    "language": "en",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 137,
+    "prompt": "Nikalo Hr Department Staff",
+    "sql": "SELECT * FROM employee_data WHERE department = 'HR';",
+    "language": "hinglish",
+    "table": "employee_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 353,
+    "prompt": "Dikhao All Electronics Sales",
+    "sql": "SELECT * FROM sales_data WHERE category = 'Electronics';",
+    "language": "hinglish",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 470,
+    "prompt": "Display Top 10 Highest Sales",
+    "sql": "SELECT * FROM sales_data ORDER BY total_amount DESC LIMIT 10;",
+    "language": "en",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 275,
+    "prompt": "Get Orders Department Staff",
+    "sql": "SELECT * FROM employee_data WHERE department = 'Sales';",
+    "language": "en",
+    "table": "employee_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 180,
+    "prompt": "Dikhao All Accessories Sales",
+    "sql": "SELECT * FROM sales_data WHERE category = 'Accessories';",
+    "language": "hinglish",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 431,
+    "prompt": "Nikalo Accessories Orders",
+    "sql": "SELECT * FROM sales_data WHERE category = 'Accessories';",
+    "language": "hinglish",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 148,
+    "prompt": "Display All Accessories Sales",
+    "sql": "SELECT * FROM sales_data WHERE category = 'Accessories';",
+    "language": "en",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 585,
+    "prompt": "Dikhao All Accessories Sales",
+    "sql": "SELECT * FROM sales_data WHERE category = 'Accessories';",
+    "language": "hinglish",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 510,
+    "prompt": "Dikhao All Accessories Sales",
+    "sql": "SELECT * FROM sales_data WHERE category = 'Accessories';",
+    "language": "hinglish",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 247,
+    "prompt": "Dikhao Sales From West Region",
+    "sql": "SELECT * FROM sales_data WHERE region = 'West';",
+    "language": "hinglish",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 459,
+    "prompt": "Nikalo South Region Orders",
+    "sql": "SELECT * FROM sales_data WHERE region = 'South';",
+    "language": "hinglish",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 88,
+    "prompt": "Senior employees by hire date",
+    "sql": "SELECT * FROM employee_data ORDER BY hire_date ASC;",
+    "language": "en",
+    "table": "employee_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 318,
+    "prompt": "Nikalo East Region Orders",
+    "sql": "SELECT * FROM sales_data WHERE region = 'East';",
+    "language": "hinglish",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 280,
+    "prompt": "Staff Above 30 Years",
+    "sql": "SELECT * FROM employee_data WHERE age > 30;",
+    "language": "en",
+    "table": "employee_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 277,
+    "prompt": "Dikhao All It Employees",
+    "sql": "SELECT * FROM employee_data WHERE department = 'IT';",
+    "language": "hinglish",
+    "table": "employee_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 441,
+    "prompt": "Nikalo Finance Department Staff",
+    "sql": "SELECT * FROM employee_data WHERE department = 'Finance';",
+    "language": "hinglish",
+    "table": "employee_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 259,
+    "prompt": "Dikhao All Accessories Sales",
+    "sql": "SELECT * FROM sales_data WHERE category = 'Accessories';",
+    "language": "hinglish",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 324,
+    "prompt": "Dikhao All Employees",
+    "sql": "SELECT * FROM employee_data;",
+    "language": "hinglish",
+    "table": "employee_data",
+    "complexity": "basic"
+  },
+  {
+    "id": 564,
+    "prompt": "Dikhao All Finance Employees",
+    "sql": "SELECT * FROM employee_data WHERE department = 'Finance';",
+    "language": "hinglish",
+    "table": "employee_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 378,
+    "prompt": "Show Orders From Central Region",
+    "sql": "SELECT * FROM sales_data WHERE region = 'Central';",
+    "language": "en",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 202,
+    "prompt": "Show Top 10 Highest Orders",
+    "sql": "SELECT * FROM sales_data ORDER BY total_amount DESC LIMIT 10;",
+    "language": "en",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 475,
+    "prompt": "Nikalo Electronics Orders",
+    "sql": "SELECT * FROM sales_data WHERE category = 'Electronics';",
+    "language": "hinglish",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 85,
+    "prompt": "30 saal se zyada age ke employees",
+    "sql": "SELECT * FROM employee_data WHERE age > 30;",
+    "language": "hinglish",
+    "table": "employee_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 478,
+    "prompt": "Dikhao Sales From North Region",
+    "sql": "SELECT * FROM sales_data WHERE region = 'North';",
+    "language": "hinglish",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 7,
+    "prompt": "Orders ki puri list nikalo",
+    "sql": "SELECT * FROM sales_data;",
+    "language": "hinglish",
+    "table": "sales_data",
+    "complexity": "basic"
+  },
+  {
+    "id": 463,
+    "prompt": "Staff Above 30 Years",
+    "sql": "SELECT * FROM employee_data WHERE age > 30;",
+    "language": "en",
+    "table": "employee_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 116,
+    "prompt": "Nikalo West Region Orders",
+    "sql": "SELECT * FROM sales_data WHERE region = 'West';",
+    "language": "hinglish",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 113,
+    "prompt": "Orders From January 2024",
+    "sql": "SELECT * FROM sales_data WHERE sales_date LIKE '2024-01%';",
+    "language": "en",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 111,
+    "prompt": "Display Karo Employee Information",
+    "sql": "SELECT * FROM employee_data;",
+    "language": "hinglish",
+    "table": "employee_data",
+    "complexity": "basic"
+  },
+  {
+    "id": 290,
+    "prompt": "Display Complete Order Information",
+    "sql": "SELECT * FROM sales_data;",
+    "language": "en",
+    "table": "sales_data",
+    "complexity": "basic"
+  },
+  {
+    "id": 457,
+    "prompt": "Display Top 10 Highest Sales",
+    "sql": "SELECT * FROM sales_data ORDER BY total_amount DESC LIMIT 10;",
+    "language": "en",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 186,
+    "prompt": "Dikhao Sales From East Region",
+    "sql": "SELECT * FROM sales_data WHERE region = 'East';",
+    "language": "hinglish",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 126,
+    "prompt": "Kya Hai The Average Order Value?",
+    "sql": "SELECT AVG(total_amount) FROM sales_data;",
+    "language": "hinglish",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 581,
+    "prompt": "Sabse Zyada Orders Wale Orders Dikhao",
+    "sql": "SELECT * FROM sales_data ORDER BY total_amount DESC LIMIT 10;",
+    "language": "hinglish",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 147,
+    "prompt": "Dikhao All Accessories Sales",
+    "sql": "SELECT * FROM sales_data WHERE category = 'Accessories';",
+    "language": "hinglish",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 63,
+    "prompt": "Central region ke orders dikhao",
+    "sql": "SELECT * FROM sales_data WHERE region = 'Central';",
+    "language": "hinglish",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 214,
+    "prompt": "Dikhao All Electronics Sales",
+    "sql": "SELECT * FROM sales_data WHERE category = 'Electronics';",
+    "language": "hinglish",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 170,
+    "prompt": "Count Complete Orders",
+    "sql": "SELECT COUNT(*) FROM sales_data;",
+    "language": "en",
+    "table": "sales_data",
+    "complexity": "basic"
+  },
+  {
+    "id": 558,
+    "prompt": "Orders Department Ke Log Nikalo",
+    "sql": "SELECT * FROM employee_data WHERE department = 'Sales';",
+    "language": "hinglish",
+    "table": "employee_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 392,
+    "prompt": "Total Number Of Orders Records",
+    "sql": "SELECT COUNT(*) FROM sales_data;",
+    "language": "en",
+    "table": "sales_data",
+    "complexity": "basic"
+  },
+  {
+    "id": 377,
+    "prompt": "Display Sales From Central Region",
+    "sql": "SELECT * FROM sales_data WHERE region = 'Central';",
+    "language": "en",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 582,
+    "prompt": "Total Number Of Orders Records",
+    "sql": "SELECT COUNT(*) FROM sales_data;",
+    "language": "en",
+    "table": "sales_data",
+    "complexity": "basic"
+  },
+  {
+    "id": 78,
+    "prompt": "Department wise employee count",
+    "sql": "SELECT department, COUNT(*) FROM employee_data GROUP BY department;",
+    "language": "en",
+    "table": "employee_data",
+    "complexity": "advanced"
+  },
+  {
+    "id": 129,
+    "prompt": "Display Sales From North Region",
+    "sql": "SELECT * FROM sales_data WHERE region = 'North';",
+    "language": "en",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 340,
+    "prompt": "Nikalo East Region Orders",
+    "sql": "SELECT * FROM sales_data WHERE region = 'East';",
+    "language": "hinglish",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 358,
+    "prompt": "Display All Employees",
+    "sql": "SELECT * FROM employee_data;",
+    "language": "en",
+    "table": "employee_data",
+    "complexity": "basic"
+  },
+  {
+    "id": 319,
+    "prompt": "Nikalo Hr Department Staff",
+    "sql": "SELECT * FROM employee_data WHERE department = 'HR';",
+    "language": "hinglish",
+    "table": "employee_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 484,
+    "prompt": "Show Complete Sales Employees",
+    "sql": "SELECT * FROM employee_data WHERE department = 'Sales';",
+    "language": "en",
+    "table": "employee_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 268,
+    "prompt": "Nikalo South Region Orders",
+    "sql": "SELECT * FROM sales_data WHERE region = 'South';",
+    "language": "hinglish",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 281,
+    "prompt": "Senior Staff By Hire Date",
+    "sql": "SELECT * FROM employee_data ORDER BY hire_date ASC;",
+    "language": "en",
+    "table": "employee_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 568,
+    "prompt": "Category Wise Total Orders",
+    "sql": "SELECT category, COUNT(*) FROM sales_data GROUP BY category;",
+    "language": "en",
+    "table": "sales_data",
+    "complexity": "advanced"
+  },
+  {
+    "id": 523,
+    "prompt": "Category Wise Total Orders",
+    "sql": "SELECT category, COUNT(*) FROM sales_data GROUP BY category;",
+    "language": "en",
+    "table": "sales_data",
+    "complexity": "advanced"
+  },
+  {
+    "id": 18,
+    "prompt": "Average order amount batao",
+    "sql": "SELECT AVG(total_amount) FROM sales_data;",
+    "language": "hinglish",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 101,
+    "prompt": "Show all Marketing employees",
+    "sql": "SELECT * FROM employee_data WHERE department = 'Marketing';",
+    "language": "en",
+    "table": "employee_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 13,
+    "prompt": "What is the total sales amount?",
+    "sql": "SELECT SUM(total_amount) FROM sales_data;",
+    "language": "en",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 402,
+    "prompt": "Display Sales From North Region",
+    "sql": "SELECT * FROM sales_data WHERE region = 'North';",
+    "language": "en",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 474,
+    "prompt": "Count Complete Orders",
+    "sql": "SELECT COUNT(*) FROM sales_data;",
+    "language": "en",
+    "table": "sales_data",
+    "complexity": "basic"
+  },
+  {
+    "id": 87,
+    "prompt": "Recent hires",
+    "sql": "SELECT * FROM employee_data ORDER BY hire_date DESC;",
+    "language": "en",
+    "table": "employee_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 355,
+    "prompt": "Show Complete Electronics Sales",
+    "sql": "SELECT * FROM sales_data WHERE category = 'Electronics';",
+    "language": "en",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 366,
+    "prompt": "Nikalo Hr Department Staff",
+    "sql": "SELECT * FROM employee_data WHERE department = 'HR';",
+    "language": "hinglish",
+    "table": "employee_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 12,
+    "prompt": "Sales records ki sankhya batao",
+    "sql": "SELECT COUNT(*) FROM sales_data;",
+    "language": "hinglish",
+    "table": "sales_data",
+    "complexity": "basic"
+  },
+  {
+    "id": 411,
+    "prompt": "Display All Hr Employees",
+    "sql": "SELECT * FROM employee_data WHERE department = 'HR';",
+    "language": "en",
+    "table": "employee_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 566,
+    "prompt": "Show Complete Finance Employees",
+    "sql": "SELECT * FROM employee_data WHERE department = 'Finance';",
+    "language": "en",
+    "table": "employee_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 293,
+    "prompt": "Display All Finance Employees",
+    "sql": "SELECT * FROM employee_data WHERE department = 'Finance';",
+    "language": "en",
+    "table": "employee_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 162,
+    "prompt": "Category Ke Hisab Se Orders Nikalo",
+    "sql": "SELECT category, SUM(total_amount) FROM sales_data GROUP BY category;",
+    "language": "hinglish",
+    "table": "sales_data",
+    "complexity": "advanced"
+  },
+  {
+    "id": 82,
+    "prompt": "Employees above 30 years",
+    "sql": "SELECT * FROM employee_data WHERE age > 30;",
+    "language": "en",
+    "table": "employee_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 134,
+    "prompt": "Orders Records Ki Sankhya Batao",
+    "sql": "SELECT COUNT(*) FROM sales_data;",
+    "language": "hinglish",
+    "table": "sales_data",
+    "complexity": "basic"
+  },
+  {
+    "id": 380,
+    "prompt": "North Region Electronics Orders",
+    "sql": "SELECT * FROM sales_data WHERE region = 'North' AND category = 'Electronics';",
+    "language": "en",
+    "table": "sales_data",
+    "complexity": "advanced"
+  },
+  {
+    "id": 15,
+    "prompt": "Kul sales kitni hai?",
+    "sql": "SELECT SUM(total_amount) FROM sales_data;",
+    "language": "hinglish",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 452,
+    "prompt": "Nikalo South Region Orders",
+    "sql": "SELECT * FROM sales_data WHERE region = 'South';",
+    "language": "hinglish",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 53,
+    "prompt": "Get South region orders",
+    "sql": "SELECT * FROM sales_data WHERE region = 'South';",
+    "language": "en",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 409,
+    "prompt": "Show Complete Employees",
+    "sql": "SELECT * FROM employee_data;",
+    "language": "en",
+    "table": "employee_data",
+    "complexity": "basic"
+  },
+  {
+    "id": 216,
+    "prompt": "Show Complete Electronics Sales",
+    "sql": "SELECT * FROM sales_data WHERE category = 'Electronics';",
+    "language": "en",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 59,
+    "prompt": "Get West region orders",
+    "sql": "SELECT * FROM sales_data WHERE region = 'West';",
+    "language": "en",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 153,
+    "prompt": "Show Complete Hr Employees",
+    "sql": "SELECT * FROM employee_data WHERE department = 'HR';",
+    "language": "en",
+    "table": "employee_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 599,
+    "prompt": "Dikhao Sales From North Region",
+    "sql": "SELECT * FROM sales_data WHERE region = 'North';",
+    "language": "hinglish",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 145,
+    "prompt": "Display All Sales Employees",
+    "sql": "SELECT * FROM employee_data WHERE department = 'Sales';",
+    "language": "en",
+    "table": "employee_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 421,
+    "prompt": "North Region Electronics Orders",
+    "sql": "SELECT * FROM sales_data WHERE region = 'North' AND category = 'Electronics';",
+    "language": "en",
+    "table": "sales_data",
+    "complexity": "advanced"
+  },
+  {
+    "id": 376,
+    "prompt": "Dikhao Sales From Central Region",
+    "sql": "SELECT * FROM sales_data WHERE region = 'Central';",
+    "language": "hinglish",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 233,
+    "prompt": "Dikhao Sales From Central Region",
+    "sql": "SELECT * FROM sales_data WHERE region = 'Central';",
+    "language": "hinglish",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 212,
+    "prompt": "Sabre Staff Ki List Nikalo",
+    "sql": "SELECT * FROM employee_data;",
+    "language": "hinglish",
+    "table": "employee_data",
+    "complexity": "basic"
+  },
+  {
+    "id": 570,
+    "prompt": "Get Complete Sales Data",
+    "sql": "SELECT * FROM sales_data;",
+    "language": "en",
+    "table": "sales_data",
+    "complexity": "basic"
+  },
+  {
+    "id": 313,
+    "prompt": "Show Complete Hr Employees",
+    "sql": "SELECT * FROM employee_data WHERE department = 'HR';",
+    "language": "en",
+    "table": "employee_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 430,
+    "prompt": "Nikalo Central Region Orders",
+    "sql": "SELECT * FROM sales_data WHERE region = 'Central';",
+    "language": "hinglish",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 118,
+    "prompt": "Total Staff Count",
+    "sql": "SELECT COUNT(*) FROM employee_data;",
+    "language": "en",
+    "table": "employee_data",
+    "complexity": "basic"
+  },
+  {
+    "id": 297,
+    "prompt": "Display Sales From East Region",
+    "sql": "SELECT * FROM sales_data WHERE region = 'East';",
+    "language": "en",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 296,
+    "prompt": "Dikhao Sales From East Region",
+    "sql": "SELECT * FROM sales_data WHERE region = 'East';",
+    "language": "hinglish",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 80,
+    "prompt": "Company mein average salary kitni hai?",
+    "sql": "SELECT AVG(salary) FROM employee_data;",
+    "language": "hinglish",
+    "table": "employee_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 442,
+    "prompt": "Dikhao All Electronics Sales",
+    "sql": "SELECT * FROM sales_data WHERE category = 'Electronics';",
+    "language": "hinglish",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 420,
+    "prompt": "Orders From January 2024",
+    "sql": "SELECT * FROM sales_data WHERE sales_date LIKE '2024-01%';",
+    "language": "en",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 533,
+    "prompt": "Display All It Employees",
+    "sql": "SELECT * FROM employee_data WHERE department = 'IT';",
+    "language": "en",
+    "table": "employee_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 232,
+    "prompt": "Get Complete Staff Details",
+    "sql": "SELECT * FROM employee_data;",
+    "language": "en",
+    "table": "employee_data",
+    "complexity": "basic"
+  },
+  {
+    "id": 245,
+    "prompt": "Lowest Paid Staff",
+    "sql": "SELECT * FROM employee_data ORDER BY salary ASC LIMIT 5;",
+    "language": "en",
+    "table": "employee_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 165,
+    "prompt": "Display All Sales Records",
+    "sql": "SELECT * FROM sales_data;",
+    "language": "en",
+    "table": "sales_data",
+    "complexity": "basic"
+  },
+  {
+    "id": 405,
+    "prompt": "Average Age Of Staff",
+    "sql": "SELECT AVG(age) FROM employee_data;",
+    "language": "en",
+    "table": "employee_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 151,
+    "prompt": "Dikhao All Hr Employees",
+    "sql": "SELECT * FROM employee_data WHERE department = 'HR';",
+    "language": "hinglish",
+    "table": "employee_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 121,
+    "prompt": "Nikalo Sales Department Staff",
+    "sql": "SELECT * FROM employee_data WHERE department = 'Sales';",
+    "language": "hinglish",
+    "table": "employee_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 269,
+    "prompt": "Dikhao All Employees",
+    "sql": "SELECT * FROM employee_data;",
+    "language": "hinglish",
+    "table": "employee_data",
+    "complexity": "basic"
+  },
+  {
+    "id": 262,
+    "prompt": "Count Saare Orders",
+    "sql": "SELECT COUNT(*) FROM sales_data;",
+    "language": "hinglish",
+    "table": "sales_data",
+    "complexity": "basic"
+  },
+  {
+    "id": 522,
+    "prompt": "Show Orders From West Region",
+    "sql": "SELECT * FROM sales_data WHERE region = 'West';",
+    "language": "en",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 171,
+    "prompt": "North Region Electronics Orders",
+    "sql": "SELECT * FROM sales_data WHERE region = 'North' AND category = 'Electronics';",
+    "language": "en",
+    "table": "sales_data",
+    "complexity": "advanced"
+  },
+  {
+    "id": 208,
+    "prompt": "Sabhi Orders Records Dikhao",
+    "sql": "SELECT * FROM sales_data;",
+    "language": "hinglish",
+    "table": "sales_data",
+    "complexity": "basic"
+  },
+  {
+    "id": 423,
+    "prompt": "Staff Hired In 2020",
+    "sql": "SELECT * FROM employee_data WHERE hire_date LIKE '2020%';",
+    "language": "en",
+    "table": "employee_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 429,
+    "prompt": "Total Staff Count",
+    "sql": "SELECT COUNT(*) FROM employee_data;",
+    "language": "en",
+    "table": "employee_data",
+    "complexity": "basic"
+  },
+  {
+    "id": 467,
+    "prompt": "Show Complete Employees",
+    "sql": "SELECT * FROM employee_data;",
+    "language": "en",
+    "table": "employee_data",
+    "complexity": "basic"
+  },
+  {
+    "id": 553,
+    "prompt": "Get Complete Staff Details",
+    "sql": "SELECT * FROM employee_data;",
+    "language": "en",
+    "table": "employee_data",
+    "complexity": "basic"
+  },
+  {
+    "id": 201,
+    "prompt": "Display Top 10 Highest Sales",
+    "sql": "SELECT * FROM sales_data ORDER BY total_amount DESC LIMIT 10;",
+    "language": "en",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 368,
+    "prompt": "Display Sales From North Region",
+    "sql": "SELECT * FROM sales_data WHERE region = 'North';",
+    "language": "en",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 237,
+    "prompt": "Nikalo Electronics Orders",
+    "sql": "SELECT * FROM sales_data WHERE category = 'Electronics';",
+    "language": "hinglish",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 258,
+    "prompt": "Senior Staff By Hire Date",
+    "sql": "SELECT * FROM employee_data ORDER BY hire_date ASC;",
+    "language": "en",
+    "table": "employee_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 500,
+    "prompt": "High Salary Staff",
+    "sql": "SELECT * FROM employee_data WHERE salary > 55000;",
+    "language": "en",
+    "table": "employee_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 127,
+    "prompt": "Nikalo South Region Orders",
+    "sql": "SELECT * FROM sales_data WHERE region = 'South';",
+    "language": "hinglish",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 562,
+    "prompt": "January Ke Orders Dikhao",
+    "sql": "SELECT * FROM sales_data WHERE sales_date LIKE '2024-01%';",
+    "language": "hinglish",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 185,
+    "prompt": "Show Orders From Central Region",
+    "sql": "SELECT * FROM sales_data WHERE region = 'Central';",
+    "language": "en",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 231,
+    "prompt": "Nikalo All Staff Details",
+    "sql": "SELECT * FROM employee_data;",
+    "language": "hinglish",
+    "table": "employee_data",
+    "complexity": "basic"
+  },
+  {
+    "id": 537,
+    "prompt": "Dikhao All Hr Employees",
+    "sql": "SELECT * FROM employee_data WHERE department = 'HR';",
+    "language": "hinglish",
+    "table": "employee_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 511,
+    "prompt": "Display All Accessories Sales",
+    "sql": "SELECT * FROM sales_data WHERE category = 'Accessories';",
+    "language": "en",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 190,
+    "prompt": "Display Karo Employee Information",
+    "sql": "SELECT * FROM employee_data;",
+    "language": "hinglish",
+    "table": "employee_data",
+    "complexity": "basic"
+  },
+  {
+    "id": 433,
+    "prompt": "Display Sales From West Region",
+    "sql": "SELECT * FROM sales_data WHERE region = 'West';",
+    "language": "en",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 413,
+    "prompt": "Orders From January 2024",
+    "sql": "SELECT * FROM sales_data WHERE sales_date LIKE '2024-01%';",
+    "language": "en",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 123,
+    "prompt": "30 Saal Se Zyada Age Ke Staff",
+    "sql": "SELECT * FROM employee_data WHERE age > 30;",
+    "language": "hinglish",
+    "table": "employee_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 76,
+    "prompt": "Total employees count",
+    "sql": "SELECT COUNT(*) FROM employee_data;",
+    "language": "en",
+    "table": "employee_data",
+    "complexity": "basic"
+  },
+  {
+    "id": 238,
+    "prompt": "Staff With Salary Above 50000",
+    "sql": "SELECT * FROM employee_data WHERE salary > 50000;",
+    "language": "en",
+    "table": "employee_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 471,
+    "prompt": "Show Top 10 Highest Orders",
+    "sql": "SELECT * FROM sales_data ORDER BY total_amount DESC LIMIT 10;",
+    "language": "en",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 461,
+    "prompt": "Get Orders Department Staff",
+    "sql": "SELECT * FROM employee_data WHERE department = 'Sales';",
+    "language": "en",
+    "table": "employee_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 396,
+    "prompt": "Display Karo All Order Information",
+    "sql": "SELECT * FROM sales_data;",
+    "language": "hinglish",
+    "table": "sales_data",
+    "complexity": "basic"
+  },
+  {
+    "id": 228,
+    "prompt": "Display All Accessories Sales",
+    "sql": "SELECT * FROM sales_data WHERE category = 'Accessories';",
+    "language": "en",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 584,
+    "prompt": "Sabse Zyada Orders Wale Orders Dikhao",
+    "sql": "SELECT * FROM sales_data ORDER BY total_amount DESC LIMIT 10;",
+    "language": "hinglish",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 160,
+    "prompt": "Show Orders From South Region",
+    "sql": "SELECT * FROM sales_data WHERE region = 'South';",
+    "language": "en",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 528,
+    "prompt": "Display Top 10 Highest Sales",
+    "sql": "SELECT * FROM sales_data ORDER BY total_amount DESC LIMIT 10;",
+    "language": "en",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 14,
+    "prompt": "Total revenue calculation",
+    "sql": "SELECT SUM(total_amount) FROM sales_data;",
+    "language": "en",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 174,
+    "prompt": "Dikhao Top 10 Highest Sales",
+    "sql": "SELECT * FROM sales_data ORDER BY total_amount DESC LIMIT 10;",
+    "language": "hinglish",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 267,
+    "prompt": "Nikalo It Department Staff",
+    "sql": "SELECT * FROM employee_data WHERE department = 'IT';",
+    "language": "hinglish",
+    "table": "employee_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 325,
+    "prompt": "Display All Employees",
+    "sql": "SELECT * FROM employee_data;",
+    "language": "en",
+    "table": "employee_data",
+    "complexity": "basic"
+  },
+  {
+    "id": 364,
+    "prompt": "North Region Electronics Orders",
+    "sql": "SELECT * FROM sales_data WHERE region = 'North' AND category = 'Electronics';",
+    "language": "en",
+    "table": "sales_data",
+    "complexity": "advanced"
+  },
+  {
+    "id": 527,
+    "prompt": "Dikhao Top 10 Highest Sales",
+    "sql": "SELECT * FROM sales_data ORDER BY total_amount DESC LIMIT 10;",
+    "language": "hinglish",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 445,
+    "prompt": "Dikhao Sales From Central Region",
+    "sql": "SELECT * FROM sales_data WHERE region = 'Central';",
+    "language": "hinglish",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 578,
+    "prompt": "Nikalo West Region Orders",
+    "sql": "SELECT * FROM sales_data WHERE region = 'West';",
+    "language": "hinglish",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 592,
+    "prompt": "Nikalo West Region Orders",
+    "sql": "SELECT * FROM sales_data WHERE region = 'West';",
+    "language": "hinglish",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 270,
+    "prompt": "Display All Employees",
+    "sql": "SELECT * FROM employee_data;",
+    "language": "en",
+    "table": "employee_data",
+    "complexity": "basic"
+  },
+  {
+    "id": 418,
+    "prompt": "Category Ke Hisab Se Orders Nikalo",
+    "sql": "SELECT category, SUM(total_amount) FROM sales_data GROUP BY category;",
+    "language": "hinglish",
+    "table": "sales_data",
+    "complexity": "advanced"
+  },
+  {
+    "id": 424,
+    "prompt": "Count Saare Orders",
+    "sql": "SELECT COUNT(*) FROM sales_data;",
+    "language": "hinglish",
+    "table": "sales_data",
+    "complexity": "basic"
+  },
+  {
+    "id": 591,
+    "prompt": "What Is The Total Orders Amount?",
+    "sql": "SELECT SUM(total_amount) FROM sales_data;",
+    "language": "en",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 33,
+    "prompt": "Sales from January 2024",
+    "sql": "SELECT * FROM sales_data WHERE sales_date LIKE '2024-01%';",
+    "language": "en",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 218,
+    "prompt": "Total Number Of Orders Records",
+    "sql": "SELECT COUNT(*) FROM sales_data;",
+    "language": "en",
+    "table": "sales_data",
+    "complexity": "basic"
+  },
+  {
+    "id": 243,
+    "prompt": "Display Sales From South Region",
+    "sql": "SELECT * FROM sales_data WHERE region = 'South';",
+    "language": "en",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 197,
+    "prompt": "Get Orders Department Staff",
+    "sql": "SELECT * FROM employee_data WHERE department = 'Sales';",
+    "language": "en",
+    "table": "employee_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 363,
+    "prompt": "Display Complete Order Information",
+    "sql": "SELECT * FROM sales_data;",
+    "language": "en",
+    "table": "sales_data",
+    "complexity": "basic"
+  },
+  {
+    "id": 16,
+    "prompt": "What is the average order value?",
+    "sql": "SELECT AVG(total_amount) FROM sales_data;",
+    "language": "en",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 495,
+    "prompt": "Get Complete Staff Details",
+    "sql": "SELECT * FROM employee_data;",
+    "language": "en",
+    "table": "employee_data",
+    "complexity": "basic"
+  },
+  {
+    "id": 371,
+    "prompt": "Dikhao All Employees",
+    "sql": "SELECT * FROM employee_data;",
+    "language": "hinglish",
+    "table": "employee_data",
+    "complexity": "basic"
+  },
+  {
+    "id": 175,
+    "prompt": "Display Top 10 Highest Sales",
+    "sql": "SELECT * FROM sales_data ORDER BY total_amount DESC LIMIT 10;",
+    "language": "en",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 141,
+    "prompt": "Orders From January 2024",
+    "sql": "SELECT * FROM sales_data WHERE sales_date LIKE '2024-01%';",
+    "language": "en",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 161,
+    "prompt": "Nikalo West Region Orders",
+    "sql": "SELECT * FROM sales_data WHERE region = 'West';",
+    "language": "hinglish",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 156,
+    "prompt": "Staff Above 30 Years",
+    "sql": "SELECT * FROM employee_data WHERE age > 30;",
+    "language": "en",
+    "table": "employee_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 346,
+    "prompt": "Orders Department Ke Log Nikalo",
+    "sql": "SELECT * FROM employee_data WHERE department = 'Sales';",
+    "language": "hinglish",
+    "table": "employee_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 350,
+    "prompt": "Sabhi Orders Records Dikhao",
+    "sql": "SELECT * FROM sales_data;",
+    "language": "hinglish",
+    "table": "sales_data",
+    "complexity": "basic"
+  },
+  {
+    "id": 27,
+    "prompt": "Region wise revenue batao",
+    "sql": "SELECT region, SUM(total_amount) FROM sales_data GROUP BY region;",
+    "language": "hinglish",
+    "table": "sales_data",
+    "complexity": "advanced"
+  },
+  {
+    "id": 125,
+    "prompt": "Orders From January 2024",
+    "sql": "SELECT * FROM sales_data WHERE sales_date LIKE '2024-01%';",
+    "language": "en",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 513,
+    "prompt": "Orders Department Ke Log Nikalo",
+    "sql": "SELECT * FROM employee_data WHERE department = 'Sales';",
+    "language": "hinglish",
+    "table": "employee_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 110,
+    "prompt": "Sabre Staff Ki List Nikalo",
+    "sql": "SELECT * FROM employee_data;",
+    "language": "hinglish",
+    "table": "employee_data",
+    "complexity": "basic"
+  },
+  {
+    "id": 573,
+    "prompt": "Highest Orders Amount",
+    "sql": "SELECT MAX(total_amount) FROM sales_data;",
+    "language": "en",
+    "table": "sales_data",
+    "complexity": "basic"
+  },
+  {
+    "id": 406,
+    "prompt": "Orders Department Ke Log Nikalo",
+    "sql": "SELECT * FROM employee_data WHERE department = 'Sales';",
+    "language": "hinglish",
+    "table": "employee_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 203,
+    "prompt": "Senior Staff By Hire Date",
+    "sql": "SELECT * FROM employee_data ORDER BY hire_date ASC;",
+    "language": "en",
+    "table": "employee_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 62,
+    "prompt": "Get Central region orders",
+    "sql": "SELECT * FROM sales_data WHERE region = 'Central';",
+    "language": "en",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 556,
+    "prompt": "30 Saal Se Zyada Age Ke Staff",
+    "sql": "SELECT * FROM employee_data WHERE age > 30;",
+    "language": "hinglish",
+    "table": "employee_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 468,
+    "prompt": "High Salary Staff",
+    "sql": "SELECT * FROM employee_data WHERE salary > 55000;",
+    "language": "en",
+    "table": "employee_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 183,
+    "prompt": "Dikhao Sales From Central Region",
+    "sql": "SELECT * FROM sales_data WHERE region = 'Central';",
+    "language": "hinglish",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 195,
+    "prompt": "Show Me The Orders Table",
+    "sql": "SELECT * FROM sales_data;",
+    "language": "en",
+    "table": "sales_data",
+    "complexity": "basic"
+  },
+  {
+    "id": 583,
+    "prompt": "Total Staff Count",
+    "sql": "SELECT COUNT(*) FROM employee_data;",
+    "language": "en",
+    "table": "employee_data",
+    "complexity": "basic"
+  },
+  {
+    "id": 102,
+    "prompt": "Get Marketing department staff",
+    "sql": "SELECT * FROM employee_data WHERE department = 'Marketing';",
+    "language": "en",
+    "table": "employee_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 24,
+    "prompt": "Category wise total sales",
+    "sql": "SELECT category, COUNT(*) FROM sales_data GROUP BY category;",
+    "language": "en",
+    "table": "sales_data",
+    "complexity": "advanced"
+  },
+  {
+    "id": 598,
+    "prompt": "Nikalo East Region Orders",
+    "sql": "SELECT * FROM sales_data WHERE region = 'East';",
+    "language": "hinglish",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 38,
+    "prompt": "High value orders above 1000",
+    "sql": "SELECT * FROM sales_data WHERE total_amount > 1000;",
+    "language": "en",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 19,
+    "prompt": "Highest sales amount",
+    "sql": "SELECT MAX(total_amount) FROM sales_data;",
+    "language": "en",
+    "table": "sales_data",
+    "complexity": "basic"
+  },
+  {
+    "id": 597,
+    "prompt": "Sabhi Orders Records Dikhao",
+    "sql": "SELECT * FROM sales_data;",
+    "language": "hinglish",
+    "table": "sales_data",
+    "complexity": "basic"
+  },
+  {
+    "id": 323,
+    "prompt": "Nikalo It Department Staff",
+    "sql": "SELECT * FROM employee_data WHERE department = 'IT';",
+    "language": "hinglish",
+    "table": "employee_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 521,
+    "prompt": "Display Sales From West Region",
+    "sql": "SELECT * FROM sales_data WHERE region = 'West';",
+    "language": "en",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 551,
+    "prompt": "Nikalo West Region Orders",
+    "sql": "SELECT * FROM sales_data WHERE region = 'West';",
+    "language": "hinglish",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 455,
+    "prompt": "Young Staff Under 28",
+    "sql": "SELECT * FROM employee_data WHERE age < 28;",
+    "language": "en",
+    "table": "employee_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 104,
+    "prompt": "Count Saare Orders",
+    "sql": "SELECT COUNT(*) FROM sales_data;",
+    "language": "hinglish",
+    "table": "sales_data",
+    "complexity": "basic"
+  },
+  {
+    "id": 4,
+    "prompt": "Show me the sales table",
+    "sql": "SELECT * FROM sales_data;",
+    "language": "en",
+    "table": "sales_data",
+    "complexity": "basic"
+  },
+  {
+    "id": 381,
+    "prompt": "Senior Staff By Hire Date",
+    "sql": "SELECT * FROM employee_data ORDER BY hire_date ASC;",
+    "language": "en",
+    "table": "employee_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 283,
+    "prompt": "Display Sales From South Region",
+    "sql": "SELECT * FROM sales_data WHERE region = 'South';",
+    "language": "en",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 540,
+    "prompt": "Sabre Staff Ki List Nikalo",
+    "sql": "SELECT * FROM employee_data;",
+    "language": "hinglish",
+    "table": "employee_data",
+    "complexity": "basic"
+  },
+  {
+    "id": 3,
+    "prompt": "Get all sales data",
+    "sql": "SELECT * FROM sales_data;",
+    "language": "en",
+    "table": "sales_data",
+    "complexity": "basic"
+  },
+  {
+    "id": 105,
+    "prompt": "Count Complete Orders",
+    "sql": "SELECT COUNT(*) FROM sales_data;",
+    "language": "en",
+    "table": "sales_data",
+    "complexity": "basic"
+  },
+  {
+    "id": 263,
+    "prompt": "Count Complete Orders",
+    "sql": "SELECT COUNT(*) FROM sales_data;",
+    "language": "en",
+    "table": "sales_data",
+    "complexity": "basic"
+  },
+  {
+    "id": 204,
+    "prompt": "Nikalo Central Region Orders",
+    "sql": "SELECT * FROM sales_data WHERE region = 'Central';",
+    "language": "hinglish",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 52,
+    "prompt": "Show sales from South region",
+    "sql": "SELECT * FROM sales_data WHERE region = 'South';",
+    "language": "en",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 294,
+    "prompt": "Show Complete Finance Employees",
+    "sql": "SELECT * FROM employee_data WHERE department = 'Finance';",
+    "language": "en",
+    "table": "employee_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 240,
+    "prompt": "Get Orders Department Staff",
+    "sql": "SELECT * FROM employee_data WHERE department = 'Sales';",
+    "language": "en",
+    "table": "employee_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 109,
+    "prompt": "Show Orders From South Region",
+    "sql": "SELECT * FROM sales_data WHERE region = 'South';",
+    "language": "en",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 503,
+    "prompt": "Show Complete Sales Employees",
+    "sql": "SELECT * FROM employee_data WHERE department = 'Sales';",
+    "language": "en",
+    "table": "employee_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 482,
+    "prompt": "Dikhao All Sales Employees",
+    "sql": "SELECT * FROM employee_data WHERE department = 'Sales';",
+    "language": "hinglish",
+    "table": "employee_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 322,
+    "prompt": "Sabre Staff Ki List Nikalo",
+    "sql": "SELECT * FROM employee_data;",
+    "language": "hinglish",
+    "table": "employee_data",
+    "complexity": "basic"
+  },
+  {
+    "id": 58,
+    "prompt": "Show sales from West region",
+    "sql": "SELECT * FROM sales_data WHERE region = 'West';",
+    "language": "en",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 312,
+    "prompt": "Display All Hr Employees",
+    "sql": "SELECT * FROM employee_data WHERE department = 'HR';",
+    "language": "en",
+    "table": "employee_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 485,
+    "prompt": "Nikalo Sales Department Staff",
+    "sql": "SELECT * FROM employee_data WHERE department = 'Sales';",
+    "language": "hinglish",
+    "table": "employee_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 561,
+    "prompt": "Show Complete Hr Employees",
+    "sql": "SELECT * FROM employee_data WHERE department = 'HR';",
+    "language": "en",
+    "table": "employee_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 428,
+    "prompt": "Average Age Of Staff",
+    "sql": "SELECT AVG(age) FROM employee_data;",
+    "language": "en",
+    "table": "employee_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 369,
+    "prompt": "Show Orders From North Region",
+    "sql": "SELECT * FROM sales_data WHERE region = 'North';",
+    "language": "en",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 211,
+    "prompt": "Nikalo Finance Department Staff",
+    "sql": "SELECT * FROM employee_data WHERE department = 'Finance';",
+    "language": "hinglish",
+    "table": "employee_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 509,
+    "prompt": "Show Orders From West Region",
+    "sql": "SELECT * FROM sales_data WHERE region = 'West';",
+    "language": "en",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 414,
+    "prompt": "Staff Above 30 Years",
+    "sql": "SELECT * FROM employee_data WHERE age > 30;",
+    "language": "en",
+    "table": "employee_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 514,
+    "prompt": "Sabhi Orders Records Dikhao",
+    "sql": "SELECT * FROM sales_data;",
+    "language": "hinglish",
+    "table": "sales_data",
+    "complexity": "basic"
+  },
+  {
+    "id": 287,
+    "prompt": "Orders Records Ki Sankhya Batao",
+    "sql": "SELECT COUNT(*) FROM sales_data;",
+    "language": "hinglish",
+    "table": "sales_data",
+    "complexity": "basic"
+  },
+  {
+    "id": 359,
+    "prompt": "Show Complete Employees",
+    "sql": "SELECT * FROM employee_data;",
+    "language": "en",
+    "table": "employee_data",
+    "complexity": "basic"
+  },
+  {
+    "id": 569,
+    "prompt": "Nikalo All Sales Data",
+    "sql": "SELECT * FROM sales_data;",
+    "language": "hinglish",
+    "table": "sales_data",
+    "complexity": "basic"
+  },
+  {
+    "id": 408,
+    "prompt": "Display All Employees",
+    "sql": "SELECT * FROM employee_data;",
+    "language": "en",
+    "table": "employee_data",
+    "complexity": "basic"
+  },
+  {
+    "id": 548,
+    "prompt": "Region Wise Orders Count",
+    "sql": "SELECT region, COUNT(*) FROM sales_data GROUP BY region;",
+    "language": "en",
+    "table": "sales_data",
+    "complexity": "advanced"
+  },
+  {
+    "id": 34,
+    "prompt": "Orders from first week",
+    "sql": "SELECT * FROM sales_data WHERE sales_date BETWEEN '2024-01-01' AND '2024-01-07';",
+    "language": "en",
+    "table": "sales_data",
+    "complexity": "advanced"
+  },
+  {
+    "id": 549,
+    "prompt": "Orders Ka Saara Data Chahiye",
+    "sql": "SELECT * FROM sales_data;",
+    "language": "hinglish",
+    "table": "sales_data",
+    "complexity": "basic"
+  },
+  {
+    "id": 516,
+    "prompt": "50000 Se Zyada Salary Wale Staff",
+    "sql": "SELECT * FROM employee_data WHERE salary > 50000;",
+    "language": "hinglish",
+    "table": "employee_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 72,
+    "prompt": "Highest paid staff",
+    "sql": "SELECT * FROM employee_data ORDER BY salary DESC LIMIT 5;",
+    "language": "en",
+    "table": "employee_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 168,
+    "prompt": "Display Karo Employee Information",
+    "sql": "SELECT * FROM employee_data;",
+    "language": "hinglish",
+    "table": "employee_data",
+    "complexity": "basic"
+  },
+  {
+    "id": 1,
+    "prompt": "Show all sales records",
+    "sql": "SELECT * FROM sales_data;",
+    "language": "en",
+    "table": "sales_data",
+    "complexity": "basic"
+  },
+  {
+    "id": 531,
+    "prompt": "Nikalo Hr Department Staff",
+    "sql": "SELECT * FROM employee_data WHERE department = 'HR';",
+    "language": "hinglish",
+    "table": "employee_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 54,
+    "prompt": "South region ke orders dikhao",
+    "sql": "SELECT * FROM sales_data WHERE region = 'South';",
+    "language": "hinglish",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 555,
+    "prompt": "Get Complete Staff Details",
+    "sql": "SELECT * FROM employee_data;",
+    "language": "en",
+    "table": "employee_data",
+    "complexity": "basic"
+  },
+  {
+    "id": 266,
+    "prompt": "Show Complete Sales Employees",
+    "sql": "SELECT * FROM employee_data WHERE department = 'Sales';",
+    "language": "en",
+    "table": "employee_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 5,
+    "prompt": "Sabhi sales records dikhao",
+    "sql": "SELECT * FROM sales_data;",
+    "language": "hinglish",
+    "table": "sales_data",
+    "complexity": "basic"
+  },
+  {
+    "id": 361,
+    "prompt": "Count Complete Orders",
+    "sql": "SELECT COUNT(*) FROM sales_data;",
+    "language": "en",
+    "table": "sales_data",
+    "complexity": "basic"
+  },
+  {
+    "id": 200,
+    "prompt": "Dikhao Top 10 Highest Sales",
+    "sql": "SELECT * FROM sales_data ORDER BY total_amount DESC LIMIT 10;",
+    "language": "hinglish",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 130,
+    "prompt": "Show Orders From North Region",
+    "sql": "SELECT * FROM sales_data WHERE region = 'North';",
+    "language": "en",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 298,
+    "prompt": "Show Orders From East Region",
+    "sql": "SELECT * FROM sales_data WHERE region = 'East';",
+    "language": "en",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 343,
+    "prompt": "January Ke Orders Dikhao",
+    "sql": "SELECT * FROM sales_data WHERE sales_date LIKE '2024-01%';",
+    "language": "hinglish",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 32,
+    "prompt": "Price ke hisab se arrange karo",
+    "sql": "SELECT * FROM sales_data ORDER BY price ASC;",
+    "language": "hinglish",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 249,
+    "prompt": "Show Orders From West Region",
+    "sql": "SELECT * FROM sales_data WHERE region = 'West';",
+    "language": "en",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 305,
+    "prompt": "Show Orders From North Region",
+    "sql": "SELECT * FROM sales_data WHERE region = 'North';",
+    "language": "en",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 115,
+    "prompt": "Kul Orders Kitni Hai?",
+    "sql": "SELECT SUM(total_amount) FROM sales_data;",
+    "language": "hinglish",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 272,
+    "prompt": "Nikalo Electronics Orders",
+    "sql": "SELECT * FROM sales_data WHERE category = 'Electronics';",
+    "language": "hinglish",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 352,
+    "prompt": "Orders Department Ke Log Nikalo",
+    "sql": "SELECT * FROM employee_data WHERE department = 'Sales';",
+    "language": "hinglish",
+    "table": "employee_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 542,
+    "prompt": "Nikalo West Region Orders",
+    "sql": "SELECT * FROM sales_data WHERE region = 'West';",
+    "language": "hinglish",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 460,
+    "prompt": "Nikalo Sales Department Staff",
+    "sql": "SELECT * FROM employee_data WHERE department = 'Sales';",
+    "language": "hinglish",
+    "table": "employee_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 70,
+    "prompt": "High salary employees",
+    "sql": "SELECT * FROM employee_data WHERE salary > 55000;",
+    "language": "en",
+    "table": "employee_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 265,
+    "prompt": "Display All Sales Employees",
+    "sql": "SELECT * FROM employee_data WHERE department = 'Sales';",
+    "language": "en",
+    "table": "employee_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 334,
+    "prompt": "Show Complete Sales Records",
+    "sql": "SELECT * FROM sales_data;",
+    "language": "en",
+    "table": "sales_data",
+    "complexity": "basic"
+  },
+  {
+    "id": 61,
+    "prompt": "Show sales from Central region",
+    "sql": "SELECT * FROM sales_data WHERE region = 'Central';",
+    "language": "en",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 456,
+    "prompt": "Dikhao Top 10 Highest Sales",
+    "sql": "SELECT * FROM sales_data ORDER BY total_amount DESC LIMIT 10;",
+    "language": "hinglish",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 248,
+    "prompt": "Display Sales From West Region",
+    "sql": "SELECT * FROM sales_data WHERE region = 'West';",
+    "language": "en",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 374,
+    "prompt": "Sabhi Orders Records Dikhao",
+    "sql": "SELECT * FROM sales_data;",
+    "language": "hinglish",
+    "table": "sales_data",
+    "complexity": "basic"
+  },
+  {
+    "id": 425,
+    "prompt": "Count Complete Orders",
+    "sql": "SELECT COUNT(*) FROM sales_data;",
+    "language": "en",
+    "table": "sales_data",
+    "complexity": "basic"
+  },
+  {
+    "id": 590,
+    "prompt": "Nikalo Hr Department Staff",
+    "sql": "SELECT * FROM employee_data WHERE department = 'HR';",
+    "language": "hinglish",
+    "table": "employee_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 328,
+    "prompt": "Orders By Category",
+    "sql": "SELECT category, SUM(total_amount) FROM sales_data GROUP BY category;",
+    "language": "en",
+    "table": "sales_data",
+    "complexity": "advanced"
+  },
+  {
+    "id": 300,
+    "prompt": "Sabhi Orders Records Dikhao",
+    "sql": "SELECT * FROM sales_data;",
+    "language": "hinglish",
+    "table": "sales_data",
+    "complexity": "basic"
+  },
+  {
+    "id": 518,
+    "prompt": "Nikalo It Department Staff",
+    "sql": "SELECT * FROM employee_data WHERE department = 'IT';",
+    "language": "hinglish",
+    "table": "employee_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 458,
+    "prompt": "Show Top 10 Highest Orders",
+    "sql": "SELECT * FROM sales_data ORDER BY total_amount DESC LIMIT 10;",
+    "language": "en",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 159,
+    "prompt": "Display Sales From South Region",
+    "sql": "SELECT * FROM sales_data WHERE region = 'South';",
+    "language": "en",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 365,
+    "prompt": "Staff Above 30 Years",
+    "sql": "SELECT * FROM employee_data WHERE age > 30;",
+    "language": "en",
+    "table": "employee_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 393,
+    "prompt": "Dikhao Sales From East Region",
+    "sql": "SELECT * FROM sales_data WHERE region = 'East';",
+    "language": "hinglish",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 182,
+    "prompt": "Show Complete Accessories Sales",
+    "sql": "SELECT * FROM sales_data WHERE category = 'Accessories';",
+    "language": "en",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 534,
+    "prompt": "Show Complete It Employees",
+    "sql": "SELECT * FROM employee_data WHERE department = 'IT';",
+    "language": "en",
+    "table": "employee_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 64,
+    "prompt": "Show all employees",
+    "sql": "SELECT * FROM employee_data;",
+    "language": "en",
+    "table": "employee_data",
+    "complexity": "basic"
+  },
+  {
+    "id": 308,
+    "prompt": "Dikhao Me The Sales Table",
+    "sql": "SELECT * FROM sales_data;",
+    "language": "hinglish",
+    "table": "sales_data",
+    "complexity": "basic"
+  },
+  {
+    "id": 90,
+    "prompt": "Get IT department staff",
+    "sql": "SELECT * FROM employee_data WHERE department = 'IT';",
+    "language": "en",
+    "table": "employee_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 539,
+    "prompt": "Show Complete Hr Employees",
+    "sql": "SELECT * FROM employee_data WHERE department = 'HR';",
+    "language": "en",
+    "table": "employee_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 587,
+    "prompt": "Show Complete Accessories Sales",
+    "sql": "SELECT * FROM sales_data WHERE category = 'Accessories';",
+    "language": "en",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 198,
+    "prompt": "Highest Orders Amount",
+    "sql": "SELECT MAX(total_amount) FROM sales_data;",
+    "language": "en",
+    "table": "sales_data",
+    "complexity": "basic"
+  },
+  {
+    "id": 114,
+    "prompt": "Young Staff Under 28",
+    "sql": "SELECT * FROM employee_data WHERE age < 28;",
+    "language": "en",
+    "table": "employee_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 234,
+    "prompt": "Display Sales From Central Region",
+    "sql": "SELECT * FROM sales_data WHERE region = 'Central';",
+    "language": "en",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 301,
+    "prompt": "Nikalo All Staff Details",
+    "sql": "SELECT * FROM employee_data;",
+    "language": "hinglish",
+    "table": "employee_data",
+    "complexity": "basic"
+  },
+  {
+    "id": 450,
+    "prompt": "Display All Finance Employees",
+    "sql": "SELECT * FROM employee_data WHERE department = 'Finance';",
+    "language": "en",
+    "table": "employee_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 541,
+    "prompt": "Total Staff Count",
+    "sql": "SELECT COUNT(*) FROM employee_data;",
+    "language": "en",
+    "table": "employee_data",
+    "complexity": "basic"
+  },
+  {
+    "id": 91,
+    "prompt": "IT department ke log nikalo",
+    "sql": "SELECT * FROM employee_data WHERE department = 'IT';",
+    "language": "hinglish",
+    "table": "employee_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 146,
+    "prompt": "Show Complete Sales Employees",
+    "sql": "SELECT * FROM employee_data WHERE department = 'Sales';",
+    "language": "en",
+    "table": "employee_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 303,
+    "prompt": "Dikhao Sales From North Region",
+    "sql": "SELECT * FROM sales_data WHERE region = 'North';",
+    "language": "hinglish",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 416,
+    "prompt": "Nikalo All Staff Details",
+    "sql": "SELECT * FROM employee_data;",
+    "language": "hinglish",
+    "table": "employee_data",
+    "complexity": "basic"
+  },
+  {
+    "id": 439,
+    "prompt": "Category Wise Total Orders",
+    "sql": "SELECT category, COUNT(*) FROM sales_data GROUP BY category;",
+    "language": "en",
+    "table": "sales_data",
+    "complexity": "advanced"
+  },
+  {
+    "id": 92,
+    "prompt": "Show all HR employees",
+    "sql": "SELECT * FROM employee_data WHERE department = 'HR';",
+    "language": "en",
+    "table": "employee_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 25,
+    "prompt": "Region wise sales count",
+    "sql": "SELECT region, COUNT(*) FROM sales_data GROUP BY region;",
+    "language": "en",
+    "table": "sales_data",
+    "complexity": "advanced"
+  },
+  {
+    "id": 206,
+    "prompt": "Nikalo Sales Department Staff",
+    "sql": "SELECT * FROM employee_data WHERE department = 'Sales';",
+    "language": "hinglish",
+    "table": "employee_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 506,
+    "prompt": "Get Orders Department Staff",
+    "sql": "SELECT * FROM employee_data WHERE department = 'Sales';",
+    "language": "en",
+    "table": "employee_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 112,
+    "prompt": "30 Saal Se Zyada Age Ke Staff",
+    "sql": "SELECT * FROM employee_data WHERE age > 30;",
+    "language": "hinglish",
+    "table": "employee_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 600,
+    "prompt": "Display Sales From North Region",
+    "sql": "SELECT * FROM sales_data WHERE region = 'North';",
+    "language": "en",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 193,
+    "prompt": "Dikhao Me The Sales Table",
+    "sql": "SELECT * FROM sales_data;",
+    "language": "hinglish",
+    "table": "sales_data",
+    "complexity": "basic"
+  },
+  {
+    "id": 440,
+    "prompt": "30 Saal Se Zyada Age Ke Staff",
+    "sql": "SELECT * FROM employee_data WHERE age > 30;",
+    "language": "hinglish",
+    "table": "employee_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 337,
+    "prompt": "Get Orders Department Staff",
+    "sql": "SELECT * FROM employee_data WHERE department = 'Sales';",
+    "language": "en",
+    "table": "employee_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 327,
+    "prompt": "Orders By Category",
+    "sql": "SELECT category, SUM(total_amount) FROM sales_data GROUP BY category;",
+    "language": "en",
+    "table": "sales_data",
+    "complexity": "advanced"
+  },
+  {
+    "id": 255,
+    "prompt": "Show Me The Orders Table",
+    "sql": "SELECT * FROM sales_data;",
+    "language": "en",
+    "table": "sales_data",
+    "complexity": "basic"
+  },
+  {
+    "id": 28,
+    "prompt": "Show top 10 highest sales",
+    "sql": "SELECT * FROM sales_data ORDER BY total_amount DESC LIMIT 10;",
+    "language": "en",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 497,
+    "prompt": "Dikhao Sales From East Region",
+    "sql": "SELECT * FROM sales_data WHERE region = 'East';",
+    "language": "hinglish",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 273,
+    "prompt": "Staff Hired In 2020",
+    "sql": "SELECT * FROM employee_data WHERE hire_date LIKE '2020%';",
+    "language": "en",
+    "table": "employee_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 213,
+    "prompt": "Average Age Of Staff",
+    "sql": "SELECT AVG(age) FROM employee_data;",
+    "language": "en",
+    "table": "employee_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 505,
+    "prompt": "Nikalo Sales Department Staff",
+    "sql": "SELECT * FROM employee_data WHERE department = 'Sales';",
+    "language": "hinglish",
+    "table": "employee_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 242,
+    "prompt": "Dikhao Sales From South Region",
+    "sql": "SELECT * FROM sales_data WHERE region = 'South';",
+    "language": "hinglish",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 572,
+    "prompt": "Sabse Zyada Orders Kitni Hai?",
+    "sql": "SELECT MAX(total_amount) FROM sales_data;",
+    "language": "hinglish",
+    "table": "sales_data",
+    "complexity": "basic"
+  },
+  {
+    "id": 40,
+    "prompt": "North region ke expensive products",
+    "sql": "SELECT * FROM sales_data WHERE region = 'North' AND price > 500;",
+    "language": "hinglish",
+    "table": "sales_data",
+    "complexity": "advanced"
+  },
+  {
+    "id": 504,
+    "prompt": "Nikalo Hr Department Staff",
+    "sql": "SELECT * FROM employee_data WHERE department = 'HR';",
+    "language": "hinglish",
+    "table": "employee_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 100,
+    "prompt": "Sales department ke log nikalo",
+    "sql": "SELECT * FROM employee_data WHERE department = 'Sales';",
+    "language": "hinglish",
+    "table": "employee_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 434,
+    "prompt": "Show Orders From West Region",
+    "sql": "SELECT * FROM sales_data WHERE region = 'West';",
+    "language": "en",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 489,
+    "prompt": "Show Complete Accessories Sales",
+    "sql": "SELECT * FROM sales_data WHERE category = 'Accessories';",
+    "language": "en",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 311,
+    "prompt": "Dikhao All Hr Employees",
+    "sql": "SELECT * FROM employee_data WHERE department = 'HR';",
+    "language": "hinglish",
+    "table": "employee_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 220,
+    "prompt": "Dikhao Sales From South Region",
+    "sql": "SELECT * FROM sales_data WHERE region = 'South';",
+    "language": "hinglish",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 594,
+    "prompt": "Nikalo All Staff Details",
+    "sql": "SELECT * FROM employee_data;",
+    "language": "hinglish",
+    "table": "employee_data",
+    "complexity": "basic"
+  },
+  {
+    "id": 552,
+    "prompt": "Nikalo All Staff Details",
+    "sql": "SELECT * FROM employee_data;",
+    "language": "hinglish",
+    "table": "employee_data",
+    "complexity": "basic"
+  },
+  {
+    "id": 224,
+    "prompt": "Dikhao All Employees",
+    "sql": "SELECT * FROM employee_data;",
+    "language": "hinglish",
+    "table": "employee_data",
+    "complexity": "basic"
+  },
+  {
+    "id": 462,
+    "prompt": "Kya Hai The Average Order Value?",
+    "sql": "SELECT AVG(total_amount) FROM sales_data;",
+    "language": "hinglish",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 404,
+    "prompt": "High Salary Staff",
+    "sql": "SELECT * FROM employee_data WHERE salary > 55000;",
+    "language": "en",
+    "table": "employee_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 550,
+    "prompt": "Orders Records Ki Sankhya Batao",
+    "sql": "SELECT COUNT(*) FROM sales_data;",
+    "language": "hinglish",
+    "table": "sales_data",
+    "complexity": "basic"
+  },
+  {
+    "id": 342,
+    "prompt": "North Region Electronics Orders",
+    "sql": "SELECT * FROM sales_data WHERE region = 'North' AND category = 'Electronics';",
+    "language": "en",
+    "table": "sales_data",
+    "complexity": "advanced"
+  },
+  {
+    "id": 77,
+    "prompt": "Highest salary amount",
+    "sql": "SELECT MAX(salary) FROM employee_data;",
+    "language": "en",
+    "table": "employee_data",
+    "complexity": "basic"
+  },
+  {
+    "id": 492,
+    "prompt": "Young Staff Under 28",
+    "sql": "SELECT * FROM employee_data WHERE age < 28;",
+    "language": "en",
+    "table": "employee_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 332,
+    "prompt": "Dikhao All Sales Records",
+    "sql": "SELECT * FROM sales_data;",
+    "language": "hinglish",
+    "table": "sales_data",
+    "complexity": "basic"
+  },
+  {
+    "id": 142,
+    "prompt": "Count Saare Orders",
+    "sql": "SELECT COUNT(*) FROM sales_data;",
+    "language": "hinglish",
+    "table": "sales_data",
+    "complexity": "basic"
+  },
+  {
+    "id": 252,
+    "prompt": "Orders Department Ke Log Nikalo",
+    "sql": "SELECT * FROM employee_data WHERE department = 'Sales';",
+    "language": "hinglish",
+    "table": "employee_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 385,
+    "prompt": "Highest Orders Amount",
+    "sql": "SELECT MAX(total_amount) FROM sales_data;",
+    "language": "en",
+    "table": "sales_data",
+    "complexity": "basic"
+  },
+  {
+    "id": 401,
+    "prompt": "Dikhao Sales From North Region",
+    "sql": "SELECT * FROM sales_data WHERE region = 'North';",
+    "language": "hinglish",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 422,
+    "prompt": "Nikalo North Region Orders",
+    "sql": "SELECT * FROM sales_data WHERE region = 'North';",
+    "language": "hinglish",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 188,
+    "prompt": "Show Orders From East Region",
+    "sql": "SELECT * FROM sales_data WHERE region = 'East';",
+    "language": "en",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 390,
+    "prompt": "Nikalo Sales Department Staff",
+    "sql": "SELECT * FROM employee_data WHERE department = 'Sales';",
+    "language": "hinglish",
+    "table": "employee_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 432,
+    "prompt": "Dikhao Sales From West Region",
+    "sql": "SELECT * FROM sales_data WHERE region = 'West';",
+    "language": "hinglish",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 11,
+    "prompt": "Kitne total orders hain?",
+    "sql": "SELECT COUNT(*) FROM sales_data;",
+    "language": "hinglish",
+    "table": "sales_data",
+    "complexity": "basic"
+  },
+  {
+    "id": 227,
+    "prompt": "Dikhao All Accessories Sales",
+    "sql": "SELECT * FROM sales_data WHERE category = 'Accessories';",
+    "language": "hinglish",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 407,
+    "prompt": "Dikhao All Employees",
+    "sql": "SELECT * FROM employee_data;",
+    "language": "hinglish",
+    "table": "employee_data",
+    "complexity": "basic"
+  },
+  {
+    "id": 525,
+    "prompt": "Display Top 10 Highest Sales",
+    "sql": "SELECT * FROM sales_data ORDER BY total_amount DESC LIMIT 10;",
+    "language": "en",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 155,
+    "prompt": "Sabse Zyada Orders Wale Orders Dikhao",
+    "sql": "SELECT * FROM sales_data ORDER BY total_amount DESC LIMIT 10;",
+    "language": "hinglish",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 274,
+    "prompt": "Nikalo Sales Department Staff",
+    "sql": "SELECT * FROM employee_data WHERE department = 'Sales';",
+    "language": "hinglish",
+    "table": "employee_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 454,
+    "prompt": "Staff Hired In 2020",
+    "sql": "SELECT * FROM employee_data WHERE hire_date LIKE '2020%';",
+    "language": "en",
+    "table": "employee_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 97,
+    "prompt": "Finance department ke log nikalo",
+    "sql": "SELECT * FROM employee_data WHERE department = 'Finance';",
+    "language": "hinglish",
+    "table": "employee_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 253,
+    "prompt": "Dikhao Me The Sales Table",
+    "sql": "SELECT * FROM sales_data;",
+    "language": "hinglish",
+    "table": "sales_data",
+    "complexity": "basic"
+  },
+  {
+    "id": 55,
+    "prompt": "Show sales from East region",
+    "sql": "SELECT * FROM sales_data WHERE region = 'East';",
+    "language": "en",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 122,
+    "prompt": "Get Orders Department Staff",
+    "sql": "SELECT * FROM employee_data WHERE department = 'Sales';",
+    "language": "en",
+    "table": "employee_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 488,
+    "prompt": "Display All Accessories Sales",
+    "sql": "SELECT * FROM sales_data WHERE category = 'Accessories';",
+    "language": "en",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 302,
+    "prompt": "Get Complete Staff Details",
+    "sql": "SELECT * FROM employee_data;",
+    "language": "en",
+    "table": "employee_data",
+    "complexity": "basic"
+  },
+  {
+    "id": 65,
+    "prompt": "Display employee information",
+    "sql": "SELECT * FROM employee_data;",
+    "language": "en",
+    "table": "employee_data",
+    "complexity": "basic"
+  },
+  {
+    "id": 586,
+    "prompt": "Display All Accessories Sales",
+    "sql": "SELECT * FROM sales_data WHERE category = 'Accessories';",
+    "language": "en",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 512,
+    "prompt": "Show Complete Accessories Sales",
+    "sql": "SELECT * FROM sales_data WHERE category = 'Accessories';",
+    "language": "en",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 196,
+    "prompt": "Nikalo Sales Department Staff",
+    "sql": "SELECT * FROM employee_data WHERE department = 'Sales';",
+    "language": "hinglish",
+    "table": "employee_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 178,
+    "prompt": "Display Sales From Central Region",
+    "sql": "SELECT * FROM sales_data WHERE region = 'Central';",
+    "language": "en",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 412,
+    "prompt": "Show Complete Hr Employees",
+    "sql": "SELECT * FROM employee_data WHERE department = 'HR';",
+    "language": "en",
+    "table": "employee_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 304,
+    "prompt": "Display Sales From North Region",
+    "sql": "SELECT * FROM sales_data WHERE region = 'North';",
+    "language": "en",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 451,
+    "prompt": "Show Complete Finance Employees",
+    "sql": "SELECT * FROM employee_data WHERE department = 'Finance';",
+    "language": "en",
+    "table": "employee_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 490,
+    "prompt": "Kya Hai The Average Order Value?",
+    "sql": "SELECT AVG(total_amount) FROM sales_data;",
+    "language": "hinglish",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 163,
+    "prompt": "Young Staff Under 28",
+    "sql": "SELECT * FROM employee_data WHERE age < 28;",
+    "language": "en",
+    "table": "employee_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 517,
+    "prompt": "Kya Hai The Average Order Value?",
+    "sql": "SELECT AVG(total_amount) FROM sales_data;",
+    "language": "hinglish",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 565,
+    "prompt": "Display All Finance Employees",
+    "sql": "SELECT * FROM employee_data WHERE department = 'Finance';",
+    "language": "en",
+    "table": "employee_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 108,
+    "prompt": "Display Sales From South Region",
+    "sql": "SELECT * FROM sales_data WHERE region = 'South';",
+    "language": "en",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 473,
+    "prompt": "Count Saare Orders",
+    "sql": "SELECT COUNT(*) FROM sales_data;",
+    "language": "hinglish",
+    "table": "sales_data",
+    "complexity": "basic"
+  },
+  {
+    "id": 310,
+    "prompt": "Show Me The Orders Table",
+    "sql": "SELECT * FROM sales_data;",
+    "language": "en",
+    "table": "sales_data",
+    "complexity": "basic"
+  },
+  {
+    "id": 43,
+    "prompt": "Electronics ke saare orders nikalo",
+    "sql": "SELECT * FROM sales_data WHERE category = 'Electronics';",
+    "language": "hinglish",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 443,
+    "prompt": "Display All Electronics Sales",
+    "sql": "SELECT * FROM sales_data WHERE category = 'Electronics';",
+    "language": "en",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 491,
+    "prompt": "What Is The Total Orders Amount?",
+    "sql": "SELECT SUM(total_amount) FROM sales_data;",
+    "language": "en",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 520,
+    "prompt": "Dikhao Sales From West Region",
+    "sql": "SELECT * FROM sales_data WHERE region = 'West';",
+    "language": "hinglish",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 17,
+    "prompt": "Average price per order",
+    "sql": "SELECT AVG(price) FROM sales_data;",
+    "language": "en",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 241,
+    "prompt": "Staff Above 30 Years",
+    "sql": "SELECT * FROM employee_data WHERE age > 30;",
+    "language": "en",
+    "table": "employee_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 191,
+    "prompt": "Category Wise Total Orders",
+    "sql": "SELECT category, COUNT(*) FROM sales_data GROUP BY category;",
+    "language": "en",
+    "table": "sales_data",
+    "complexity": "advanced"
+  },
+  {
+    "id": 167,
+    "prompt": "Staff Hired In 2020",
+    "sql": "SELECT * FROM employee_data WHERE hire_date LIKE '2020%';",
+    "language": "en",
+    "table": "employee_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 339,
+    "prompt": "Nikalo East Region Orders",
+    "sql": "SELECT * FROM sales_data WHERE region = 'East';",
+    "language": "hinglish",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  },
+  {
+    "id": 477,
+    "prompt": "Orders Records Ki Sankhya Batao",
+    "sql": "SELECT COUNT(*) FROM sales_data;",
+    "language": "hinglish",
+    "table": "sales_data",
+    "complexity": "basic"
+  },
+  {
+    "id": 210,
+    "prompt": "January Ke Orders Dikhao",
+    "sql": "SELECT * FROM sales_data WHERE sales_date LIKE '2024-01%';",
+    "language": "hinglish",
+    "table": "sales_data",
+    "complexity": "intermediate"
+  }
+]
