@@ -1,0 +1,127 @@
+violation_id,cafe_id,timestamp,region,violation_type,severity,threshold,actual_value,details
+1,CAFE_DELHI_001,2025-03-03T23:00:00,kitchen,Kitchen Movement in Off Hours,Medium,No kitchen presence before 07:00 or after 23:00,3 workers detected,Detected movement in kitchen during off-hours.
+2,CAFE_DELHI_001,2025-03-04T23:00:00,kitchen,Kitchen Movement in Off Hours,Medium,No kitchen presence before 07:00 or after 23:00,3 workers detected,Detected movement in kitchen during off-hours.
+3,CAFE_DELHI_001,2025-03-05T03:00:00,kitchen,Kitchen Movement in Off Hours,Medium,No kitchen presence before 07:00 or after 23:00,1 workers detected,Detected movement in kitchen during off-hours.
+4,CAFE_DELHI_001,2025-03-05T23:00:00,kitchen,Kitchen Movement in Off Hours,Medium,No kitchen presence before 07:00 or after 23:00,4 workers detected,Detected movement in kitchen during off-hours.
+5,CAFE_DELHI_001,2025-03-06T23:00:00,kitchen,Kitchen Movement in Off Hours,Medium,No kitchen presence before 07:00 or after 23:00,1 workers detected,Detected movement in kitchen during off-hours.
+6,CAFE_DELHI_001,2025-03-07T23:00:00,kitchen,Kitchen Movement in Off Hours,Medium,No kitchen presence before 07:00 or after 23:00,5 workers detected,Detected movement in kitchen during off-hours.
+7,CAFE_DELHI_001,2025-03-08T23:00:00,kitchen,Kitchen Movement in Off Hours,Medium,No kitchen presence before 07:00 or after 23:00,2 workers detected,Detected movement in kitchen during off-hours.
+8,CAFE_DELHI_001,2025-03-09T23:00:00,kitchen,Kitchen Movement in Off Hours,Medium,No kitchen presence before 07:00 or after 23:00,5 workers detected,Detected movement in kitchen during off-hours.
+9,CAFE_DELHI_001,2025-03-03T09:00:00,lobby,Queue Too Long,Medium,Queue length < 8,Max queue = 8,Customer queue length exceeded acceptable threshold.
+10,CAFE_DELHI_001,2025-03-03T12:00:00,lobby,Queue Too Long,Medium,Queue length < 8,Max queue = 11,Customer queue length exceeded acceptable threshold.
+11,CAFE_DELHI_001,2025-03-03T12:00:00,lobby,No Empty Tables,Medium,At least 1 table free,Occupancy 100.0%,All tables occupied; potential service bottleneck.
+12,CAFE_DELHI_001,2025-03-03T13:00:00,lobby,Queue Too Long,Medium,Queue length < 8,Max queue = 10,Customer queue length exceeded acceptable threshold.
+13,CAFE_DELHI_001,2025-03-03T14:00:00,lobby,No Empty Tables,Medium,At least 1 table free,Occupancy 100.0%,All tables occupied; potential service bottleneck.
+14,CAFE_DELHI_001,2025-03-03T15:00:00,lobby,No Empty Tables,Medium,At least 1 table free,Occupancy 100.0%,All tables occupied; potential service bottleneck.
+15,CAFE_DELHI_001,2025-03-03T19:00:00,lobby,Queue Too Long,Medium,Queue length < 8,Max queue = 8,Customer queue length exceeded acceptable threshold.
+16,CAFE_DELHI_001,2025-03-03T20:00:00,lobby,No Empty Tables,Medium,At least 1 table free,Occupancy 100.0%,All tables occupied; potential service bottleneck.
+17,CAFE_DELHI_001,2025-03-03T22:00:00,lobby,Queue Too Long,Medium,Queue length < 8,Max queue = 9,Customer queue length exceeded acceptable threshold.
+18,CAFE_DELHI_001,2025-03-03T22:00:00,lobby,No Empty Tables,Medium,At least 1 table free,Occupancy 100.0%,All tables occupied; potential service bottleneck.
+19,CAFE_DELHI_001,2025-03-04T12:00:00,lobby,Queue Too Long,Medium,Queue length < 8,Max queue = 10,Customer queue length exceeded acceptable threshold.
+20,CAFE_DELHI_001,2025-03-04T12:00:00,lobby,No Empty Tables,Medium,At least 1 table free,Occupancy 100.0%,All tables occupied; potential service bottleneck.
+21,CAFE_DELHI_001,2025-03-04T13:00:00,lobby,Queue Too Long,Medium,Queue length < 8,Max queue = 9,Customer queue length exceeded acceptable threshold.
+22,CAFE_DELHI_001,2025-03-04T14:00:00,lobby,No Empty Tables,Medium,At least 1 table free,Occupancy 100.0%,All tables occupied; potential service bottleneck.
+23,CAFE_DELHI_001,2025-03-04T15:00:00,lobby,Queue Too Long,Medium,Queue length < 8,Max queue = 8,Customer queue length exceeded acceptable threshold.
+24,CAFE_DELHI_001,2025-03-04T15:00:00,lobby,No Empty Tables,Medium,At least 1 table free,Occupancy 100.0%,All tables occupied; potential service bottleneck.
+25,CAFE_DELHI_001,2025-03-04T19:00:00,lobby,No Empty Tables,Medium,At least 1 table free,Occupancy 100.0%,All tables occupied; potential service bottleneck.
+26,CAFE_DELHI_001,2025-03-04T21:00:00,lobby,No Empty Tables,Medium,At least 1 table free,Occupancy 100.0%,All tables occupied; potential service bottleneck.
+27,CAFE_DELHI_001,2025-03-04T22:00:00,lobby,No Empty Tables,Medium,At least 1 table free,Occupancy 100.0%,All tables occupied; potential service bottleneck.
+28,CAFE_DELHI_001,2025-03-05T09:00:00,lobby,Queue Too Long,Medium,Queue length < 8,Max queue = 11,Customer queue length exceeded acceptable threshold.
+29,CAFE_DELHI_001,2025-03-05T11:00:00,lobby,Queue Too Long,Medium,Queue length < 8,Max queue = 8,Customer queue length exceeded acceptable threshold.
+30,CAFE_DELHI_001,2025-03-05T12:00:00,lobby,Queue Too Long,Medium,Queue length < 8,Max queue = 10,Customer queue length exceeded acceptable threshold.
+31,CAFE_DELHI_001,2025-03-05T12:00:00,lobby,No Empty Tables,Medium,At least 1 table free,Occupancy 100.0%,All tables occupied; potential service bottleneck.
+32,CAFE_DELHI_001,2025-03-05T13:00:00,lobby,No Empty Tables,Medium,At least 1 table free,Occupancy 100.0%,All tables occupied; potential service bottleneck.
+33,CAFE_DELHI_001,2025-03-05T15:00:00,lobby,Queue Too Long,Medium,Queue length < 8,Max queue = 9,Customer queue length exceeded acceptable threshold.
+34,CAFE_DELHI_001,2025-03-05T15:00:00,lobby,No Empty Tables,Medium,At least 1 table free,Occupancy 100.0%,All tables occupied; potential service bottleneck.
+35,CAFE_DELHI_001,2025-03-05T16:00:00,lobby,Queue Too Long,Medium,Queue length < 8,Max queue = 8,Customer queue length exceeded acceptable threshold.
+36,CAFE_DELHI_001,2025-03-05T22:00:00,lobby,Queue Too Long,Medium,Queue length < 8,Max queue = 10,Customer queue length exceeded acceptable threshold.
+37,CAFE_DELHI_001,2025-03-06T11:00:00,lobby,Queue Too Long,Medium,Queue length < 8,Max queue = 9,Customer queue length exceeded acceptable threshold.
+38,CAFE_DELHI_001,2025-03-06T13:00:00,lobby,Queue Too Long,High,Queue length < 8,Max queue = 12,Customer queue length exceeded acceptable threshold.
+39,CAFE_DELHI_001,2025-03-06T13:00:00,lobby,No Empty Tables,Medium,At least 1 table free,Occupancy 100.0%,All tables occupied; potential service bottleneck.
+40,CAFE_DELHI_001,2025-03-06T15:00:00,lobby,No Empty Tables,Medium,At least 1 table free,Occupancy 100.0%,All tables occupied; potential service bottleneck.
+41,CAFE_DELHI_001,2025-03-06T19:00:00,lobby,Queue Too Long,Medium,Queue length < 8,Max queue = 9,Customer queue length exceeded acceptable threshold.
+42,CAFE_DELHI_001,2025-03-06T20:00:00,lobby,Queue Too Long,Medium,Queue length < 8,Max queue = 9,Customer queue length exceeded acceptable threshold.
+43,CAFE_DELHI_001,2025-03-06T22:00:00,lobby,Queue Too Long,Medium,Queue length < 8,Max queue = 9,Customer queue length exceeded acceptable threshold.
+44,CAFE_DELHI_001,2025-03-07T12:00:00,lobby,No Empty Tables,Medium,At least 1 table free,Occupancy 100.0%,All tables occupied; potential service bottleneck.
+45,CAFE_DELHI_001,2025-03-07T13:00:00,lobby,Queue Too Long,Medium,Queue length < 8,Max queue = 8,Customer queue length exceeded acceptable threshold.
+46,CAFE_DELHI_001,2025-03-07T14:00:00,lobby,Queue Too Long,Medium,Queue length < 8,Max queue = 11,Customer queue length exceeded acceptable threshold.
+47,CAFE_DELHI_001,2025-03-07T15:00:00,lobby,Queue Too Long,Medium,Queue length < 8,Max queue = 9,Customer queue length exceeded acceptable threshold.
+48,CAFE_DELHI_001,2025-03-07T15:00:00,lobby,No Empty Tables,Medium,At least 1 table free,Occupancy 100.0%,All tables occupied; potential service bottleneck.
+49,CAFE_DELHI_001,2025-03-07T19:00:00,lobby,Queue Too Long,Medium,Queue length < 8,Max queue = 9,Customer queue length exceeded acceptable threshold.
+50,CAFE_DELHI_001,2025-03-07T21:00:00,lobby,Queue Too Long,Medium,Queue length < 8,Max queue = 9,Customer queue length exceeded acceptable threshold.
+51,CAFE_DELHI_001,2025-03-07T22:00:00,lobby,Queue Too Long,Medium,Queue length < 8,Max queue = 9,Customer queue length exceeded acceptable threshold.
+52,CAFE_DELHI_001,2025-03-07T22:00:00,lobby,No Empty Tables,Medium,At least 1 table free,Occupancy 100.0%,All tables occupied; potential service bottleneck.
+53,CAFE_DELHI_001,2025-03-08T12:00:00,lobby,Queue Too Long,High,Queue length < 8,Max queue = 16,Customer queue length exceeded acceptable threshold.
+54,CAFE_DELHI_001,2025-03-08T12:00:00,lobby,No Empty Tables,Medium,At least 1 table free,Occupancy 100.0%,All tables occupied; potential service bottleneck.
+55,CAFE_DELHI_001,2025-03-08T13:00:00,lobby,Queue Too Long,Medium,Queue length < 8,Max queue = 9,Customer queue length exceeded acceptable threshold.
+56,CAFE_DELHI_001,2025-03-08T13:00:00,lobby,No Empty Tables,Medium,At least 1 table free,Occupancy 100.0%,All tables occupied; potential service bottleneck.
+57,CAFE_DELHI_001,2025-03-08T14:00:00,lobby,Queue Too Long,High,Queue length < 8,Max queue = 12,Customer queue length exceeded acceptable threshold.
+58,CAFE_DELHI_001,2025-03-08T14:00:00,lobby,No Empty Tables,Medium,At least 1 table free,Occupancy 100.0%,All tables occupied; potential service bottleneck.
+59,CAFE_DELHI_001,2025-03-08T15:00:00,lobby,Queue Too Long,High,Queue length < 8,Max queue = 20,Customer queue length exceeded acceptable threshold.
+60,CAFE_DELHI_001,2025-03-08T15:00:00,lobby,No Empty Tables,Medium,At least 1 table free,Occupancy 100.0%,All tables occupied; potential service bottleneck.
+61,CAFE_DELHI_001,2025-03-08T16:00:00,lobby,Queue Too Long,Medium,Queue length < 8,Max queue = 10,Customer queue length exceeded acceptable threshold.
+62,CAFE_DELHI_001,2025-03-08T19:00:00,lobby,No Empty Tables,Medium,At least 1 table free,Occupancy 100.0%,All tables occupied; potential service bottleneck.
+63,CAFE_DELHI_001,2025-03-08T20:00:00,lobby,Queue Too Long,Medium,Queue length < 8,Max queue = 9,Customer queue length exceeded acceptable threshold.
+64,CAFE_DELHI_001,2025-03-08T20:00:00,lobby,No Empty Tables,Medium,At least 1 table free,Occupancy 100.0%,All tables occupied; potential service bottleneck.
+65,CAFE_DELHI_001,2025-03-08T21:00:00,lobby,Queue Too Long,Medium,Queue length < 8,Max queue = 8,Customer queue length exceeded acceptable threshold.
+66,CAFE_DELHI_001,2025-03-08T21:00:00,lobby,No Empty Tables,Medium,At least 1 table free,Occupancy 100.0%,All tables occupied; potential service bottleneck.
+67,CAFE_DELHI_001,2025-03-08T22:00:00,lobby,Queue Too Long,High,Queue length < 8,Max queue = 12,Customer queue length exceeded acceptable threshold.
+68,CAFE_DELHI_001,2025-03-08T22:00:00,lobby,No Empty Tables,Medium,At least 1 table free,Occupancy 100.0%,All tables occupied; potential service bottleneck.
+69,CAFE_DELHI_001,2025-03-09T09:00:00,lobby,Queue Too Long,Medium,Queue length < 8,Max queue = 9,Customer queue length exceeded acceptable threshold.
+70,CAFE_DELHI_001,2025-03-09T12:00:00,lobby,Queue Too Long,High,Queue length < 8,Max queue = 14,Customer queue length exceeded acceptable threshold.
+71,CAFE_DELHI_001,2025-03-09T12:00:00,lobby,No Empty Tables,Medium,At least 1 table free,Occupancy 100.0%,All tables occupied; potential service bottleneck.
+72,CAFE_DELHI_001,2025-03-09T13:00:00,lobby,Queue Too Long,High,Queue length < 8,Max queue = 14,Customer queue length exceeded acceptable threshold.
+73,CAFE_DELHI_001,2025-03-09T13:00:00,lobby,No Empty Tables,Medium,At least 1 table free,Occupancy 100.0%,All tables occupied; potential service bottleneck.
+74,CAFE_DELHI_001,2025-03-09T14:00:00,lobby,Queue Too Long,Medium,Queue length < 8,Max queue = 11,Customer queue length exceeded acceptable threshold.
+75,CAFE_DELHI_001,2025-03-09T14:00:00,lobby,No Empty Tables,Medium,At least 1 table free,Occupancy 100.0%,All tables occupied; potential service bottleneck.
+76,CAFE_DELHI_001,2025-03-09T15:00:00,lobby,Queue Too Long,Medium,Queue length < 8,Max queue = 10,Customer queue length exceeded acceptable threshold.
+77,CAFE_DELHI_001,2025-03-09T15:00:00,lobby,No Empty Tables,Medium,At least 1 table free,Occupancy 100.0%,All tables occupied; potential service bottleneck.
+78,CAFE_DELHI_001,2025-03-09T19:00:00,lobby,Queue Too Long,Medium,Queue length < 8,Max queue = 8,Customer queue length exceeded acceptable threshold.
+79,CAFE_DELHI_001,2025-03-09T19:00:00,lobby,No Empty Tables,Medium,At least 1 table free,Occupancy 100.0%,All tables occupied; potential service bottleneck.
+80,CAFE_DELHI_001,2025-03-09T20:00:00,lobby,Queue Too Long,Medium,Queue length < 8,Max queue = 8,Customer queue length exceeded acceptable threshold.
+81,CAFE_DELHI_001,2025-03-09T20:00:00,lobby,No Empty Tables,Medium,At least 1 table free,Occupancy 100.0%,All tables occupied; potential service bottleneck.
+82,CAFE_DELHI_001,2025-03-09T21:00:00,lobby,Queue Too Long,High,Queue length < 8,Max queue = 14,Customer queue length exceeded acceptable threshold.
+83,CAFE_DELHI_001,2025-03-09T21:00:00,lobby,No Empty Tables,Medium,At least 1 table free,Occupancy 100.0%,All tables occupied; potential service bottleneck.
+84,CAFE_DELHI_001,2025-03-09T22:00:00,lobby,Queue Too Long,Medium,Queue length < 8,Max queue = 8,Customer queue length exceeded acceptable threshold.
+85,CAFE_DELHI_001,2025-03-09T22:00:00,lobby,No Empty Tables,Medium,At least 1 table free,Occupancy 100.0%,All tables occupied; potential service bottleneck.
+86,CAFE_DELHI_001,2025-03-03T12:00:00,parking,Parking Saturated,High,Vacancy ≥ 10%,Vacancy 6.7%,Parking almost full; customers may struggle to find space.
+87,CAFE_DELHI_001,2025-03-03T13:00:00,parking,Parking Saturated,High,Vacancy ≥ 10%,Vacancy 3.3%,Parking almost full; customers may struggle to find space.
+88,CAFE_DELHI_001,2025-03-03T14:00:00,parking,Parking Saturated,High,Vacancy ≥ 10%,Vacancy 0.0%,Parking almost full; customers may struggle to find space.
+89,CAFE_DELHI_001,2025-03-03T20:00:00,parking,Parking Saturated,High,Vacancy ≥ 10%,Vacancy 3.3%,Parking almost full; customers may struggle to find space.
+90,CAFE_DELHI_001,2025-03-03T22:00:00,parking,Parking Saturated,High,Vacancy ≥ 10%,Vacancy 0.0%,Parking almost full; customers may struggle to find space.
+91,CAFE_DELHI_001,2025-03-04T12:00:00,parking,Parking Saturated,High,Vacancy ≥ 10%,Vacancy 0.0%,Parking almost full; customers may struggle to find space.
+92,CAFE_DELHI_001,2025-03-04T13:00:00,parking,Parking Saturated,High,Vacancy ≥ 10%,Vacancy 0.0%,Parking almost full; customers may struggle to find space.
+93,CAFE_DELHI_001,2025-03-04T14:00:00,parking,Parking Saturated,High,Vacancy ≥ 10%,Vacancy 0.0%,Parking almost full; customers may struggle to find space.
+94,CAFE_DELHI_001,2025-03-04T15:00:00,parking,Parking Saturated,High,Vacancy ≥ 10%,Vacancy 3.3%,Parking almost full; customers may struggle to find space.
+95,CAFE_DELHI_001,2025-03-04T22:00:00,parking,Parking Saturated,High,Vacancy ≥ 10%,Vacancy 6.7%,Parking almost full; customers may struggle to find space.
+96,CAFE_DELHI_001,2025-03-05T12:00:00,parking,Parking Saturated,High,Vacancy ≥ 10%,Vacancy 0.0%,Parking almost full; customers may struggle to find space.
+97,CAFE_DELHI_001,2025-03-05T13:00:00,parking,Parking Saturated,High,Vacancy ≥ 10%,Vacancy 0.0%,Parking almost full; customers may struggle to find space.
+98,CAFE_DELHI_001,2025-03-05T14:00:00,parking,Parking Saturated,High,Vacancy ≥ 10%,Vacancy 6.7%,Parking almost full; customers may struggle to find space.
+99,CAFE_DELHI_001,2025-03-05T15:00:00,parking,Parking Saturated,High,Vacancy ≥ 10%,Vacancy 0.0%,Parking almost full; customers may struggle to find space.
+100,CAFE_DELHI_001,2025-03-06T12:00:00,parking,Parking Saturated,High,Vacancy ≥ 10%,Vacancy 0.0%,Parking almost full; customers may struggle to find space.
+101,CAFE_DELHI_001,2025-03-06T13:00:00,parking,Parking Saturated,High,Vacancy ≥ 10%,Vacancy 0.0%,Parking almost full; customers may struggle to find space.
+102,CAFE_DELHI_001,2025-03-06T14:00:00,parking,Parking Saturated,High,Vacancy ≥ 10%,Vacancy 3.3%,Parking almost full; customers may struggle to find space.
+103,CAFE_DELHI_001,2025-03-06T15:00:00,parking,Parking Saturated,High,Vacancy ≥ 10%,Vacancy 0.0%,Parking almost full; customers may struggle to find space.
+104,CAFE_DELHI_001,2025-03-06T19:00:00,parking,Parking Saturated,High,Vacancy ≥ 10%,Vacancy 6.7%,Parking almost full; customers may struggle to find space.
+105,CAFE_DELHI_001,2025-03-06T20:00:00,parking,Parking Saturated,High,Vacancy ≥ 10%,Vacancy 0.0%,Parking almost full; customers may struggle to find space.
+106,CAFE_DELHI_001,2025-03-06T22:00:00,parking,Parking Saturated,High,Vacancy ≥ 10%,Vacancy 6.7%,Parking almost full; customers may struggle to find space.
+107,CAFE_DELHI_001,2025-03-07T12:00:00,parking,Parking Saturated,High,Vacancy ≥ 10%,Vacancy 0.0%,Parking almost full; customers may struggle to find space.
+108,CAFE_DELHI_001,2025-03-07T13:00:00,parking,Parking Saturated,High,Vacancy ≥ 10%,Vacancy 0.0%,Parking almost full; customers may struggle to find space.
+109,CAFE_DELHI_001,2025-03-07T14:00:00,parking,Parking Saturated,High,Vacancy ≥ 10%,Vacancy 0.0%,Parking almost full; customers may struggle to find space.
+110,CAFE_DELHI_001,2025-03-07T15:00:00,parking,Parking Saturated,High,Vacancy ≥ 10%,Vacancy 3.3%,Parking almost full; customers may struggle to find space.
+111,CAFE_DELHI_001,2025-03-08T12:00:00,parking,Parking Saturated,High,Vacancy ≥ 10%,Vacancy 0.0%,Parking almost full; customers may struggle to find space.
+112,CAFE_DELHI_001,2025-03-08T13:00:00,parking,Parking Saturated,High,Vacancy ≥ 10%,Vacancy 0.0%,Parking almost full; customers may struggle to find space.
+113,CAFE_DELHI_001,2025-03-08T14:00:00,parking,Parking Saturated,High,Vacancy ≥ 10%,Vacancy 0.0%,Parking almost full; customers may struggle to find space.
+114,CAFE_DELHI_001,2025-03-08T15:00:00,parking,Parking Saturated,High,Vacancy ≥ 10%,Vacancy 0.0%,Parking almost full; customers may struggle to find space.
+115,CAFE_DELHI_001,2025-03-08T19:00:00,parking,Parking Saturated,High,Vacancy ≥ 10%,Vacancy 0.0%,Parking almost full; customers may struggle to find space.
+116,CAFE_DELHI_001,2025-03-08T20:00:00,parking,Parking Saturated,High,Vacancy ≥ 10%,Vacancy 0.0%,Parking almost full; customers may struggle to find space.
+117,CAFE_DELHI_001,2025-03-08T21:00:00,parking,Parking Saturated,High,Vacancy ≥ 10%,Vacancy 0.0%,Parking almost full; customers may struggle to find space.
+118,CAFE_DELHI_001,2025-03-08T22:00:00,parking,Parking Saturated,High,Vacancy ≥ 10%,Vacancy 0.0%,Parking almost full; customers may struggle to find space.
+119,CAFE_DELHI_001,2025-03-09T12:00:00,parking,Parking Saturated,High,Vacancy ≥ 10%,Vacancy 0.0%,Parking almost full; customers may struggle to find space.
+120,CAFE_DELHI_001,2025-03-09T13:00:00,parking,Parking Saturated,High,Vacancy ≥ 10%,Vacancy 0.0%,Parking almost full; customers may struggle to find space.
+121,CAFE_DELHI_001,2025-03-09T14:00:00,parking,Parking Saturated,High,Vacancy ≥ 10%,Vacancy 0.0%,Parking almost full; customers may struggle to find space.
+122,CAFE_DELHI_001,2025-03-09T15:00:00,parking,Parking Saturated,High,Vacancy ≥ 10%,Vacancy 0.0%,Parking almost full; customers may struggle to find space.
+123,CAFE_DELHI_001,2025-03-09T19:00:00,parking,Parking Saturated,High,Vacancy ≥ 10%,Vacancy 0.0%,Parking almost full; customers may struggle to find space.
+124,CAFE_DELHI_001,2025-03-09T20:00:00,parking,Parking Saturated,High,Vacancy ≥ 10%,Vacancy 0.0%,Parking almost full; customers may struggle to find space.
+125,CAFE_DELHI_001,2025-03-09T21:00:00,parking,Parking Saturated,High,Vacancy ≥ 10%,Vacancy 0.0%,Parking almost full; customers may struggle to find space.
+126,CAFE_DELHI_001,2025-03-09T22:00:00,parking,Parking Saturated,High,Vacancy ≥ 10%,Vacancy 0.0%,Parking almost full; customers may struggle to find space.
