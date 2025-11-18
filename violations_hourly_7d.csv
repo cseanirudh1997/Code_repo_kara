@@ -1,0 +1,167 @@
+violation_id,cafe_id,timestamp,region,violation_type,severity,threshold,actual_value,details
+1,CAFE_001,2025-03-03T00:00:00,kitchen,Off-hour Movement,Medium,No movement between 23:00–06:00,Movement detected,Detected presence in kitchen during off-hours.
+2,CAFE_001,2025-03-03T01:00:00,kitchen,Off-hour Movement,Medium,No movement between 23:00–06:00,Movement detected,Detected presence in kitchen during off-hours.
+3,CAFE_001,2025-03-03T02:00:00,kitchen,Off-hour Movement,Medium,No movement between 23:00–06:00,Movement detected,Detected presence in kitchen during off-hours.
+4,CAFE_001,2025-03-03T03:00:00,kitchen,Off-hour Movement,Medium,No movement between 23:00–06:00,Movement detected,Detected presence in kitchen during off-hours.
+5,CAFE_001,2025-03-03T04:00:00,kitchen,Off-hour Movement,Medium,No movement between 23:00–06:00,Movement detected,Detected presence in kitchen during off-hours.
+6,CAFE_001,2025-03-03T05:00:00,kitchen,Off-hour Movement,Medium,No movement between 23:00–06:00,Movement detected,Detected presence in kitchen during off-hours.
+7,CAFE_001,2025-03-03T23:00:00,kitchen,Off-hour Movement,Medium,No movement between 23:00–06:00,Movement detected,Detected presence in kitchen during off-hours.
+8,CAFE_001,2025-03-04T01:00:00,kitchen,Off-hour Movement,Medium,No movement between 23:00–06:00,Movement detected,Detected presence in kitchen during off-hours.
+9,CAFE_001,2025-03-04T02:00:00,kitchen,Off-hour Movement,Medium,No movement between 23:00–06:00,Movement detected,Detected presence in kitchen during off-hours.
+10,CAFE_001,2025-03-04T03:00:00,kitchen,Off-hour Movement,Medium,No movement between 23:00–06:00,Movement detected,Detected presence in kitchen during off-hours.
+11,CAFE_001,2025-03-04T04:00:00,kitchen,Off-hour Movement,Medium,No movement between 23:00–06:00,Movement detected,Detected presence in kitchen during off-hours.
+12,CAFE_001,2025-03-04T05:00:00,kitchen,Off-hour Movement,Medium,No movement between 23:00–06:00,Movement detected,Detected presence in kitchen during off-hours.
+13,CAFE_001,2025-03-05T01:00:00,kitchen,Off-hour Movement,Medium,No movement between 23:00–06:00,Movement detected,Detected presence in kitchen during off-hours.
+14,CAFE_001,2025-03-05T04:00:00,kitchen,Off-hour Movement,Medium,No movement between 23:00–06:00,Movement detected,Detected presence in kitchen during off-hours.
+15,CAFE_001,2025-03-05T05:00:00,kitchen,Off-hour Movement,Medium,No movement between 23:00–06:00,Movement detected,Detected presence in kitchen during off-hours.
+16,CAFE_001,2025-03-05T23:00:00,kitchen,Off-hour Movement,Medium,No movement between 23:00–06:00,Movement detected,Detected presence in kitchen during off-hours.
+17,CAFE_001,2025-03-06T00:00:00,kitchen,Off-hour Movement,Medium,No movement between 23:00–06:00,Movement detected,Detected presence in kitchen during off-hours.
+18,CAFE_001,2025-03-06T02:00:00,kitchen,Off-hour Movement,Medium,No movement between 23:00–06:00,Movement detected,Detected presence in kitchen during off-hours.
+19,CAFE_001,2025-03-06T03:00:00,kitchen,Off-hour Movement,Medium,No movement between 23:00–06:00,Movement detected,Detected presence in kitchen during off-hours.
+20,CAFE_001,2025-03-06T04:00:00,kitchen,Off-hour Movement,Medium,No movement between 23:00–06:00,Movement detected,Detected presence in kitchen during off-hours.
+21,CAFE_001,2025-03-06T05:00:00,kitchen,Off-hour Movement,Medium,No movement between 23:00–06:00,Movement detected,Detected presence in kitchen during off-hours.
+22,CAFE_001,2025-03-06T23:00:00,kitchen,Off-hour Movement,Medium,No movement between 23:00–06:00,Movement detected,Detected presence in kitchen during off-hours.
+23,CAFE_001,2025-03-07T00:00:00,kitchen,Off-hour Movement,Medium,No movement between 23:00–06:00,Movement detected,Detected presence in kitchen during off-hours.
+24,CAFE_001,2025-03-07T03:00:00,kitchen,Off-hour Movement,Medium,No movement between 23:00–06:00,Movement detected,Detected presence in kitchen during off-hours.
+25,CAFE_001,2025-03-07T04:00:00,kitchen,Off-hour Movement,Medium,No movement between 23:00–06:00,Movement detected,Detected presence in kitchen during off-hours.
+26,CAFE_001,2025-03-07T23:00:00,kitchen,Off-hour Movement,Medium,No movement between 23:00–06:00,Movement detected,Detected presence in kitchen during off-hours.
+27,CAFE_001,2025-03-08T00:00:00,kitchen,Off-hour Movement,Medium,No movement between 23:00–06:00,Movement detected,Detected presence in kitchen during off-hours.
+28,CAFE_001,2025-03-08T01:00:00,kitchen,Off-hour Movement,Medium,No movement between 23:00–06:00,Movement detected,Detected presence in kitchen during off-hours.
+29,CAFE_001,2025-03-08T02:00:00,kitchen,Off-hour Movement,Medium,No movement between 23:00–06:00,Movement detected,Detected presence in kitchen during off-hours.
+30,CAFE_001,2025-03-08T03:00:00,kitchen,Off-hour Movement,Medium,No movement between 23:00–06:00,Movement detected,Detected presence in kitchen during off-hours.
+31,CAFE_001,2025-03-08T04:00:00,kitchen,Off-hour Movement,Medium,No movement between 23:00–06:00,Movement detected,Detected presence in kitchen during off-hours.
+32,CAFE_001,2025-03-08T05:00:00,kitchen,Off-hour Movement,Medium,No movement between 23:00–06:00,Movement detected,Detected presence in kitchen during off-hours.
+33,CAFE_001,2025-03-09T00:00:00,kitchen,Off-hour Movement,Medium,No movement between 23:00–06:00,Movement detected,Detected presence in kitchen during off-hours.
+34,CAFE_001,2025-03-09T01:00:00,kitchen,Off-hour Movement,Medium,No movement between 23:00–06:00,Movement detected,Detected presence in kitchen during off-hours.
+35,CAFE_001,2025-03-09T02:00:00,kitchen,Off-hour Movement,Medium,No movement between 23:00–06:00,Movement detected,Detected presence in kitchen during off-hours.
+36,CAFE_001,2025-03-09T04:00:00,kitchen,Off-hour Movement,Medium,No movement between 23:00–06:00,Movement detected,Detected presence in kitchen during off-hours.
+37,CAFE_001,2025-03-09T05:00:00,kitchen,Off-hour Movement,Medium,No movement between 23:00–06:00,Movement detected,Detected presence in kitchen during off-hours.
+38,CAFE_001,2025-03-09T23:00:00,kitchen,Off-hour Movement,Medium,No movement between 23:00–06:00,Movement detected,Detected presence in kitchen during off-hours.
+39,CAFE_001,2025-03-03T07:00:00,lobby,Queue Too Long,Medium,Queue length < 8,Max queue = 9,Customer queue length exceeded acceptable threshold.
+40,CAFE_001,2025-03-03T13:00:00,lobby,Queue Too Long,Medium,Queue length < 8,Max queue = 11,Customer queue length exceeded acceptable threshold.
+41,CAFE_001,2025-03-03T13:00:00,lobby,No Empty Tables,Medium,At least 1 table free,Occupancy 100.0%,All tables occupied; potential service bottleneck.
+42,CAFE_001,2025-03-03T14:00:00,lobby,Queue Too Long,High,Queue length < 8,Max queue = 12,Customer queue length exceeded acceptable threshold.
+43,CAFE_001,2025-03-03T15:00:00,lobby,Queue Too Long,Medium,Queue length < 8,Max queue = 9,Customer queue length exceeded acceptable threshold.
+44,CAFE_001,2025-03-03T19:00:00,lobby,Queue Too Long,High,Queue length < 8,Max queue = 15,Customer queue length exceeded acceptable threshold.
+45,CAFE_001,2025-03-03T22:00:00,lobby,Queue Too Long,Medium,Queue length < 8,Max queue = 10,Customer queue length exceeded acceptable threshold.
+46,CAFE_001,2025-03-04T11:00:00,lobby,Queue Too Long,Medium,Queue length < 8,Max queue = 8,Customer queue length exceeded acceptable threshold.
+47,CAFE_001,2025-03-04T12:00:00,lobby,Queue Too Long,High,Queue length < 8,Max queue = 17,Customer queue length exceeded acceptable threshold.
+48,CAFE_001,2025-03-04T12:00:00,lobby,No Empty Tables,Medium,At least 1 table free,Occupancy 100.0%,All tables occupied; potential service bottleneck.
+49,CAFE_001,2025-03-04T13:00:00,lobby,Queue Too Long,Medium,Queue length < 8,Max queue = 10,Customer queue length exceeded acceptable threshold.
+50,CAFE_001,2025-03-04T13:00:00,lobby,No Empty Tables,Medium,At least 1 table free,Occupancy 100.0%,All tables occupied; potential service bottleneck.
+51,CAFE_001,2025-03-04T14:00:00,lobby,Queue Too Long,High,Queue length < 8,Max queue = 13,Customer queue length exceeded acceptable threshold.
+52,CAFE_001,2025-03-04T14:00:00,lobby,No Empty Tables,Medium,At least 1 table free,Occupancy 100.0%,All tables occupied; potential service bottleneck.
+53,CAFE_001,2025-03-04T15:00:00,lobby,Queue Too Long,High,Queue length < 8,Max queue = 14,Customer queue length exceeded acceptable threshold.
+54,CAFE_001,2025-03-04T15:00:00,lobby,No Empty Tables,Medium,At least 1 table free,Occupancy 100.0%,All tables occupied; potential service bottleneck.
+55,CAFE_001,2025-03-04T19:00:00,lobby,No Empty Tables,Medium,At least 1 table free,Occupancy 100.0%,All tables occupied; potential service bottleneck.
+56,CAFE_001,2025-03-04T20:00:00,lobby,Queue Too Long,Medium,Queue length < 8,Max queue = 11,Customer queue length exceeded acceptable threshold.
+57,CAFE_001,2025-03-04T21:00:00,lobby,Queue Too Long,High,Queue length < 8,Max queue = 15,Customer queue length exceeded acceptable threshold.
+58,CAFE_001,2025-03-04T22:00:00,lobby,Queue Too Long,Medium,Queue length < 8,Max queue = 10,Customer queue length exceeded acceptable threshold.
+59,CAFE_001,2025-03-05T11:00:00,lobby,Queue Too Long,Medium,Queue length < 8,Max queue = 9,Customer queue length exceeded acceptable threshold.
+60,CAFE_001,2025-03-05T12:00:00,lobby,Queue Too Long,Medium,Queue length < 8,Max queue = 9,Customer queue length exceeded acceptable threshold.
+61,CAFE_001,2025-03-05T12:00:00,lobby,No Empty Tables,Medium,At least 1 table free,Occupancy 100.0%,All tables occupied; potential service bottleneck.
+62,CAFE_001,2025-03-05T13:00:00,lobby,Queue Too Long,High,Queue length < 8,Max queue = 14,Customer queue length exceeded acceptable threshold.
+63,CAFE_001,2025-03-05T13:00:00,lobby,No Empty Tables,Medium,At least 1 table free,Occupancy 100.0%,All tables occupied; potential service bottleneck.
+64,CAFE_001,2025-03-05T14:00:00,lobby,Queue Too Long,Medium,Queue length < 8,Max queue = 8,Customer queue length exceeded acceptable threshold.
+65,CAFE_001,2025-03-05T14:00:00,lobby,No Empty Tables,Medium,At least 1 table free,Occupancy 100.0%,All tables occupied; potential service bottleneck.
+66,CAFE_001,2025-03-05T15:00:00,lobby,No Empty Tables,Medium,At least 1 table free,Occupancy 100.0%,All tables occupied; potential service bottleneck.
+67,CAFE_001,2025-03-05T18:00:00,lobby,Queue Too Long,Medium,Queue length < 8,Max queue = 8,Customer queue length exceeded acceptable threshold.
+68,CAFE_001,2025-03-05T19:00:00,lobby,Queue Too Long,Medium,Queue length < 8,Max queue = 8,Customer queue length exceeded acceptable threshold.
+69,CAFE_001,2025-03-05T20:00:00,lobby,Queue Too Long,Medium,Queue length < 8,Max queue = 8,Customer queue length exceeded acceptable threshold.
+70,CAFE_001,2025-03-05T21:00:00,lobby,Queue Too Long,Medium,Queue length < 8,Max queue = 9,Customer queue length exceeded acceptable threshold.
+71,CAFE_001,2025-03-06T10:00:00,lobby,Queue Too Long,Medium,Queue length < 8,Max queue = 9,Customer queue length exceeded acceptable threshold.
+72,CAFE_001,2025-03-06T12:00:00,lobby,Queue Too Long,Medium,Queue length < 8,Max queue = 8,Customer queue length exceeded acceptable threshold.
+73,CAFE_001,2025-03-06T13:00:00,lobby,Queue Too Long,Medium,Queue length < 8,Max queue = 10,Customer queue length exceeded acceptable threshold.
+74,CAFE_001,2025-03-06T15:00:00,lobby,Queue Too Long,Medium,Queue length < 8,Max queue = 11,Customer queue length exceeded acceptable threshold.
+75,CAFE_001,2025-03-06T15:00:00,lobby,No Empty Tables,Medium,At least 1 table free,Occupancy 100.0%,All tables occupied; potential service bottleneck.
+76,CAFE_001,2025-03-06T17:00:00,lobby,Queue Too Long,Medium,Queue length < 8,Max queue = 9,Customer queue length exceeded acceptable threshold.
+77,CAFE_001,2025-03-06T19:00:00,lobby,Queue Too Long,Medium,Queue length < 8,Max queue = 11,Customer queue length exceeded acceptable threshold.
+78,CAFE_001,2025-03-06T19:00:00,lobby,No Empty Tables,Medium,At least 1 table free,Occupancy 100.0%,All tables occupied; potential service bottleneck.
+79,CAFE_001,2025-03-06T20:00:00,lobby,No Empty Tables,Medium,At least 1 table free,Occupancy 100.0%,All tables occupied; potential service bottleneck.
+80,CAFE_001,2025-03-06T21:00:00,lobby,Queue Too Long,Medium,Queue length < 8,Max queue = 9,Customer queue length exceeded acceptable threshold.
+81,CAFE_001,2025-03-07T07:00:00,lobby,Queue Too Long,Medium,Queue length < 8,Max queue = 9,Customer queue length exceeded acceptable threshold.
+82,CAFE_001,2025-03-07T12:00:00,lobby,No Empty Tables,Medium,At least 1 table free,Occupancy 100.0%,All tables occupied; potential service bottleneck.
+83,CAFE_001,2025-03-07T14:00:00,lobby,Queue Too Long,High,Queue length < 8,Max queue = 13,Customer queue length exceeded acceptable threshold.
+84,CAFE_001,2025-03-07T15:00:00,lobby,Queue Too Long,Medium,Queue length < 8,Max queue = 8,Customer queue length exceeded acceptable threshold.
+85,CAFE_001,2025-03-07T19:00:00,lobby,Queue Too Long,Medium,Queue length < 8,Max queue = 8,Customer queue length exceeded acceptable threshold.
+86,CAFE_001,2025-03-07T21:00:00,lobby,Queue Too Long,Medium,Queue length < 8,Max queue = 8,Customer queue length exceeded acceptable threshold.
+87,CAFE_001,2025-03-07T21:00:00,lobby,No Empty Tables,Medium,At least 1 table free,Occupancy 100.0%,All tables occupied; potential service bottleneck.
+88,CAFE_001,2025-03-08T09:00:00,lobby,Queue Too Long,High,Queue length < 8,Max queue = 13,Customer queue length exceeded acceptable threshold.
+89,CAFE_001,2025-03-08T10:00:00,lobby,Queue Too Long,Medium,Queue length < 8,Max queue = 9,Customer queue length exceeded acceptable threshold.
+90,CAFE_001,2025-03-08T12:00:00,lobby,Queue Too Long,High,Queue length < 8,Max queue = 14,Customer queue length exceeded acceptable threshold.
+91,CAFE_001,2025-03-08T12:00:00,lobby,No Empty Tables,Medium,At least 1 table free,Occupancy 100.0%,All tables occupied; potential service bottleneck.
+92,CAFE_001,2025-03-08T13:00:00,lobby,Queue Too Long,Medium,Queue length < 8,Max queue = 8,Customer queue length exceeded acceptable threshold.
+93,CAFE_001,2025-03-08T13:00:00,lobby,No Empty Tables,Medium,At least 1 table free,Occupancy 100.0%,All tables occupied; potential service bottleneck.
+94,CAFE_001,2025-03-08T14:00:00,lobby,Queue Too Long,High,Queue length < 8,Max queue = 12,Customer queue length exceeded acceptable threshold.
+95,CAFE_001,2025-03-08T14:00:00,lobby,No Empty Tables,Medium,At least 1 table free,Occupancy 100.0%,All tables occupied; potential service bottleneck.
+96,CAFE_001,2025-03-08T15:00:00,lobby,Queue Too Long,High,Queue length < 8,Max queue = 12,Customer queue length exceeded acceptable threshold.
+97,CAFE_001,2025-03-08T15:00:00,lobby,No Empty Tables,Medium,At least 1 table free,Occupancy 100.0%,All tables occupied; potential service bottleneck.
+98,CAFE_001,2025-03-08T17:00:00,lobby,Queue Too Long,Medium,Queue length < 8,Max queue = 9,Customer queue length exceeded acceptable threshold.
+99,CAFE_001,2025-03-08T19:00:00,lobby,Queue Too Long,Medium,Queue length < 8,Max queue = 8,Customer queue length exceeded acceptable threshold.
+100,CAFE_001,2025-03-08T19:00:00,lobby,No Empty Tables,Medium,At least 1 table free,Occupancy 100.0%,All tables occupied; potential service bottleneck.
+101,CAFE_001,2025-03-08T20:00:00,lobby,Queue Too Long,High,Queue length < 8,Max queue = 13,Customer queue length exceeded acceptable threshold.
+102,CAFE_001,2025-03-08T20:00:00,lobby,No Empty Tables,Medium,At least 1 table free,Occupancy 100.0%,All tables occupied; potential service bottleneck.
+103,CAFE_001,2025-03-08T21:00:00,lobby,Queue Too Long,Medium,Queue length < 8,Max queue = 9,Customer queue length exceeded acceptable threshold.
+104,CAFE_001,2025-03-08T21:00:00,lobby,No Empty Tables,Medium,At least 1 table free,Occupancy 100.0%,All tables occupied; potential service bottleneck.
+105,CAFE_001,2025-03-08T22:00:00,lobby,Queue Too Long,High,Queue length < 8,Max queue = 13,Customer queue length exceeded acceptable threshold.
+106,CAFE_001,2025-03-08T22:00:00,lobby,No Empty Tables,Medium,At least 1 table free,Occupancy 100.0%,All tables occupied; potential service bottleneck.
+107,CAFE_001,2025-03-08T23:00:00,lobby,Queue Too Long,Medium,Queue length < 8,Max queue = 9,Customer queue length exceeded acceptable threshold.
+108,CAFE_001,2025-03-09T07:00:00,lobby,Queue Too Long,Medium,Queue length < 8,Max queue = 10,Customer queue length exceeded acceptable threshold.
+109,CAFE_001,2025-03-09T08:00:00,lobby,Queue Too Long,Medium,Queue length < 8,Max queue = 9,Customer queue length exceeded acceptable threshold.
+110,CAFE_001,2025-03-09T09:00:00,lobby,Queue Too Long,Medium,Queue length < 8,Max queue = 9,Customer queue length exceeded acceptable threshold.
+111,CAFE_001,2025-03-09T11:00:00,lobby,Queue Too Long,Medium,Queue length < 8,Max queue = 8,Customer queue length exceeded acceptable threshold.
+112,CAFE_001,2025-03-09T12:00:00,lobby,Queue Too Long,High,Queue length < 8,Max queue = 12,Customer queue length exceeded acceptable threshold.
+113,CAFE_001,2025-03-09T12:00:00,lobby,No Empty Tables,Medium,At least 1 table free,Occupancy 100.0%,All tables occupied; potential service bottleneck.
+114,CAFE_001,2025-03-09T13:00:00,lobby,Queue Too Long,Medium,Queue length < 8,Max queue = 10,Customer queue length exceeded acceptable threshold.
+115,CAFE_001,2025-03-09T13:00:00,lobby,No Empty Tables,Medium,At least 1 table free,Occupancy 100.0%,All tables occupied; potential service bottleneck.
+116,CAFE_001,2025-03-09T14:00:00,lobby,No Empty Tables,Medium,At least 1 table free,Occupancy 100.0%,All tables occupied; potential service bottleneck.
+117,CAFE_001,2025-03-09T15:00:00,lobby,Queue Too Long,Medium,Queue length < 8,Max queue = 9,Customer queue length exceeded acceptable threshold.
+118,CAFE_001,2025-03-09T15:00:00,lobby,No Empty Tables,Medium,At least 1 table free,Occupancy 100.0%,All tables occupied; potential service bottleneck.
+119,CAFE_001,2025-03-09T17:00:00,lobby,Queue Too Long,Medium,Queue length < 8,Max queue = 11,Customer queue length exceeded acceptable threshold.
+120,CAFE_001,2025-03-09T19:00:00,lobby,Queue Too Long,High,Queue length < 8,Max queue = 15,Customer queue length exceeded acceptable threshold.
+121,CAFE_001,2025-03-09T19:00:00,lobby,No Empty Tables,Medium,At least 1 table free,Occupancy 100.0%,All tables occupied; potential service bottleneck.
+122,CAFE_001,2025-03-09T20:00:00,lobby,Queue Too Long,High,Queue length < 8,Max queue = 12,Customer queue length exceeded acceptable threshold.
+123,CAFE_001,2025-03-09T20:00:00,lobby,No Empty Tables,Medium,At least 1 table free,Occupancy 100.0%,All tables occupied; potential service bottleneck.
+124,CAFE_001,2025-03-09T21:00:00,lobby,Queue Too Long,Medium,Queue length < 8,Max queue = 8,Customer queue length exceeded acceptable threshold.
+125,CAFE_001,2025-03-09T21:00:00,lobby,No Empty Tables,Medium,At least 1 table free,Occupancy 100.0%,All tables occupied; potential service bottleneck.
+126,CAFE_001,2025-03-09T22:00:00,lobby,Queue Too Long,Medium,Queue length < 8,Max queue = 9,Customer queue length exceeded acceptable threshold.
+127,CAFE_001,2025-03-09T22:00:00,lobby,No Empty Tables,Medium,At least 1 table free,Occupancy 100.0%,All tables occupied; potential service bottleneck.
+128,CAFE_001,2025-03-03T12:00:00,parking,Parking Saturated,High,Vacancy ≥ 10%,Vacancy 3.3%,Parking almost full; customers may struggle to find space.
+129,CAFE_001,2025-03-03T13:00:00,parking,Parking Saturated,High,Vacancy ≥ 10%,Vacancy 0.0%,Parking almost full; customers may struggle to find space.
+130,CAFE_001,2025-03-03T14:00:00,parking,Parking Saturated,High,Vacancy ≥ 10%,Vacancy 3.3%,Parking almost full; customers may struggle to find space.
+131,CAFE_001,2025-03-03T15:00:00,parking,Parking Saturated,High,Vacancy ≥ 10%,Vacancy 3.3%,Parking almost full; customers may struggle to find space.
+132,CAFE_001,2025-03-03T20:00:00,parking,Parking Saturated,High,Vacancy ≥ 10%,Vacancy 0.0%,Parking almost full; customers may struggle to find space.
+133,CAFE_001,2025-03-03T21:00:00,parking,Parking Saturated,High,Vacancy ≥ 10%,Vacancy 0.0%,Parking almost full; customers may struggle to find space.
+134,CAFE_001,2025-03-04T12:00:00,parking,Parking Saturated,High,Vacancy ≥ 10%,Vacancy 0.0%,Parking almost full; customers may struggle to find space.
+135,CAFE_001,2025-03-04T13:00:00,parking,Parking Saturated,High,Vacancy ≥ 10%,Vacancy 0.0%,Parking almost full; customers may struggle to find space.
+136,CAFE_001,2025-03-04T14:00:00,parking,Parking Saturated,High,Vacancy ≥ 10%,Vacancy 0.0%,Parking almost full; customers may struggle to find space.
+137,CAFE_001,2025-03-04T15:00:00,parking,Parking Saturated,High,Vacancy ≥ 10%,Vacancy 0.0%,Parking almost full; customers may struggle to find space.
+138,CAFE_001,2025-03-04T19:00:00,parking,Parking Saturated,High,Vacancy ≥ 10%,Vacancy 3.3%,Parking almost full; customers may struggle to find space.
+139,CAFE_001,2025-03-05T12:00:00,parking,Parking Saturated,High,Vacancy ≥ 10%,Vacancy 0.0%,Parking almost full; customers may struggle to find space.
+140,CAFE_001,2025-03-05T13:00:00,parking,Parking Saturated,High,Vacancy ≥ 10%,Vacancy 0.0%,Parking almost full; customers may struggle to find space.
+141,CAFE_001,2025-03-05T14:00:00,parking,Parking Saturated,High,Vacancy ≥ 10%,Vacancy 0.0%,Parking almost full; customers may struggle to find space.
+142,CAFE_001,2025-03-05T15:00:00,parking,Parking Saturated,High,Vacancy ≥ 10%,Vacancy 3.3%,Parking almost full; customers may struggle to find space.
+143,CAFE_001,2025-03-06T12:00:00,parking,Parking Saturated,High,Vacancy ≥ 10%,Vacancy 6.7%,Parking almost full; customers may struggle to find space.
+144,CAFE_001,2025-03-06T13:00:00,parking,Parking Saturated,High,Vacancy ≥ 10%,Vacancy 3.3%,Parking almost full; customers may struggle to find space.
+145,CAFE_001,2025-03-06T15:00:00,parking,Parking Saturated,High,Vacancy ≥ 10%,Vacancy 6.7%,Parking almost full; customers may struggle to find space.
+146,CAFE_001,2025-03-06T20:00:00,parking,Parking Saturated,High,Vacancy ≥ 10%,Vacancy 6.7%,Parking almost full; customers may struggle to find space.
+147,CAFE_001,2025-03-07T13:00:00,parking,Parking Saturated,High,Vacancy ≥ 10%,Vacancy 0.0%,Parking almost full; customers may struggle to find space.
+148,CAFE_001,2025-03-07T14:00:00,parking,Parking Saturated,High,Vacancy ≥ 10%,Vacancy 0.0%,Parking almost full; customers may struggle to find space.
+149,CAFE_001,2025-03-07T15:00:00,parking,Parking Saturated,High,Vacancy ≥ 10%,Vacancy 0.0%,Parking almost full; customers may struggle to find space.
+150,CAFE_001,2025-03-07T19:00:00,parking,Parking Saturated,High,Vacancy ≥ 10%,Vacancy 6.7%,Parking almost full; customers may struggle to find space.
+151,CAFE_001,2025-03-08T12:00:00,parking,Parking Saturated,High,Vacancy ≥ 10%,Vacancy 0.0%,Parking almost full; customers may struggle to find space.
+152,CAFE_001,2025-03-08T13:00:00,parking,Parking Saturated,High,Vacancy ≥ 10%,Vacancy 0.0%,Parking almost full; customers may struggle to find space.
+153,CAFE_001,2025-03-08T14:00:00,parking,Parking Saturated,High,Vacancy ≥ 10%,Vacancy 0.0%,Parking almost full; customers may struggle to find space.
+154,CAFE_001,2025-03-08T15:00:00,parking,Parking Saturated,High,Vacancy ≥ 10%,Vacancy 0.0%,Parking almost full; customers may struggle to find space.
+155,CAFE_001,2025-03-08T19:00:00,parking,Parking Saturated,High,Vacancy ≥ 10%,Vacancy 0.0%,Parking almost full; customers may struggle to find space.
+156,CAFE_001,2025-03-08T20:00:00,parking,Parking Saturated,High,Vacancy ≥ 10%,Vacancy 0.0%,Parking almost full; customers may struggle to find space.
+157,CAFE_001,2025-03-08T21:00:00,parking,Parking Saturated,High,Vacancy ≥ 10%,Vacancy 0.0%,Parking almost full; customers may struggle to find space.
+158,CAFE_001,2025-03-08T22:00:00,parking,Parking Saturated,High,Vacancy ≥ 10%,Vacancy 0.0%,Parking almost full; customers may struggle to find space.
+159,CAFE_001,2025-03-09T12:00:00,parking,Parking Saturated,High,Vacancy ≥ 10%,Vacancy 0.0%,Parking almost full; customers may struggle to find space.
+160,CAFE_001,2025-03-09T13:00:00,parking,Parking Saturated,High,Vacancy ≥ 10%,Vacancy 0.0%,Parking almost full; customers may struggle to find space.
+161,CAFE_001,2025-03-09T14:00:00,parking,Parking Saturated,High,Vacancy ≥ 10%,Vacancy 0.0%,Parking almost full; customers may struggle to find space.
+162,CAFE_001,2025-03-09T15:00:00,parking,Parking Saturated,High,Vacancy ≥ 10%,Vacancy 0.0%,Parking almost full; customers may struggle to find space.
+163,CAFE_001,2025-03-09T19:00:00,parking,Parking Saturated,High,Vacancy ≥ 10%,Vacancy 0.0%,Parking almost full; customers may struggle to find space.
+164,CAFE_001,2025-03-09T20:00:00,parking,Parking Saturated,High,Vacancy ≥ 10%,Vacancy 0.0%,Parking almost full; customers may struggle to find space.
+165,CAFE_001,2025-03-09T21:00:00,parking,Parking Saturated,High,Vacancy ≥ 10%,Vacancy 0.0%,Parking almost full; customers may struggle to find space.
+166,CAFE_001,2025-03-09T22:00:00,parking,Parking Saturated,High,Vacancy ≥ 10%,Vacancy 0.0%,Parking almost full; customers may struggle to find space.
